@@ -17,7 +17,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [x] header
 - [x] footer
-- [] pdf
+- [ ] pdf
 
 
 ## 💻 Pré-requisitos
@@ -32,15 +32,15 @@ Para instalar o <nome_do_projeto>, siga estas etapas:
 
 NPM:
 ```
-<npm i>
-<npm run dev>
+npm i
+npm run dev
 
 ```
 
 Yarn:
 ```
-<yarn install>
-<yarn run dev>
+yarn install
+yarn run dev
 ```
 
 ## ☕ Usando <nome_do_projeto>
@@ -72,7 +72,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://edsoncosta.tech/">
         <img src="https://github.com/ecsistem.png" width="100px;" alt="Foto do Edson Costa no GitHub"/><br>
         <sub>
           <b>Edson Costa</b>
