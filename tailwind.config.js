@@ -19,6 +19,9 @@ module.exports = {
         white:{
           primary: '#fef7e3'
         }
+      },
+      fontFamily: {
+        body: ['Fredoka One']
       }
     },
   },
