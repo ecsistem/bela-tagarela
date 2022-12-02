@@ -15,15 +15,19 @@ module.exports = {
         },
         orange: {
           primary: '#faa612',
+          secundary: '#fee8c3',
+          tertiary: '#f6e58d',
         },
         white:{
           primary: '#fef7e3'
         }
       },
       fontFamily: {
-        body: ['Fredoka One']
+        primary: ['Fredoka One']
       }
     },
   },
-  plugins: [],
+
+  plugins: [
+  ],
 }

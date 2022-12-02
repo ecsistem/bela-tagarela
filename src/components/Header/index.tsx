@@ -5,7 +5,6 @@ import logo from "../../assets/imgs/logo/logo.svg";
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
       <nav className="bg-green-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
@@ -57,13 +56,13 @@ export function Header() {
             <div className="mx-4 hidden items-center justify-end md:flex md:flex-1 lg:w-0">
               <a
                 href="#"
-                className="ml-4 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white-primary px-4 py-2 text-base font-medium text-neutral-900 shadow-sm hover:bg-orange-primary hover:text-white-primary"
+                className="ml-4 font-primary inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white-primary px-4 py-2 text-base font-medium text-neutral-900 shadow-sm hover:bg-orange-primary hover:text-white-primary"
               >
                 Vocalizador
               </a>
               <a
                 href="#"
-                className="ml-4 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white-primary px-4 py-2 text-base font-medium text-neutral-900 hover:bg-orange-primary hover:text-white-primary"
+                className="ml-4 font-primary inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white-primary px-4 py-2 text-base font-medium text-neutral-900 hover:bg-orange-primary hover:text-white-primary"
               >
                 Prancha
               </a>
@@ -83,13 +82,10 @@ export function Header() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
                       d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                     />
                   </svg>
@@ -103,9 +99,6 @@ export function Header() {
                     aria-hidden="true"
                   >
                     <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
                       d="M6 18L18 6M6 6l12 12"
                     />
                   </svg>
@@ -124,40 +117,40 @@ export function Header() {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          {(ref) => (
+          
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="#"
-                  className="text-white-primary hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white-primary hover:bg-orange-primary text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Dashboard
                 </a>
 
                 <a
                   href="#"
-                  className="text-white-primary hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white-primary hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Team
                 </a>
 
                 <a
                   href="#"
-                  className="text-white-primary hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white-primary hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Projects
                 </a>
 
                 <a
                   href="#"
-                  className="text-white-primary hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white-primary hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Calendar
                 </a>
 
                 <a
                   href="#"
-                  className="text-white-primary hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white-primary hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Reports
                 </a>
@@ -177,9 +170,8 @@ export function Header() {
                 </div>
               </div>
             </div>
-          )}
+          
         </Transition>
       </nav>
-    </div>
   );
 }
