@@ -2,9 +2,7 @@ version: '3.7'
 services:
     app:
         container_name: bela-tagarela
-        build:
-            context: .
-            dockerfile: Dockerfile
+        build: .
         volumes:
             - '.:/app'
             - '/app/node_modules'

@@ -1,7 +1,9 @@
+import Accordion from '../Accordion/';
 import celular from './../../assets/imgs/ultil/telacelular.png'
+import logo from './../../assets/imgs/logo/logo.svg'
 export function Hero(){
     return(
-    <main className="relative z-20 flex items-center overflow-hidden bg-gradient-to-b from-orange-tertiary to-orange-secundary">
+    <main className="relative z-20 flex flex-col items-center overflow-hidden bg-gradient-to-b from-orange-tertiary to-orange-secundary">
         <div className="container relative flex px-6 py-16 mx-auto">
             <div className="relative z-20 flex flex-col sm:w-2/3 lg:w-2/5">
                 <h1 className="flex flex-col text-6xl font-black leading-none text-orange-primary uppercase font-primary sm:text-6xl">
@@ -15,14 +17,22 @@ export function Hero(){
 denominada: Proposta de Sistema para a
 comunicativa de pessoas com deficiencia em contexto
 Educacional.
-                </p>
-                
+                </p>     
             </div>
             <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
                 <img src={celular} className="max-w-xs m-auto md:max-w-sm"/>
             </div>
         </div>
+         <div className="container relative flex justify-center px-6 py-6 mx-auto">
+            <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
+                <img src={logo} className="max-w-xs md:max-w-sm"/>
+            </div>
+            <div className='w-[90%]'>
+           <Accordion activeIndex={0} setActiveIndex={function (index: number): void {
+                        throw new Error('Function not implemented.');
+                    } }  />
+            </div>
+         </div>
     </main>
-
     )
 }

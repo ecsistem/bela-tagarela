@@ -71,11 +71,11 @@ export function Header() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="inline-flex items-center justify-center rounded-md bg-white-primary p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="inline-flex items-center justify-center rounded-md bg-white-primary p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-primary"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
-                <span className="sr-only">Open main menu</span>
+                <span className="sr-only">Abrir menu</span>
                 {!isOpen ? (
                   <svg
                     className="h-6 w-6"
