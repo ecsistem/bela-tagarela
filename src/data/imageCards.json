@@ -3,19 +3,19 @@
       "image": "https://docs.google.com/uc?id=1H_kX6cGExLNu2EMS3_dfhdufA9z04hZN",
       "text": "oi",
       "name": "oi",
-      "category": "greeting"
+      "category": "teste"
     },
     {
       "image": "https://docs.google.com/uc?id=1j9___dexVR3tQVBWFXHkDnxulFKD55p_",
       "text": "por favor",
       "name": "por favor",
-      "category": "polite"
+      "category": "saudação"
     },
     {
       "image": "https://docs.google.com/uc?id=1yl4iewOuDpFJQme2UKXhwozWO5-kc5nM",
       "text": "por nada",
       "name": "por nada",
-      "category": "polite"
+      "category": "saudação"
     },
     {
       "image": "https://docs.google.com/uc?id=1H_kX6cGExLNu2EMS3_dfhdufA9z04hZN",
@@ -27,12 +27,12 @@
       "image": "https://docs.google.com/uc?id=1j9___dexVR3tQVBWFXHkDnxulFKD55p_",
       "text": "Moreira",
       "name": "Moreira",
-      "category": "polite"
+      "category": "saudação"
     },
     {
       "image": "https://docs.google.com/uc?id=1yl4iewOuDpFJQme2UKXhwozWO5-kc5nM",
       "text": "costa",
       "name": "costa",
-      "category": "polite"
+      "category": "saudação"
     }
   ]
