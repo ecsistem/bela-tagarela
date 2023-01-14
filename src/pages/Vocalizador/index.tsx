@@ -28,30 +28,36 @@ const SpeechSynthesis: React.FC = () => {
       alert("Limeite máximo de 8 atigido");
     }
   };
-console.log(selectedTexArray);
   return (
     <div className="">
       <Header />
       <div className="flex flex-col justify-center content-center items-center">
       <h1 className="text-xl font-bold mb-4">
-          Arraste a Imagem ou click para selecionar
+          Bem vindo(a) ao Vocalizador
         </h1>
         <div className="grid grid-cols-4 gap-4 max-w-xl">
           {selectedImages.map((image, index) => {
             return (
               <div key={index} className="max-w-[5rem] rounded-lg shadow-lg m-4">
                 <img className="w-full" src={image} alt="" />
-                <p>{selectedTexArray[index]}</p>
+                <p className="text-center">{selectedTexArray[index]}</p>
               </div>
             );
           })}
         </div>
+        {selectedImages.length != 0 ? (
+          <div className="text-center">
+        <label  htmlFor="">Frase Formada:👇🏽</label>
         <div className="p-4">{selectedText}</div>
+          </div>
+      ) : (
+        <label htmlFor="">Selecione suas imagens para formar frase</label>
+      )}
         <button
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mb-4"
           onClick={startSpeech}
           >
-          Speak
+          Falar
           </button>
           <button
                  className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full"
@@ -61,31 +67,32 @@ console.log(selectedTexArray);
           </button>
           </div>
       <div className="flex">
-      <div className="w-1/4 bg-gray-200">
-        <div className="p-4">
-          <button
-            className="bg-green-primary text-orange-primary text-sm font-medium mr-2 px-2.5 py-0.5 rounded"
-            onClick={() => handleCategorySelect("all")}
-          >
-            Todos
-          </button>
-          {imageCards
+      <aside className="w-1/4">
+   <div className="px-3 py-4 overflow-y-auto rounded bg-gray-50 dark:bg-gray-800 h-5/6">
+    <h2>Categorias</h2>
+      <ul className="space-y-2">
+         <li>
+            <a onClick={() => handleCategorySelect("all")} className="flex items-center p-2 text-base font-normal text-orange-primary rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+               <span className="mx-auto">todos</span>
+            </a>
+         </li>
+         {imageCards
             .filter(
               (category, index, self) =>
                 self.findIndex((item) => item.category === category.category) ===
                 index
             )
             .map((category) => (
-              <button
-                key={category.category}
-                className="bg-green-primary text-orange-primary text-sm font-medium mr-2 px-2.5 py-0.5 rounded"
-                onClick={() => handleCategorySelect(category.category)}
-              >
-                {category.category}
-              </button>
+              <li key={category.category}>
+            <a onClick={() => handleCategorySelect(category.category)} className="flex items-center p-2 text-base font-normal text-orange-primary rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+               <span className="mx-auto">{category.category}</span>
+            </a>
+         </li>
             ))}
-        </div>
-      </div>
+         
+         </ul>
+         </div>
+      </aside>
       <div className="w-3/4">
         
         
@@ -101,15 +108,13 @@ console.log(selectedTexArray);
           .map((image, index) => (
           <div
           key={index}
-          className="max-w-sm rounded-lg shadow-lg m-4 cursor-pointer"
+          className="max-w-sm rounded-lg shadow-lg m-4 cursor-pointer bg-green-hover [&>:not(:hover)]:bg-white-primary"
           draggable
           onDragEnd={() => handleImageDrop(image.image, image.text)}
           onClick={() => handleImageDrop(image.image, image.text)}
           >
           <img className="w-full" src={image.image} alt={image.text} />
-          <div className="py-4">
-                <div className="font-bold text-xl mb-2">{image.name}</div>
-              </div>
+          <p className="py-4 font-bold text-xl mb-2 text-center">{image.name}</p>
           </div>
           ))}
           </div>
