@@ -75,7 +75,7 @@ export function SpeechSynthesis(){
                 <li>
                   <a
                     onClick={() => handleCategorySelect("all")}
-                    className="flex items-center p-2 text-base font-normal text-white-primary rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+                    className="flex items-center p-2 text-base font-normal text-white-primary rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-orange-primary"
                   >
                     <span className="mx-auto">todos</span>
                   </a>
@@ -91,7 +91,7 @@ export function SpeechSynthesis(){
                     <li key={category.category}>
                       <a
                         onClick={() => handleCategorySelect(category.category)}
-                        className="flex items-center p-2 text-base font-normal text-white-primary rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+                        className="flex items-center p-2 text-base font-normal text-white-primary rounded-lg  hover:bg-orange-primary"
                       >
                         <span className="mx-auto">{category.category}</span>
                       </a>
