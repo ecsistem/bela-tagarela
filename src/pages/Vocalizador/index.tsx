@@ -70,7 +70,7 @@ export function SpeechSynthesis(){
         <div className="flex">
           <aside className="w-1/4">
             <div className="px-3 py-4 overflow-y-auto rounded bg-green-primary h-5/6">
-              <h2 className="text-orange-primary">Categorias</h2>
+              <h2 className="text-orange-secundary text-center">Selecione uma categorias👇🏽</h2>
               <ul className="space-y-2">
                 <li>
                   <a
