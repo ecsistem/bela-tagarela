@@ -1,7 +1,6 @@
 import React, { useCallback, useState } from "react";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
-import { Aside } from "../../components/Aside";
 import imageCards from "../../data/imageCards.json";
 export function SpeechSynthesis(){
     const [selectedText, setSelectedText] = useState("");
