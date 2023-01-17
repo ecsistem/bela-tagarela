@@ -101,7 +101,7 @@ export function SpeechSynthesis(){
             </div>
           </aside>
           <div className="w-3/4">
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 [&>:not(:hover)]:scale-90 [&>:not(:hover)]:bg-white-primary">
               {imageCards
                 .filter((imageCard) => {
                   if (selectedCategory === "all") {
@@ -113,7 +113,7 @@ export function SpeechSynthesis(){
                 .map((image, index) => (
                   <div
                     key={index}
-                    className="max-w-sm rounded-lg shadow-lg m-4 cursor-pointer bg-green-hover [&>:not(:hover)]:bg-white-primary"
+                    className="max-w-sm rounded-lg shadow-lg m-4 cursor-pointer "
                     draggable
                     onDragEnd={() => handleImageDrop(image.image, image.text)}
                     onClick={() => handleImageDrop(image.image, image.text)}
