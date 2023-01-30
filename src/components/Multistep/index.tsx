@@ -31,59 +31,59 @@ export function MultiStep() {
 
   return (
     <div>
-      <div className='flex justify-center gap-2 md:gap-8 items-center my-8'>
+      <div className='flex justify-center gap-1 md:gap-8 items-center my-8 flex-nowrap'>
       {currentStep >= 1 ?  
       <div className='flex flex-col'>
         <p className='text-center text-green-tertiary'>Layout</p>
-        <div className='flex flex-row gap-2 md:gap-8 items-center'>  
+        <div className='flex flex-row gap-1 md:gap-8 items-center'>  
         <button className="bg-orange-primary text-white w-16 h-16 rounded-full border-4  border-green-tertiary after:" onClick={() => setCurrentStep(1)}>1</button>  
         </div>
         </div> : 
         <div className='flex flex-col'>
         <p className='text-center text-green-tertiary'>Layout</p>
-        <div className='flex flex-row gap-2 md:gap-8 items-center justify-center'>  
+        <div className='flex flex-row gap-1 md:gap-8 items-center justify-center'>  
         <button className="text-green-tertiary w-16 h-16 rounded-full border-4  border-green-tertiary" onClick={() => setCurrentStep(1)}>1</button>  
         </div>
         </div>}
         {currentStep >= 2 ?  
       <div className='flex flex-col'>
         <p className='text-green-tertiary text-center pl-8'>Figuras</p>
-        <div className='flex flex-row gap-2 md:gap-8 items-center'>  
+        <div className='flex flex-row gap-1 md:gap-8 items-center'>  
         < ImArrowRight2 className='text-green-tertiary w-6 h-6' />
         <button className="bg-orange-primary text-white w-16 h-16 rounded-full border-4  border-green-tertiary after:" onClick={() => setCurrentStep(2)}>2</button>  
         </div>
         </div> : 
         <div className='flex flex-col'>
         <p className='text-green-tertiary text-center'>Figuras</p>
-        <div className='flex flex-row gap-2 md:gap-8 items-center justify-center'>  
+        <div className='flex flex-row gap-1 md:gap-8 items-center justify-center'>  
         <button className="text-green-tertiary w-16 h-16 rounded-full border-4  border-green-tertiary" onClick={() => setCurrentStep(2)}>2</button>  
         </div>
         </div>}
         {currentStep >= 3 ?  
       <div className='flex flex-col'>
-        <p className='text-green-tertiary text-center pl-5'>Informações</p>
-        <div className='flex flex-row gap-2 md:gap-8 items-center'>  
+        <p className='text-green-tertiary text-center pl-6'>Dados</p>
+        <div className='flex flex-row gap-1 md:gap-8 items-center'>  
         < ImArrowRight2 className='text-green-tertiary w-6 h-6' />
         <button className="bg-orange-primary text-white w-16 h-16 rounded-full border-4  border-green-tertiary after:" onClick={() => setCurrentStep(3)}>3</button>  
         </div>
         </div> : 
         <div className='flex flex-col'>
-        <p className='text-green-tertiary text-center'>Informações</p>
-        <div className='flex flex-row gap-2 md:gap-8 items-center justify-center'>  
+        <p className='text-green-tertiary text-center'>Dados</p>
+        <div className='flex flex-row gap-1 md:gap-8 items-center justify-center'>  
         <button className="text-green-tertiary w-16 h-16 rounded-full border-4  border-green-tertiary" onClick={() => setCurrentStep(3)}>3</button> 
         </div>
         </div>}
         {currentStep >= 4 ?  
       <div className='flex flex-col'>
-        <p className='text-green-tertiary text-center'>Salvar</p>
-        <div className='flex flex-row gap-2 md:gap-8 items-center'> 
+        <p className='text-green-tertiary text-center pl-7'>Salvar</p>
+        <div className='flex flex-row gap-1 md:gap-8 items-center'> 
         < ImArrowRight2 className='text-green-tertiary w-6 h-6' /> 
         <button className="bg-orange-primary text-white w-16 h-16 rounded-full border-4  border-green-tertiary after:" onClick={() => setCurrentStep(4)}>4</button>  
         </div>
         </div> : 
         <div className='flex flex-col'>
         <p className='text-green-tertiary text-center'>Salvar</p>
-        <div className='flex flex-row gap-2 md:gap-8 items-center justify-center'>  
+        <div className='flex flex-row gap-1 md:gap-8 items-center justify-center'>  
         <button className="text-green-tertiary w-16 h-16 rounded-full border-4  border-green-tertiary" onClick={() => setCurrentStep(4)}>4</button>  
         </div>
         </div>}
