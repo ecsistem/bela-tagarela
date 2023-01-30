@@ -1,11 +1,32 @@
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import { ImArrowRight2 } from "react-icons/im";
 import LayoutCard from "../../data/layoutCard.json";
+import imageCards from "../../data/imageCards.json";
 
 export function MultiStep() {
   const [currentStep, setCurrentStep] = useState(1);
   const [widthLayout, setWidthLayout] = useState(2);
   const [HeightLayout, setHeightLayout] = useState(2);
+
+
+  const [selectedText, setSelectedText] = useState<string>("");
+  const [selectedTexArray, setSelectedTexArray] = useState<string[]>([]);
+  const [selectedImages, setSelectedImages] = useState<string[]>([]);
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
+
+  const handleCategorySelect = useCallback((category: string) => {
+    setSelectedCategory(category);
+  }, []);
+  const handleImageDrop = (image: string, text: string) => {
+    if (selectedImages.length < widthLayout) {
+      setSelectedImages([...selectedImages, image]);
+      setSelectedTexArray([...selectedTexArray, text]);
+      setSelectedText(`${selectedText} ${text}`);
+    } else {
+      alert(`Limeite máximo de ${widthLayout} atigido`);
+    }
+  };
+
 
   const selectCardLayout = (width: number, height: number) => {
       setWidthLayout(width);
@@ -114,11 +135,81 @@ export function MultiStep() {
         <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 2 ? '' : 'hidden'}`}>
         <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
         {/* Passo atual */}
-      <div className="flex">
-          <button className="bg-red-500 text-white py-2 px-4 rounded-lg mr-2">Vermelho</button>
-          <button className="bg-green-500 text-white py-2 px-4 rounded-lg mr-2">Verde</button>
-          <button className="bg-blue-500 text-white py-2 px-4 rounded-lg">Azul</button>
-        </div>
+        <div className="grid grid-cols-8 gap-4 max-w-xl">
+            {selectedImages.map((image, index) => {
+              return (
+                <div
+                key={index}
+                  className="max-w-[5rem] rounded-lg shadow-lg m-4"
+                  >
+                  <img className="w-full" src={image} alt="" />
+                  <p className="text-center">{selectedTexArray[index]}</p>
+                </div>
+              );
+            })}
+          </div>
+          <div className="flex">
+          <aside className="w-1/4">
+            <div className="px-3 py-4 overflow-y-auto rounded bg-green-primary h-5/6">
+              <h2 className="text-orange-secundary text-center">Selecione uma categorias👇🏽</h2>
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    onClick={() => handleCategorySelect("all")}
+                    className="flex items-center p-2 text-base font-normal text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-orange-primary"
+                  >
+                    <span className="mx-auto">todos</span>
+                  </a>
+                </li>
+                {imageCards
+                  .filter(
+                    (category, index, self) =>
+                      self.findIndex(
+                        (item) => item.category === category.category
+                      ) === index
+                  )
+                  .map((category) => (
+                    <li key={category.category}>
+                      <a
+                        onClick={() => handleCategorySelect(category.category)}
+                        className="flex items-center p-2 text-base font-normal text-white rounded-lg  hover:bg-orange-primary"
+                      >
+                        <span className="mx-auto">{category.category}</span>
+                      </a>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          </aside>
+          <div className="w-3/4">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 [&>:not(:hover)]:scale-90 [&>:not(:hover)]:bg-white">
+              {imageCards
+                .filter((imageCard) => {
+                  if (selectedCategory === "all") {
+                    return true;
+                  } else {
+                    return imageCard.category === selectedCategory;
+                  }
+                })
+                .map((image, index) => (
+                  <div
+                    key={index}
+                    className="max-w-sm rounded-lg shadow-lg m-4 cursor-pointer "
+                    draggable
+                    onDragEnd={() => handleImageDrop(image.image, image.text)}
+                    onClick={() => handleImageDrop(image.image, image.text)}
+                  >
+                    <img className="w-full" src={image.image} alt={image.text} />
+                    <p className="py-4 font-bold text-xl mb-2 text-center">
+                      {image.name}
+                    </p>
+                  </div>
+                ))}
+            </div>
+          </div>
+          </div>
+
+
         <div className='flex flex-row gap-4'>
       <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
       <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
