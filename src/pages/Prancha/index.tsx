@@ -1,8 +1,12 @@
+import { Footer } from "../../components/Footer"
 import { Header } from "../../components/Header"
-export function Teste(){
+import { MultiStep } from "../../components/Multistep"
+export function Prancha(){
     return(
         <div>
             <Header/>
+            <MultiStep />
+            <Footer />
         </div>
     )
 }

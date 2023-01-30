@@ -3,7 +3,7 @@ import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import imageCards from "../../data/imageCards.json";
 export function SpeechSynthesis(){
-    const [selectedText, setSelectedText] = useState("");
+    const [selectedText, setSelectedText] = useState<string>("");
     const [selectedTexArray, setSelectedTexArray] = useState<string[]>([]);
     const [selectedImages, setSelectedImages] = useState<string[]>([]);
     const [selectedCategory, setSelectedCategory] = useState<string>("all");
@@ -55,13 +55,13 @@ export function SpeechSynthesis(){
             <label htmlFor="">Selecione suas imagens para formar frase</label>
           )}
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mb-4"
+            className="bg-green-primary hover:bg-green-hover text-white font-bold py-2 px-4 rounded-full mb-4"
             onClick={startSpeech}
           >
             Falar
           </button>
           <button
-            className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full"
+            className="bg-orange-primary hover:bg-orange-400 text-white font-bold py-2 px-4 rounded-full"
             onClick={Limpar}
           >
             Limpar
@@ -75,7 +75,7 @@ export function SpeechSynthesis(){
                 <li>
                   <a
                     onClick={() => handleCategorySelect("all")}
-                    className="flex items-center p-2 text-base font-normal text-white-primary rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-orange-primary"
+                    className="flex items-center p-2 text-base font-normal text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-orange-primary"
                   >
                     <span className="mx-auto">todos</span>
                   </a>
@@ -91,7 +91,7 @@ export function SpeechSynthesis(){
                     <li key={category.category}>
                       <a
                         onClick={() => handleCategorySelect(category.category)}
-                        className="flex items-center p-2 text-base font-normal text-white-primary rounded-lg  hover:bg-orange-primary"
+                        className="flex items-center p-2 text-base font-normal text-white rounded-lg  hover:bg-orange-primary"
                       >
                         <span className="mx-auto">{category.category}</span>
                       </a>
@@ -101,7 +101,7 @@ export function SpeechSynthesis(){
             </div>
           </aside>
           <div className="w-3/4">
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 [&>:not(:hover)]:scale-90 [&>:not(:hover)]:bg-white-primary">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 [&>:not(:hover)]:scale-90 [&>:not(:hover)]:bg-white">
               {imageCards
                 .filter((imageCard) => {
                   if (selectedCategory === "all") {

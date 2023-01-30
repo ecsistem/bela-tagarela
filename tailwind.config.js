@@ -18,9 +18,6 @@ module.exports = {
           secundary: '#fee8c3',
           tertiary: '#f6e58d',
         },
-        white:{
-          primary: '#fef7e3'
-        }
       },
       fontFamily: {
         primary: ['Fredoka One']

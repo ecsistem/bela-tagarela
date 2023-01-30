@@ -14,7 +14,7 @@ const AccordionLayout: React.FC<AccordionLayoutProps> = ({ title, children, inde
 
   return (
     <>
-        <div onClick={() => handleSetIndex(index)} className='flex justify-center w-[100%] sm:w-[80%] p-2 mt-1 bg-white-primary'>
+        <div onClick={() => handleSetIndex(index)} className='flex justify-center w-[100%] sm:w-[80%] p-2 mt-1 bg-white'>
             <div className='flex px-4'>
                 <div className='text-white font-bold'>{title}</div>
             </div>
