@@ -22,9 +22,6 @@ export function MultiStep() {
       setSelectedImages([...selectedImages, image]);
       setSelectedTexArray([...selectedTexArray, text]);
       setSelectedText(`${selectedText} ${text}`);
-    } 
-    else if(selectedImages.length > widthLayout){
-        Limpar();
     }
     else {
       alert(`Limeite máximo de ${widthLayout} atigido`);
@@ -38,6 +35,7 @@ export function MultiStep() {
   };
 
   const selectCardLayout = (width: number, height: number) => {
+      Limpar()
       setWidthLayout(width);
       setHeightLayout(height);
       handleNext()
