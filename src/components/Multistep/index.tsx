@@ -144,12 +144,12 @@ export function MultiStep() {
         <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 2 ? '' : 'hidden'}`}>
         <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
         {/* Passo atual */}
-        <div className="grid grid-cols-8 gap-4 max-w-xl">
+        <div className="grid grid-cols-4 md:grid-cols-8 gap-4 ">
             {selectedImages.map((image, index) => {
               return (
                 <div
                 key={index}
-                  className="max-w-[5rem] rounded-lg shadow-lg m-4"
+                  className="max-w-[5rem] rounded-lg bg-white shadow-lg m-4"
                   >
                   <img className="w-full" src={image} alt="" />
                   <p className="text-center">{selectedTexArray[index]}</p>
