@@ -18,6 +18,9 @@ module.exports = {
           secundary: '#fee8c3',
           tertiary: '#f6e58d',
         },
+        card: {
+          primary: '#ebf4d5',
+        },
       },
       fontFamily: {
         primary: ['Fredoka One']

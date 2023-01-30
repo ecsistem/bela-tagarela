@@ -5,14 +5,16 @@ import imageCards from "../../data/imageCards.json";
 
 export function MultiStep() {
   const [currentStep, setCurrentStep] = useState(1);
-  const [widthLayout, setWidthLayout] = useState(2);
-  const [HeightLayout, setHeightLayout] = useState(2);
+  const [widthLayout, setWidthLayout] = useState(3);
+  const [HeightLayout, setHeightLayout] = useState(3);
+  
 
 
   const [selectedText, setSelectedText] = useState<string>("");
   const [selectedTexArray, setSelectedTexArray] = useState<string[]>([]);
   const [selectedImages, setSelectedImages] = useState<string[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const repeatedArray = Array.from({length: HeightLayout}, () => selectedImages);
 
   const handleCategorySelect = useCallback((category: string) => {
     setSelectedCategory(category);
@@ -120,12 +122,12 @@ export function MultiStep() {
       </div>
       <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 1 ? '' : 'hidden'}`}>
       <p className="text-gray-600 my-6">Selecione um layout de acordo com o tamanho da prancha que deseja</p>
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 [&>:not(:hover)]:scale-90">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 [&>:not(:hover)]:scale-90 [&>:not(:hover)]:bg-card-primary">
               {LayoutCard
                 .map((layout, index) => (
                   <div
                     key={index}
-                    className="max-w-sm rounded-lg shadow-lg m-4 cursor-pointer bg-green-primary"
+                    className="max-w-sm rounded-lg shadow-lg m-4 cursor-pointer  bg-green-primary selection:bg-green-primary"
                     draggable
                     onClick={() => selectCardLayout(layout.width, layout.height)}
                   >
@@ -142,8 +144,10 @@ export function MultiStep() {
         <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 2 ? '' : 'hidden'}`}>
         <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
         {/* Passo atual */}
+
         <div className="grid grid-cols-4 md:grid-cols-8 gap-4 ">
-            {selectedImages.map((image, index) => {
+            {
+            selectedImages.map((image, index) => {
               return (
                 <div
                 key={index}
@@ -225,6 +229,27 @@ export function MultiStep() {
       </div>
       <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 3 ? '' : 'hidden'}`}>
       <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
+      <div className="rounded bg-green-primary content-center items-center justify-center">
+      {
+        repeatedArray.map((images, i) => (
+          <div className="grid grid-cols-4 grid-flow-col-dense gap-4 border-b-4 border-cyan-50">
+      {
+        images.map((image, index) => (
+          <div
+          key={index + i * selectedImages.length}
+          className="max-w-[5rem] rounded-lg bg-white shadow-lg m-4"
+          >
+            <img className="w-full" src={image} alt="" />
+            <p className="text-center">{selectedTexArray[index]}</p>
+          </div>
+        ))
+      }
+      
+    </div>
+  ))
+}
+  </div>
+ 
       <div className='flex flex-row gap-4'>
       <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
       <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
