@@ -22,11 +22,20 @@ export function MultiStep() {
       setSelectedImages([...selectedImages, image]);
       setSelectedTexArray([...selectedTexArray, text]);
       setSelectedText(`${selectedText} ${text}`);
-    } else {
+    } 
+    else if(selectedImages.length > widthLayout){
+        Limpar();
+    }
+    else {
       alert(`Limeite máximo de ${widthLayout} atigido`);
     }
   };
 
+  const Limpar = () => {
+    setSelectedImages([]);
+    setSelectedText("");
+    setSelectedTexArray([]);
+  };
 
   const selectCardLayout = (width: number, height: number) => {
       setWidthLayout(width);
