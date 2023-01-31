@@ -24,13 +24,7 @@ export function Header() {
                     href="#"
                     className="text-base font-medium text-white hover:text-green-600"
                   >
-                    Preferências
-                  </a>
-                  <a
-                    href="#"
-                    className="text-base font-medium text-white hover:text-green-600"
-                  >
-                    Projetos
+                    Diferenciais
                   </a>
                   <a
                     href="#"
@@ -124,35 +118,35 @@ export function Header() {
                   href="#"
                   className="text-white hover:bg-orange-primary block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Dashboard
+                  Início
                 </a>
 
                 <a
                   href="#"
                   className="text-white hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Team
+                  Diferenciais
                 </a>
 
                 <a
                   href="#"
                   className="text-white hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Projects
+                  Projetos
                 </a>
 
                 <a
                   href="#"
                   className="text-white hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Calendar
+                  Telas
                 </a>
 
                 <a
                   href="#"
                   className="text-white hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Reports
+                  Colaboradores
                 </a>
                 <div className="flex items-center justify-center">
                   <a
