@@ -144,7 +144,10 @@ export function MultiStep() {
         <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 2 ? '' : 'hidden'}`}>
         <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
         {/* Passo atual */}
-
+        <div className='flex flex-row gap-4'>
+      <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
+      <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
+        </div>
         <div className="grid grid-cols-4 md:grid-cols-8 gap-4 ">
             {
             selectedImages.map((image, index) => {
@@ -221,14 +224,15 @@ export function MultiStep() {
           </div>
 
 
-        <div className='flex flex-row gap-4'>
-      <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
-      <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
-        </div>
+        
         {/* Próximo passo */}
       </div>
       <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 3 ? '' : 'hidden'}`}>
       <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
+      <div className='flex flex-row gap-4'>
+      <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
+      <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
+        </div>
       <div className="rounded bg-green-primary content-center items-center justify-center">
       {
         repeatedArray.map((images, i) => (
@@ -250,10 +254,7 @@ export function MultiStep() {
 }
   </div>
  
-      <div className='flex flex-row gap-4'>
-      <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
-      <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
-        </div>
+      
         {/* Passo posterior ao próximo */}
       </div>
       <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 4 ? '' : 'hidden'}`}>
