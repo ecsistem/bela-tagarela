@@ -5,7 +5,7 @@ import imageCards from "../../data/imageCards.json";
 
 export function MultiStep() {
   const [currentStep, setCurrentStep] = useState(1);
-  const [widthLayout, setWidthLayout] = useState(3);
+  const [WidthLayout, setWidthLayout] = useState(3);
   const [HeightLayout, setHeightLayout] = useState(3);
   
 
@@ -14,19 +14,19 @@ export function MultiStep() {
   const [selectedTexArray, setSelectedTexArray] = useState<string[]>([]);
   const [selectedImages, setSelectedImages] = useState<string[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
-  const repeatedArray = Array.from({length: HeightLayout}, () => selectedImages);
+
 
   const handleCategorySelect = useCallback((category: string) => {
     setSelectedCategory(category);
   }, []);
   const handleImageDrop = (image: string, text: string) => {
-    if (selectedImages.length < widthLayout) {
+    if (selectedImages.length < calculate) {
       setSelectedImages([...selectedImages, image]);
       setSelectedTexArray([...selectedTexArray, text]);
       setSelectedText(`${selectedText} ${text}`);
     }
     else {
-      alert(`Limeite máximo de ${widthLayout} atigido`);
+      alert(`Limeite máximo de ${calculate} atigido`);
     }
   };
 
@@ -54,7 +54,7 @@ export function MultiStep() {
     setCurrentStep(currentStep - 1);
     }
   };
-  console.log(widthLayout,HeightLayout);
+  const calculate = WidthLayout*HeightLayout;
 
 
   // console.log(currentStep);
@@ -234,13 +234,11 @@ export function MultiStep() {
       <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
         </div>
       <div className="rounded bg-green-primary content-center items-center justify-center">
+          <div className={`grid grid-cols-${WidthLayout.toString()} gap-4 border-b-4 border-cyan-50`}>
       {
-        repeatedArray.map((images, i) => (
-          <div className="grid grid-cols-4 grid-flow-col-dense gap-4 border-b-4 border-cyan-50">
-      {
-        images.map((image, index) => (
+        selectedImages.map((image, index) => (
           <div
-          key={index + i * selectedImages.length}
+          key={index * selectedImages.length}
           className="max-w-[5rem] rounded-lg bg-white shadow-lg m-4"
           >
             <img className="w-full" src={image} alt="" />
@@ -250,8 +248,6 @@ export function MultiStep() {
       }
       
     </div>
-  ))
-}
   </div>
  
       
