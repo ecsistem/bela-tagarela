@@ -234,7 +234,7 @@ export function MultiStep() {
       <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
         </div>
       <div className="rounded bg-green-primary content-center items-center justify-center">
-          <div className={`grid grid-cols-${WidthLayout.toString()} gap-4 border-b-4 border-cyan-50`}>
+      <div className={`grid grid-cols-${WidthLayout.toString()} gap-4 border-b-4 border-cyan-50`}>
       {
         selectedImages.map((image, index) => (
           <div
