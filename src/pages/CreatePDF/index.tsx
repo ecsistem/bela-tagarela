@@ -1,10 +1,12 @@
 import * as pdfMake from 'pdfmake/build/pdfmake';
-import * as pdfFonts from 'pdfmake/build/vfs_fonts';
+import pdfFonts from 'pdfmake/build/vfs_fonts';
 import React from 'react';
 
-pdfMake.vfs = pdfFonts.pdfMake.vfs;
+// pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
-function MyApp(): JSX.Element {
+pdfFonts.pdfMake.vfs;
+
+export function MyApp(): JSX.Element {
   const handlePrint = () => {
     pdfMake.createPdf({
       content: [
@@ -23,4 +25,3 @@ function MyApp(): JSX.Element {
   );
 }
 
-export default MyApp;
