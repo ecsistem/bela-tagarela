@@ -1,60 +1,60 @@
 [
     {
-      "image": "/public/figuras/Interagindo/OI.png",
+      "image": "/figuras/Interagindo/OI.png",
       "text": "oi",
       "name": "oi",
       "category": "Interagindo"
     },
     {
-      "image": "/public/figuras/Interagindo/POR NADA.png",
+      "image": "/figuras/Interagindo/POR NADA.png",
       "text": "por favor",
       "name": "por favor",
       "category": "Interagindo"
     },
     {
-      "image": "/public/figuras/Interagindo/POR NADA.png",
+      "image": "/figuras/Interagindo/POR NADA.png",
       "text": "por nada",
       "name": "por nada",
       "category": "Interagindo"
     },
     {
-      "image": "/public/figuras/Interagindo/TCHAU.png",
+      "image": "/figuras/Interagindo/TCHAU.png",
       "text": "tchau",
       "name": "tchau",
       "category": "Interagindo"
     },
     {
-      "image": "/public/figuras/Interagindo/OBRIGADO.png",
+      "image": "/figuras/Interagindo/OBRIGADO.png",
       "text": "obrigado",
       "name": "obrigado",
       "category": "Interagindo"
     },
     {
-      "image": "/public/figuras/Interagindo/DESCULPA.png",
+      "image": "/figuras/Interagindo/DESCULPA.png",
       "text": "Desculpa",
       "name": "Desculpa",
       "category": "Interagindo"
     },
     {
-      "image": "/public/figuras/Interagindo/COM LICENÇA.png",
+      "image": "/figuras/Interagindo/COM LICENÇA.png",
       "text": "com licença",
       "name": "com licença",
       "category": "Interagindo"
     },
     {
-      "image": "/public/figuras/Interagindo/BOM DIA.png",
+      "image": "/figuras/Interagindo/BOM DIA.png",
       "text": "bom dia",
       "name": "bom dia",
       "category": "Interagindo"
     },
     {
-      "image": "/public/figuras/Interagindo/BOA TARDE.png",
+      "image": "/figuras/Interagindo/BOA TARDE.png",
       "text": "boa tarde",
       "name": "boa tarde",
       "category": "Interagindo"
     },
     {
-      "image": "/public/figuras/Interagindo/BOA NOITE.png",
+      "image": "/figuras/Interagindo/BOA NOITE.png",
       "text": "boa noite",
       "name": "boa noite",
       "category": "Interagindo"
