@@ -1,23 +1,59 @@
 import React, { useState } from 'react';
 import jsPDF from 'jspdf';
 
-export function MyApp(): JSX.Element {
-  const [pdfData, setPdfData] = useState<string | null>(null);
+export function FormPDF(){
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
 
-  const handleClick = () => {
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setFormData({
+      ...formData,
+      [event.target.name]: event.target.value,
+    });
+  };
+
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
     const pdf = new jsPDF();
-    pdf.text('Hello World!', 10, 10);
-    setPdfData(pdf.output('datauristring'));
+
+    pdf.text('Nome: ' + formData.name, 10, 10);
+    pdf.text('Email: ' + formData.email, 10, 20);
+    pdf.text('Mensagem: ' + formData.message, 10, 30);
+
+    pdf.save('form.pdf');
   };
 
   return (
-    <div>
-      <button onClick={handleClick}>Download PDF</button>
-      {pdfData && (
-        <a href={pdfData} download="example.pdf">
-          <button>Download PDF</button>
-        </a>
-      )}
-    </div>
+    <>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          placeholder="Nome"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="email"
+          placeholder="Email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          required
+        />
+        <textarea
+          placeholder="Mensagem"
+          name="message"
+          value={formData.message}
+          // onChange={handleChange}
+        />
+        <button type="submit">Gerar PDF</button>
+      </form>
+    </>
   );
-}
+};
