@@ -11,7 +11,7 @@ export function FormPDF() {
       const imgWidth = 200;
       const imgHeight = canvas.height * imgWidth / canvas.width;
       const imgData = canvas.toDataURL('img/png');
-      const pdf = new jsPDF('l', 'mm', 'a4');
+      const pdf = new jsPDF('p', 'mm', 'a4');
       pdf.setProperties({
         title: 'Bela Tagarela',
         subject: 'Exemplo de relatório PDF gerado com o jsPDF',
