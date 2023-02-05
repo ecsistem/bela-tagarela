@@ -523,6 +523,11 @@
     "picocolors" "^1.0.0"
     "postcss-value-parser" "^4.2.0"
 
+"base64-arraybuffer@^0.1.5":
+  "integrity" "sha512-437oANT9tP582zZMwSvZGy2nmSeAb8DW2me3y+Uv1Wp2Rulr8Mqlyrv3E7MLxmsiaPSMMDmiDVzgE+e8zlMx9g=="
+  "resolved" "https://registry.npmjs.org/base64-arraybuffer/-/base64-arraybuffer-0.1.5.tgz"
+  "version" "0.1.5"
+
 "base64-arraybuffer@^1.0.2":
   "integrity" "sha512-I3yl4r9QB5ZRY3XuJVEPfc2XhZO6YweFPI+UovAzn+8/hb3oJ6lnysaFcjVpkCPfVWFUDvoZ8kmVDP7WyRtYtQ=="
   "resolved" "https://registry.npmjs.org/base64-arraybuffer/-/base64-arraybuffer-1.0.2.tgz"
@@ -723,6 +728,13 @@
   dependencies:
     "utrie" "^1.0.2"
 
+"css-line-break@1.0.1":
+  "integrity" "sha512-Y/Us0vILnzQj21UxqoZTLaHGrePQKXcZygQIoxNmpII06LJVCgB2sFKmD7PItNDHIAqHWjrmJPVohIywWYKAmQ=="
+  "resolved" "https://registry.npmjs.org/css-line-break/-/css-line-break-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "base64-arraybuffer" "^0.1.5"
+
 "cssesc@^3.0.0":
   "integrity" "sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg=="
   "resolved" "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
@@ -858,6 +870,11 @@
     "es6-set" "~0.1.5"
     "es6-symbol" "~3.1.1"
     "event-emitter" "~0.3.5"
+
+"es6-promise@^4.2.5":
+  "integrity" "sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w=="
+  "resolved" "https://registry.npmjs.org/es6-promise/-/es6-promise-4.2.8.tgz"
+  "version" "4.2.8"
 
 "es6-set@^0.1.5", "es6-set@~0.1.5":
   "integrity" "sha512-TE3LgGLDIBX332jq3ypv6bcOpkLO0AslAQo7p2VqX/1N46YNsvIWgvjojjSEnWEGWMhr1qUbYeTSir5J6mFHOw=="
@@ -1125,13 +1142,29 @@
   dependencies:
     "function-bind" "^1.1.1"
 
-"html2canvas@^1.0.0-rc.5":
+"html2canvas@^1.0.0", "html2canvas@^1.0.0-rc.5", "html2canvas@^1.4.1":
   "integrity" "sha512-fPU6BHNpsyIhr8yyMpTLLxAbkaK8ArIBcmZIRiBLiDhjeqvXolaEmDGmELFuX9I4xDcaKKcJl+TKZLqruBbmWA=="
   "resolved" "https://registry.npmjs.org/html2canvas/-/html2canvas-1.4.1.tgz"
   "version" "1.4.1"
   dependencies:
     "css-line-break" "^2.1.0"
     "text-segmentation" "^1.0.3"
+
+"html2canvas@1.0.0-alpha.12":
+  "integrity" "sha512-+mr9jumxMQO9ZZwf7nUp3tonOIaI6tAAV0yciDMuX0tetV4wz/lFc2AxAYndxANe7/O67DKLgDLjT+ZcVUSQrw=="
+  "resolved" "https://registry.npmjs.org/html2canvas/-/html2canvas-1.0.0-alpha.12.tgz"
+  "version" "1.0.0-alpha.12"
+  dependencies:
+    "css-line-break" "1.0.1"
+
+"html2pdf.js@^0.10.1":
+  "integrity" "sha512-3onwwhOWsZfNjIZwV6YIJ6FVhXk+X9YxHSqzeS6hup+1dGi2DHI+zZYUJ+iFnvtaYcjlhyrILL1fvRCUOa8Fcg=="
+  "resolved" "https://registry.npmjs.org/html2pdf.js/-/html2pdf.js-0.10.1.tgz"
+  "version" "0.10.1"
+  dependencies:
+    "es6-promise" "^4.2.5"
+    "html2canvas" "^1.0.0"
+    "jspdf" "^2.3.1"
 
 "iconv-lite@^0.6.3":
   "integrity" "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw=="
@@ -1219,7 +1252,7 @@
   "resolved" "https://registry.npmjs.org/json5/-/json5-2.2.1.tgz"
   "version" "2.2.1"
 
-"jspdf@*", "jspdf@^2.5.1":
+"jspdf@*", "jspdf@^2.3.1", "jspdf@^2.5.1":
   "integrity" "sha512-hXObxz7ZqoyhxET78+XR34Xu2qFGrJJ2I2bE5w4SM8eFaFEkW2xcGRVUss360fYelwRSid/jT078kbNvmoW0QA=="
   "resolved" "https://registry.npmjs.org/jspdf/-/jspdf-2.5.1.tgz"
   "version" "2.5.1"
@@ -1502,7 +1535,7 @@
   dependencies:
     "performance-now" "^2.1.0"
 
-"react-dom@^16 || ^17 || ^18", "react-dom@^18.0.0":
+"react-dom@^16 || ^17 || ^18", "react-dom@^16.5.2", "react-dom@^18.0.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -1520,7 +1553,15 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.13.0.tgz"
   "version" "0.13.0"
 
-"react@*", "react@^16 || ^17 || ^18", "react@^18.0.0", "react@^18.2.0":
+"react-to-pdf@^0.0.14":
+  "integrity" "sha512-u4gwkV7Byr1uU3FgR5n99tufNgMVEYE3reyjNsYK3WuRReE1IqolYXzCoj3n/Xhk8KOFYSiS3V4xEaGFGR9H5Q=="
+  "resolved" "https://registry.npmjs.org/react-to-pdf/-/react-to-pdf-0.0.14.tgz"
+  "version" "0.0.14"
+  dependencies:
+    "html2canvas" "1.0.0-alpha.12"
+    "jspdf" "^2.3.1"
+
+"react@*", "react@^16 || ^17 || ^18", "react@^16.5.2", "react@^18.0.0", "react@^18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"

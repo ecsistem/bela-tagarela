@@ -1,44 +1,62 @@
 [
     {
-      "image": "https://docs.google.com/uc?id=1H_kX6cGExLNu2EMS3_dfhdufA9z04hZN",
+      "image": "/src/assets/imgs/figuras/Interagindo/OI.png",
       "text": "oi",
       "name": "oi",
-      "category": "teste"
+      "category": "Interagindo"
     },
     {
-      "image": "https://docs.google.com/uc?id=1j9___dexVR3tQVBWFXHkDnxulFKD55p_",
+      "image": "/src/assets/imgs/figuras/Interagindo/POR NADA.png",
       "text": "por favor",
       "name": "por favor",
-      "category": "saudação"
+      "category": "Interagindo"
     },
     {
-      "image": "https://docs.google.com/uc?id=1yl4iewOuDpFJQme2UKXhwozWO5-kc5nM",
+      "image": "/src/assets/imgs/figuras/Interagindo/POR NADA.png",
       "text": "por nada",
       "name": "por nada",
-      "category": "saudação"
+      "category": "Interagindo"
     },
     {
-      "image": "https://docs.google.com/uc?id=1H_kX6cGExLNu2EMS3_dfhdufA9z04hZN",
-      "text": "Edson",
-      "name": "Edson",
-      "category": "nome"
+      "image": "/src/assets/imgs/figuras/Interagindo/TCHAU.png",
+      "text": "tchau",
+      "name": "tchau",
+      "category": "Interagindo"
     },
     {
-      "image": "https://docs.google.com/uc?id=1j9___dexVR3tQVBWFXHkDnxulFKD55p_",
-      "text": "Moreira",
-      "name": "Moreira",
-      "category": "saudação"
+      "image": "/src/assets/imgs/figuras/Interagindo/OBRIGADO.png",
+      "text": "obrigado",
+      "name": "obrigado",
+      "category": "Interagindo"
     },
     {
-      "image": "https://docs.google.com/uc?id=1j9___dexVR3tQVBWFXHkDnxulFKD55p_",
-      "text": "Italo",
-      "name": "Italo",
-      "category": "nome"
+      "image": "/src/assets/imgs/figuras/Interagindo/DESCULPA.png",
+      "text": "Desculpa",
+      "name": "Desculpa",
+      "category": "Interagindo"
     },
     {
-      "image": "https://docs.google.com/uc?id=1yl4iewOuDpFJQme2UKXhwozWO5-kc5nM",
-      "text": "costa",
-      "name": "costa",
-      "category": "saudação"
+      "image": "/src/assets/imgs/figuras/Interagindo/COM LICENÇA.png",
+      "text": "com licença",
+      "name": "com licença",
+      "category": "Interagindo"
+    },
+    {
+      "image": "/src/assets/imgs/figuras/Interagindo/BOM DIA.png",
+      "text": "bom dia",
+      "name": "bom dia",
+      "category": "Interagindo"
+    },
+    {
+      "image": "/src/assets/imgs/figuras/Interagindo/BOA TARDE.png",
+      "text": "boa tarde",
+      "name": "boa tarde",
+      "category": "Interagindo"
+    },
+    {
+      "image": "/src/assets/imgs/figuras/Interagindo/BOA NOITE.png",
+      "text": "boa noite",
+      "name": "boa noite",
+      "category": "Interagindo"
     }
   ]
