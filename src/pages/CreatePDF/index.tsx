@@ -24,7 +24,8 @@ export function FormPDF() {
       pdf.setTextColor(100, 100, 100);
       pdf.text("Bela Tagarela", 80, 22);
       pdf.addImage(imgData, 'PNG', 5, 40, imgWidth, imgHeight);
-      pdf.save("Download.pdf");
+      pdf.output('save', 'prancha.pdf')
+
     }
   }
 
