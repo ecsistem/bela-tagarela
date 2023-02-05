@@ -7,11 +7,11 @@ export function FormPDF() {
   const exportPdf = async () => {
     const input: HTMLElement | null = document.getElementById("App");
     if (input) {
-      const canvas = await html2canvas(input, {logging: true, useCORS: true, allowTaint: true});
+      const canvas = await html2canvas(input, {scale:0.5,logging: true, useCORS: true, allowTaint: true});
       const imgWidth = 200;
       const imgHeight = canvas.height * imgWidth / canvas.width;
       const imgData = canvas.toDataURL('img/png');
-      const pdf = new jsPDF('p', 'mm', 'a4');
+      const pdf = new jsPDF('l', 'mm', 'a4');
       pdf.setProperties({
         title: 'Bela Tagarela',
         subject: 'Exemplo de relatório PDF gerado com o jsPDF',
