@@ -1,4 +1,4 @@
-import pdfMake from 'pdfmake/build/pdfmake';
+import pdfMake, { vfs } from 'pdfmake/build/pdfmake';
 import pdfFonts from 'pdfmake/build/vfs_fonts';
 import React from 'react';
 
