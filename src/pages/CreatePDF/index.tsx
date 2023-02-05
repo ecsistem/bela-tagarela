@@ -13,7 +13,7 @@ export function FormPDF() {
       const imgData = canvas.toDataURL('img/png');
       const pdf = new jsPDF('p', 'mm', 'a4');
       pdf.setProperties({
-        title: 'Relatório PDF',
+        title: 'Bela Tagarela',
         subject: 'Exemplo de relatório PDF gerado com o jsPDF',
         author: 'Bela Tagarela',
         keywords: 'pdf, relatório, exemplo, jsPDF',
@@ -22,7 +22,7 @@ export function FormPDF() {
       pdf.setFontSize(22);
       pdf.setFont("helvetica", "bold");
       pdf.setTextColor(100, 100, 100);
-      pdf.text("Relatório PDF", 80, 22);
+      pdf.text("Bela Tagarela", 80, 22);
       pdf.addImage(imgData, 'PNG', 5, 40, imgWidth, imgHeight);
       pdf.save("Download.pdf");
     }
