@@ -9,7 +9,7 @@ export function FormPDF() {
     if (input) {
       const canvas = await html2canvas(input, {logging: true, useCORS: true, allowTaint: true,  height: input.scrollHeight,});
       const imgWidth = 200;
-      const imgHeight = canvas.height * imgWidth / canvas.width;
+      let imgHeight = canvas.height * imgWidth / canvas.width;
       const imgData = canvas.toDataURL('img/png');
       const pdf = new jsPDF('p', 'mm', 'a4');
       pdf.setProperties({
@@ -23,8 +23,14 @@ export function FormPDF() {
       pdf.setFont("helvetica", "bold");
       pdf.setTextColor(100, 100, 100);
       pdf.text("Bela Tagarela", 80, 22);
-      pdf.addImage(imgData, 'PNG', 5, 40, imgWidth, imgHeight);
-      pdf.save('prancha.pdf')
+    let pageNumber = 1;
+    while (imgHeight > 0) {
+      pdf.addPage();
+      pdf.addImage(imgData, 'PNG', 0, -(pageNumber - 1) * 297, imgWidth, imgHeight > 297 ? 297 : imgHeight);
+      imgHeight -= 297;
+      pageNumber++;
+    }
+    pdf.save('prancha.pdf')
 
     }
   }
