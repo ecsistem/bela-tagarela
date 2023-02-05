@@ -22,8 +22,7 @@ export function FormPDF(){
 
     pdf.text('Nome: ' + formData.name, 10, 10);
     pdf.text('Email: ' + formData.email, 10, 20);
-    pdf.text('Mensagem: ' + formData.message, 10, 30);
-
+  
     pdf.save('form.pdf');
   };
 
@@ -45,12 +44,6 @@ export function FormPDF(){
           value={formData.email}
           onChange={handleChange}
           required
-        />
-        <textarea
-          placeholder="Mensagem"
-          name="message"
-          value={formData.message}
-          // onChange={handleChange}
         />
         <button type="submit">Gerar PDF</button>
       </form>
