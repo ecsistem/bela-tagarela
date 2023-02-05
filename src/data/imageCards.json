@@ -1,60 +1,60 @@
 [
     {
-      "image": "/src/assets/imgs/figuras/Interagindo/OI.png",
+      "image": "/public/figuras/Interagindo/OI.png",
       "text": "oi",
       "name": "oi",
       "category": "Interagindo"
     },
     {
-      "image": "/src/assets/imgs/figuras/Interagindo/POR NADA.png",
+      "image": "/public/figuras/Interagindo/POR NADA.png",
       "text": "por favor",
       "name": "por favor",
       "category": "Interagindo"
     },
     {
-      "image": "/src/assets/imgs/figuras/Interagindo/POR NADA.png",
+      "image": "/public/figuras/Interagindo/POR NADA.png",
       "text": "por nada",
       "name": "por nada",
       "category": "Interagindo"
     },
     {
-      "image": "/src/assets/imgs/figuras/Interagindo/TCHAU.png",
+      "image": "/public/figuras/Interagindo/TCHAU.png",
       "text": "tchau",
       "name": "tchau",
       "category": "Interagindo"
     },
     {
-      "image": "/src/assets/imgs/figuras/Interagindo/OBRIGADO.png",
+      "image": "/public/figuras/Interagindo/OBRIGADO.png",
       "text": "obrigado",
       "name": "obrigado",
       "category": "Interagindo"
     },
     {
-      "image": "/src/assets/imgs/figuras/Interagindo/DESCULPA.png",
+      "image": "/public/figuras/Interagindo/DESCULPA.png",
       "text": "Desculpa",
       "name": "Desculpa",
       "category": "Interagindo"
     },
     {
-      "image": "/src/assets/imgs/figuras/Interagindo/COM LICENÇA.png",
+      "image": "/public/figuras/Interagindo/COM LICENÇA.png",
       "text": "com licença",
       "name": "com licença",
       "category": "Interagindo"
     },
     {
-      "image": "/src/assets/imgs/figuras/Interagindo/BOM DIA.png",
+      "image": "/public/figuras/Interagindo/BOM DIA.png",
       "text": "bom dia",
       "name": "bom dia",
       "category": "Interagindo"
     },
     {
-      "image": "/src/assets/imgs/figuras/Interagindo/BOA TARDE.png",
+      "image": "/public/figuras/Interagindo/BOA TARDE.png",
       "text": "boa tarde",
       "name": "boa tarde",
       "category": "Interagindo"
     },
     {
-      "image": "/src/assets/imgs/figuras/Interagindo/BOA NOITE.png",
+      "image": "/public/figuras/Interagindo/BOA NOITE.png",
       "text": "boa noite",
       "name": "boa noite",
       "category": "Interagindo"
