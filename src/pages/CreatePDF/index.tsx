@@ -7,7 +7,7 @@ export function FormPDF() {
   const exportPdf = async () => {
     const input: HTMLElement | null = document.getElementById("App");
     if (input) {
-      const canvas = await html2canvas(input, {scale:0.8,logging: true, useCORS: true, allowTaint: true,  height: input.scrollHeight,});
+      const canvas = await html2canvas(input, {scale:0.5,logging: true, useCORS: true, allowTaint: true,  height: input.scrollHeight,});
       const imgWidth = 200;
       const imgHeight = canvas.height * imgWidth / canvas.width;
       const imgData = canvas.toDataURL('img/png');
