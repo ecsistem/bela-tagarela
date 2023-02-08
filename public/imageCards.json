@@ -414,6 +414,114 @@
     "category": "animais"
   },
   {
+    "image": "/figuras/Categorias/Adicionar categorias.png",
+    "text": "adicionar categorias",
+    "name": "adicionar categorias",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Alfabeto.png",
+    "text": "alfabeto",
+    "name": "alfabeto",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Animais.png",
+    "text": "animais",
+    "name": "animais",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Comida.png",
+    "text": "comida",
+    "name": "comida",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Cores.png",
+    "text": "cores",
+    "name": "cores",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Diversão.png",
+    "text": "diversão",
+    "name": "diversão",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Escola.png",
+    "text": "escola",
+    "name": "escola",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Família.png",
+    "text": "família",
+    "name": "família",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Formas.png",
+    "text": "formas",
+    "name": "formas",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Interagindo.png",
+    "text": "interagindo",
+    "name": "interagindo",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Natureza.png",
+    "text": "natureza",
+    "name": "natureza",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Necessidades.png",
+    "text": "necessidades",
+    "name": "necessidades",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Números.png",
+    "text": "números",
+    "name": "números",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Perguntas.png",
+    "text": "perguntas",
+    "name": "perguntas",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Qualidades.png",
+    "text": "qualidades",
+    "name": "qualidades",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Roupas.png",
+    "text": "roupas",
+    "name": "roupas",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Sentimentos.png",
+    "text": "sentimentos",
+    "name": "sentimentos",
+    "category": "categorias"
+  },
+  {
+    "image": "/figuras/Categorias/Tempo.png",
+    "text": "tempo",
+    "name": "tempo",
+    "category": "categorias"
+  },
+  {
     "image": "/figuras/Comida/ABACATE.png",
     "text": "abacate",
     "name": "abacate",
