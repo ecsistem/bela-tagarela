@@ -1,1982 +1,1874 @@
 [
   {
     "image": "/figuras/Alfabeto/A.png",
-    "text": "a",
-    "name": "a",
-    "category": "alfabeto"
+    "text": "A",
+    "name": "A",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/B.png",
-    "text": "b",
-    "name": "b",
-    "category": "alfabeto"
+    "text": "B",
+    "name": "B",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/C.png",
-    "text": "c",
-    "name": "c",
-    "category": "alfabeto"
+    "text": "C",
+    "name": "C",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/D.png",
-    "text": "d",
-    "name": "d",
-    "category": "alfabeto"
+    "text": "D",
+    "name": "D",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/E.png",
-    "text": "e",
-    "name": "e",
-    "category": "alfabeto"
+    "text": "E",
+    "name": "E",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/F.png",
-    "text": "f",
-    "name": "f",
-    "category": "alfabeto"
+    "text": "F",
+    "name": "F",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/G.png",
-    "text": "g",
-    "name": "g",
-    "category": "alfabeto"
+    "text": "G",
+    "name": "G",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/H.png",
-    "text": "h",
-    "name": "h",
-    "category": "alfabeto"
+    "text": "H",
+    "name": "H",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/I.png",
-    "text": "i",
-    "name": "i",
-    "category": "alfabeto"
+    "text": "I",
+    "name": "I",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/J.png",
-    "text": "j",
-    "name": "j",
-    "category": "alfabeto"
+    "text": "J",
+    "name": "J",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/K.png",
-    "text": "k",
-    "name": "k",
-    "category": "alfabeto"
+    "text": "K",
+    "name": "K",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/L.png",
-    "text": "l",
-    "name": "l",
-    "category": "alfabeto"
+    "text": "L",
+    "name": "L",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/M.png",
-    "text": "m",
-    "name": "m",
-    "category": "alfabeto"
+    "text": "M",
+    "name": "M",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/N.png",
-    "text": "n",
-    "name": "n",
-    "category": "alfabeto"
+    "text": "N",
+    "name": "N",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/O.png",
-    "text": "o",
-    "name": "o",
-    "category": "alfabeto"
+    "text": "O",
+    "name": "O",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/P.png",
-    "text": "p",
-    "name": "p",
-    "category": "alfabeto"
+    "text": "P",
+    "name": "P",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/Q.png",
-    "text": "q",
-    "name": "q",
-    "category": "alfabeto"
+    "text": "Q",
+    "name": "Q",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/R.png",
-    "text": "r",
-    "name": "r",
-    "category": "alfabeto"
+    "text": "R",
+    "name": "R",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/S.png",
-    "text": "s",
-    "name": "s",
-    "category": "alfabeto"
+    "text": "S",
+    "name": "S",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/T.png",
-    "text": "t",
-    "name": "t",
-    "category": "alfabeto"
+    "text": "T",
+    "name": "T",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/U.png",
-    "text": "u",
-    "name": "u",
-    "category": "alfabeto"
+    "text": "U",
+    "name": "U",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/V.png",
-    "text": "v",
-    "name": "v",
-    "category": "alfabeto"
+    "text": "V",
+    "name": "V",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/W.png",
-    "text": "w",
-    "name": "w",
-    "category": "alfabeto"
+    "text": "W",
+    "name": "W",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/X.png",
-    "text": "x",
-    "name": "x",
-    "category": "alfabeto"
+    "text": "X",
+    "name": "X",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/Y.png",
-    "text": "y",
-    "name": "y",
-    "category": "alfabeto"
+    "text": "Y",
+    "name": "Y",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Alfabeto/Z.png",
-    "text": "z",
-    "name": "z",
-    "category": "alfabeto"
+    "text": "Z",
+    "name": "Z",
+    "category": "Alfabeto"
   },
   {
     "image": "/figuras/Animais/ABELHA.png",
-    "text": "abelha",
-    "name": "abelha",
-    "category": "animais"
+    "text": "ABELHA",
+    "name": "ABELHA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/BALEIA.png",
-    "text": "baleia",
-    "name": "baleia",
-    "category": "animais"
+    "text": "BALEIA",
+    "name": "BALEIA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/BEIJA-FLOR.png",
-    "text": "beija-flor",
-    "name": "beija-flor",
-    "category": "animais"
+    "text": "BEIJA-FLOR",
+    "name": "BEIJA-FLOR",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/BESOURO.png",
-    "text": "besouro",
-    "name": "besouro",
-    "category": "animais"
+    "text": "BESOURO",
+    "name": "BESOURO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/BOI.png",
-    "text": "boi",
-    "name": "boi",
-    "category": "animais"
+    "text": "BOI",
+    "name": "BOI",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/BORBOLETA.png",
-    "text": "borboleta",
-    "name": "borboleta",
-    "category": "animais"
+    "text": "BORBOLETA",
+    "name": "BORBOLETA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/CABRA.png",
-    "text": "cabra",
-    "name": "cabra",
-    "category": "animais"
+    "text": "CABRA",
+    "name": "CABRA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/CACHORRO.png",
-    "text": "cachorro",
-    "name": "cachorro",
-    "category": "animais"
+    "text": "CACHORRO",
+    "name": "CACHORRO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/CARANGUEJO.png",
-    "text": "caranguejo",
-    "name": "caranguejo",
-    "category": "animais"
+    "text": "CARANGUEJO",
+    "name": "CARANGUEJO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/CAVALO.png",
-    "text": "cavalo",
-    "name": "cavalo",
-    "category": "animais"
+    "text": "CAVALO",
+    "name": "CAVALO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/COBRA.png",
-    "text": "cobra",
-    "name": "cobra",
-    "category": "animais"
+    "text": "COBRA",
+    "name": "COBRA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/COELHO.png",
-    "text": "coelho",
-    "name": "coelho",
-    "category": "animais"
+    "text": "COELHO",
+    "name": "COELHO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/CORUJA.png",
-    "text": "coruja",
-    "name": "coruja",
-    "category": "animais"
+    "text": "CORUJA",
+    "name": "CORUJA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/ELEFANTE.png",
-    "text": "elefante",
-    "name": "elefante",
-    "category": "animais"
+    "text": "ELEFANTE",
+    "name": "ELEFANTE",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/FOCA.png",
-    "text": "foca",
-    "name": "foca",
-    "category": "animais"
+    "text": "FOCA",
+    "name": "FOCA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/GALINHA.png",
-    "text": "galinha",
-    "name": "galinha",
-    "category": "animais"
+    "text": "GALINHA",
+    "name": "GALINHA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/GALO.png",
-    "text": "galo",
-    "name": "galo",
-    "category": "animais"
+    "text": "GALO",
+    "name": "GALO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/GATO.png",
-    "text": "gato",
-    "name": "gato",
-    "category": "animais"
+    "text": "GATO",
+    "name": "GATO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/GIRAFA.png",
-    "text": "girafa",
-    "name": "girafa",
-    "category": "animais"
+    "text": "GIRAFA",
+    "name": "GIRAFA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/GORILA.png",
-    "text": "gorila",
-    "name": "gorila",
-    "category": "animais"
+    "text": "GORILA",
+    "name": "GORILA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/GRILO.png",
-    "text": "grilo",
-    "name": "grilo",
-    "category": "animais"
+    "text": "GRILO",
+    "name": "GRILO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/HIPOPÓTAMO.png",
-    "text": "hipopótamo",
-    "name": "hipopótamo",
-    "category": "animais"
+    "text": "HIPOPÓTAMO",
+    "name": "HIPOPÓTAMO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/JACARÉ.png",
-    "text": "jacaré",
-    "name": "jacaré",
-    "category": "animais"
+    "text": "JACARÉ",
+    "name": "JACARÉ",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/JOANINHA.png",
-    "text": "joaninha",
-    "name": "joaninha",
-    "category": "animais"
+    "text": "JOANINHA",
+    "name": "JOANINHA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/LAGARTA.png",
-    "text": "lagarta",
-    "name": "lagarta",
-    "category": "animais"
+    "text": "LAGARTA",
+    "name": "LAGARTA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/LEÃO.png",
-    "text": "leão",
-    "name": "leão",
-    "category": "animais"
+    "text": "LEÃO",
+    "name": "LEÃO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/MACACO.png",
-    "text": "macaco",
-    "name": "macaco",
-    "category": "animais"
+    "text": "MACACO",
+    "name": "MACACO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/MORCEGO.png",
-    "text": "morcego",
-    "name": "morcego",
-    "category": "animais"
+    "text": "MORCEGO",
+    "name": "MORCEGO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/OVELHA.png",
-    "text": "ovelha",
-    "name": "ovelha",
-    "category": "animais"
+    "text": "OVELHA",
+    "name": "OVELHA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/PATO.png",
-    "text": "pato",
-    "name": "pato",
-    "category": "animais"
+    "text": "PATO",
+    "name": "PATO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/PAVÃO.png",
-    "text": "pavão",
-    "name": "pavão",
-    "category": "animais"
+    "text": "PAVÃO",
+    "name": "PAVÃO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/PEIXE.png",
-    "text": "peixe",
-    "name": "peixe",
-    "category": "animais"
+    "text": "PEIXE",
+    "name": "PEIXE",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/PORCO.png",
-    "text": "porco",
-    "name": "porco",
-    "category": "animais"
+    "text": "PORCO",
+    "name": "PORCO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/PÁSSARO.png",
-    "text": "pássaro",
-    "name": "pássaro",
-    "category": "animais"
+    "text": "PÁSSARO",
+    "name": "PÁSSARO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/RATO.png",
-    "text": "rato",
-    "name": "rato",
-    "category": "animais"
+    "text": "RATO",
+    "name": "RATO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/RENA.png",
-    "text": "rena",
-    "name": "rena",
-    "category": "animais"
+    "text": "RENA",
+    "name": "RENA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/RINOCERONTE.png",
-    "text": "rinoceronte",
-    "name": "rinoceronte",
-    "category": "animais"
+    "text": "RINOCERONTE",
+    "name": "RINOCERONTE",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/SAPO.png",
-    "text": "sapo",
-    "name": "sapo",
-    "category": "animais"
+    "text": "SAPO",
+    "name": "SAPO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/TARTARUGA.png",
-    "text": "tartaruga",
-    "name": "tartaruga",
-    "category": "animais"
+    "text": "TARTARUGA",
+    "name": "TARTARUGA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/TIGRE.png",
-    "text": "tigre",
-    "name": "tigre",
-    "category": "animais"
+    "text": "TIGRE",
+    "name": "TIGRE",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/TUBARÃO.png",
-    "text": "tubarão",
-    "name": "tubarão",
-    "category": "animais"
+    "text": "TUBARÃO",
+    "name": "TUBARÃO",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/URSO PANDA.png",
-    "text": "urso panda",
-    "name": "urso panda",
-    "category": "animais"
+    "text": "URSO PANDA",
+    "name": "URSO PANDA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Animais/ZEBRA.png",
-    "text": "zebra",
-    "name": "zebra",
-    "category": "animais"
-  },
-  {
-    "image": "/figuras/Categorias/Adicionar categorias.png",
-    "text": "adicionar categorias",
-    "name": "adicionar categorias",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Alfabeto.png",
-    "text": "alfabeto",
-    "name": "alfabeto",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Animais.png",
-    "text": "animais",
-    "name": "animais",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Comida.png",
-    "text": "comida",
-    "name": "comida",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Cores.png",
-    "text": "cores",
-    "name": "cores",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Diversão.png",
-    "text": "diversão",
-    "name": "diversão",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Escola.png",
-    "text": "escola",
-    "name": "escola",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Família.png",
-    "text": "família",
-    "name": "família",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Formas.png",
-    "text": "formas",
-    "name": "formas",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Interagindo.png",
-    "text": "interagindo",
-    "name": "interagindo",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Natureza.png",
-    "text": "natureza",
-    "name": "natureza",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Necessidades.png",
-    "text": "necessidades",
-    "name": "necessidades",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Números.png",
-    "text": "números",
-    "name": "números",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Perguntas.png",
-    "text": "perguntas",
-    "name": "perguntas",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Qualidades.png",
-    "text": "qualidades",
-    "name": "qualidades",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Roupas.png",
-    "text": "roupas",
-    "name": "roupas",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Sentimentos.png",
-    "text": "sentimentos",
-    "name": "sentimentos",
-    "category": "categorias"
-  },
-  {
-    "image": "/figuras/Categorias/Tempo.png",
-    "text": "tempo",
-    "name": "tempo",
-    "category": "categorias"
+    "text": "ZEBRA",
+    "name": "ZEBRA",
+    "category": "Animais"
   },
   {
     "image": "/figuras/Comida/ABACATE.png",
-    "text": "abacate",
-    "name": "abacate",
-    "category": "comida"
+    "text": "ABACATE",
+    "name": "ABACATE",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/ARROZ.png",
-    "text": "arroz",
-    "name": "arroz",
-    "category": "comida"
+    "text": "ARROZ",
+    "name": "ARROZ",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/BALA.png",
-    "text": "bala",
-    "name": "bala",
-    "category": "comida"
+    "text": "BALA",
+    "name": "BALA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/BANANA.png",
-    "text": "banana",
-    "name": "banana",
-    "category": "comida"
+    "text": "BANANA",
+    "name": "BANANA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/BISCOITO.png",
-    "text": "biscoito",
-    "name": "biscoito",
-    "category": "comida"
+    "text": "BISCOITO",
+    "name": "BISCOITO",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/BOLO.png",
-    "text": "bolo",
-    "name": "bolo",
-    "category": "comida"
+    "text": "BOLO",
+    "name": "BOLO",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/CACHORRO-QUENTE.png",
-    "text": "cachorro-quente",
-    "name": "cachorro-quente",
-    "category": "comida"
+    "text": "CACHORRO-QUENTE",
+    "name": "CACHORRO-QUENTE",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/CAFÉ-1.png",
-    "text": "café-1",
-    "name": "café-1",
-    "category": "comida"
+    "text": "CAFÉ-1",
+    "name": "CAFÉ-1",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/CAFÉ.png",
-    "text": "café",
-    "name": "café",
-    "category": "comida"
+    "text": "CAFÉ",
+    "name": "CAFÉ",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/CARNE.png",
-    "text": "carne",
-    "name": "carne",
-    "category": "comida"
+    "text": "CARNE",
+    "name": "CARNE",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/CENOURA.png",
-    "text": "cenoura",
-    "name": "cenoura",
-    "category": "comida"
+    "text": "CENOURA",
+    "name": "CENOURA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/CEREJA.png",
-    "text": "cereja",
-    "name": "cereja",
-    "category": "comida"
+    "text": "CEREJA",
+    "name": "CEREJA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/CHÁ.png",
-    "text": "chá",
-    "name": "chá",
-    "category": "comida"
+    "text": "CHÁ",
+    "name": "CHÁ",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/CUPCAKE.png",
-    "text": "cupcake",
-    "name": "cupcake",
-    "category": "comida"
+    "text": "CUPCAKE",
+    "name": "CUPCAKE",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/FEIJÃO.png",
-    "text": "feijão",
-    "name": "feijão",
-    "category": "comida"
+    "text": "FEIJÃO",
+    "name": "FEIJÃO",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/FRANGO.png",
-    "text": "frango",
-    "name": "frango",
-    "category": "comida"
+    "text": "FRANGO",
+    "name": "FRANGO",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/FRUTAS.png",
-    "text": "frutas",
-    "name": "frutas",
-    "category": "comida"
+    "text": "FRUTAS",
+    "name": "FRUTAS",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/IOGURTE.png",
-    "text": "iogurte",
-    "name": "iogurte",
-    "category": "comida"
+    "text": "IOGURTE",
+    "name": "IOGURTE",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/LANCHE.png",
-    "text": "lanche",
-    "name": "lanche",
-    "category": "comida"
+    "text": "LANCHE",
+    "name": "LANCHE",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/LARANJA.png",
-    "text": "laranja",
-    "name": "laranja",
-    "category": "comida"
+    "text": "LARANJA",
+    "name": "LARANJA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/LEITE.png",
-    "text": "leite",
-    "name": "leite",
-    "category": "comida"
+    "text": "LEITE",
+    "name": "LEITE",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/MACARRÃO.png",
-    "text": "macarrão",
-    "name": "macarrão",
-    "category": "comida"
+    "text": "MACARRÃO",
+    "name": "MACARRÃO",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/MAÇÃ.png",
-    "text": "maçã",
-    "name": "maçã",
-    "category": "comida"
+    "text": "MAÇÃ",
+    "name": "MAÇÃ",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/MELANCIA.png",
-    "text": "melancia",
-    "name": "melancia",
-    "category": "comida"
+    "text": "MELANCIA",
+    "name": "MELANCIA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/MORANGO.png",
-    "text": "morango",
-    "name": "morango",
-    "category": "comida"
+    "text": "MORANGO",
+    "name": "MORANGO",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/PICOLÉ.png",
-    "text": "picolé",
-    "name": "picolé",
-    "category": "comida"
+    "text": "PICOLÉ",
+    "name": "PICOLÉ",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/PIPOCA.png",
-    "text": "pipoca",
-    "name": "pipoca",
-    "category": "comida"
+    "text": "PIPOCA",
+    "name": "PIPOCA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/PIRULITO.png",
-    "text": "pirulito",
-    "name": "pirulito",
-    "category": "comida"
+    "text": "PIRULITO",
+    "name": "PIRULITO",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/PIZZA.png",
-    "text": "pizza",
-    "name": "pizza",
-    "category": "comida"
+    "text": "PIZZA",
+    "name": "PIZZA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/PÃO.png",
-    "text": "pão",
-    "name": "pão",
-    "category": "comida"
+    "text": "PÃO",
+    "name": "PÃO",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/REFRIGERANTE.png",
-    "text": "refrigerante",
-    "name": "refrigerante",
-    "category": "comida"
+    "text": "REFRIGERANTE",
+    "name": "REFRIGERANTE",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/ROSCA.png",
-    "text": "rosca",
-    "name": "rosca",
-    "category": "comida"
+    "text": "ROSCA",
+    "name": "ROSCA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/SALADA.png",
-    "text": "salada",
-    "name": "salada",
-    "category": "comida"
+    "text": "SALADA",
+    "name": "SALADA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/SOPA.png",
-    "text": "sopa",
-    "name": "sopa",
-    "category": "comida"
+    "text": "SOPA",
+    "name": "SOPA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/SORVETE.png",
-    "text": "sorvete",
-    "name": "sorvete",
-    "category": "comida"
+    "text": "SORVETE",
+    "name": "SORVETE",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/SUCO.png",
-    "text": "suco",
-    "name": "suco",
-    "category": "comida"
+    "text": "SUCO",
+    "name": "SUCO",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/TAPIOCA.png",
-    "text": "tapioca",
-    "name": "tapioca",
-    "category": "comida"
+    "text": "TAPIOCA",
+    "name": "TAPIOCA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/TORTA.png",
-    "text": "torta",
-    "name": "torta",
-    "category": "comida"
+    "text": "TORTA",
+    "name": "TORTA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/UVA.png",
-    "text": "uva",
-    "name": "uva",
-    "category": "comida"
+    "text": "UVA",
+    "name": "UVA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Comida/ÁGUA.png",
-    "text": "água",
-    "name": "água",
-    "category": "comida"
+    "text": "ÁGUA",
+    "name": "ÁGUA",
+    "category": "Comida"
   },
   {
     "image": "/figuras/Cores/AMARELO.png",
-    "text": "amarelo",
-    "name": "amarelo",
-    "category": "cores"
+    "text": "AMARELO",
+    "name": "AMARELO",
+    "category": "Cores"
   },
   {
     "image": "/figuras/Cores/AZUL.png",
-    "text": "azul",
-    "name": "azul",
-    "category": "cores"
+    "text": "AZUL",
+    "name": "AZUL",
+    "category": "Cores"
   },
   {
     "image": "/figuras/Cores/BRANCO.png",
-    "text": "branco",
-    "name": "branco",
-    "category": "cores"
+    "text": "BRANCO",
+    "name": "BRANCO",
+    "category": "Cores"
   },
   {
     "image": "/figuras/Cores/LARANJA.png",
-    "text": "laranja",
-    "name": "laranja",
-    "category": "cores"
+    "text": "LARANJA",
+    "name": "LARANJA",
+    "category": "Cores"
   },
   {
     "image": "/figuras/Cores/MARROM.png",
-    "text": "marrom",
-    "name": "marrom",
-    "category": "cores"
+    "text": "MARROM",
+    "name": "MARROM",
+    "category": "Cores"
   },
   {
     "image": "/figuras/Cores/PRETO.png",
-    "text": "preto",
-    "name": "preto",
-    "category": "cores"
+    "text": "PRETO",
+    "name": "PRETO",
+    "category": "Cores"
   },
   {
     "image": "/figuras/Cores/ROSA.png",
-    "text": "rosa",
-    "name": "rosa",
-    "category": "cores"
+    "text": "ROSA",
+    "name": "ROSA",
+    "category": "Cores"
   },
   {
     "image": "/figuras/Cores/ROXO.png",
-    "text": "roxo",
-    "name": "roxo",
-    "category": "cores"
+    "text": "ROXO",
+    "name": "ROXO",
+    "category": "Cores"
   },
   {
     "image": "/figuras/Cores/VERDE.png",
-    "text": "verde",
-    "name": "verde",
-    "category": "cores"
+    "text": "VERDE",
+    "name": "VERDE",
+    "category": "Cores"
   },
   {
     "image": "/figuras/Cores/VERMELHO.png",
-    "text": "vermelho",
-    "name": "vermelho",
-    "category": "cores"
+    "text": "VERMELHO",
+    "name": "VERMELHO",
+    "category": "Cores"
   },
   {
     "image": "/figuras/Diversão/BASQUETE.png",
-    "text": "basquete",
-    "name": "basquete",
-    "category": "diversão"
+    "text": "BASQUETE",
+    "name": "BASQUETE",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/BICICLETA.png",
-    "text": "bicicleta",
-    "name": "bicicleta",
-    "category": "diversão"
+    "text": "BICICLETA",
+    "name": "BICICLETA",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/BONECA.png",
-    "text": "boneca",
-    "name": "boneca",
-    "category": "diversão"
+    "text": "BONECA",
+    "name": "BONECA",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/CARRINHO.png",
-    "text": "carrinho",
-    "name": "carrinho",
-    "category": "diversão"
+    "text": "CARRINHO",
+    "name": "CARRINHO",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/CONVERSAR.png",
-    "text": "conversar",
-    "name": "conversar",
-    "category": "diversão"
+    "text": "CONVERSAR",
+    "name": "CONVERSAR",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/DADOS.png",
-    "text": "dados",
-    "name": "dados",
-    "category": "diversão"
+    "text": "DADOS",
+    "name": "DADOS",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/DESENHO.png",
-    "text": "desenho",
-    "name": "desenho",
-    "category": "diversão"
+    "text": "DESENHO",
+    "name": "DESENHO",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/DINOSSAURO.png",
-    "text": "dinossauro",
-    "name": "dinossauro",
-    "category": "diversão"
+    "text": "DINOSSAURO",
+    "name": "DINOSSAURO",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/FUTEBOL.png",
-    "text": "futebol",
-    "name": "futebol",
-    "category": "diversão"
+    "text": "FUTEBOL",
+    "name": "FUTEBOL",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/LABIRINTO.png",
-    "text": "labirinto",
-    "name": "labirinto",
-    "category": "diversão"
+    "text": "LABIRINTO",
+    "name": "LABIRINTO",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/LIVRO.png",
-    "text": "livro",
-    "name": "livro",
-    "category": "diversão"
+    "text": "LIVRO",
+    "name": "LIVRO",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/MÚSICA.png",
-    "text": "música",
-    "name": "música",
-    "category": "diversão"
+    "text": "MÚSICA",
+    "name": "MÚSICA",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/PING PONG.png",
-    "text": "ping pong",
-    "name": "ping pong",
-    "category": "diversão"
+    "text": "PING PONG",
+    "name": "PING PONG",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/PIPA.png",
-    "text": "pipa",
-    "name": "pipa",
-    "category": "diversão"
+    "text": "PIPA",
+    "name": "PIPA",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/PISCINA.png",
-    "text": "piscina",
-    "name": "piscina",
-    "category": "diversão"
+    "text": "PISCINA",
+    "name": "PISCINA",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/QUEBRA-CABEÇA.png",
-    "text": "quebra-cabeça",
-    "name": "quebra-cabeça",
-    "category": "diversão"
+    "text": "QUEBRA-CABEÇA",
+    "name": "QUEBRA-CABEÇA",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/ROBÔ.png",
-    "text": "robô",
-    "name": "robô",
-    "category": "diversão"
+    "text": "ROBÔ",
+    "name": "ROBÔ",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/TABLET.png",
-    "text": "tablet",
-    "name": "tablet",
-    "category": "diversão"
+    "text": "TABLET",
+    "name": "TABLET",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/TELEVISÃO.png",
-    "text": "televisão",
-    "name": "televisão",
-    "category": "diversão"
+    "text": "TELEVISÃO",
+    "name": "TELEVISÃO",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/VOLEI.png",
-    "text": "volei",
-    "name": "volei",
-    "category": "diversão"
+    "text": "VOLEI",
+    "name": "VOLEI",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Diversão/VÍDEO GAME.png",
-    "text": "vídeo game",
-    "name": "vídeo game",
-    "category": "diversão"
+    "text": "VÍDEO GAME",
+    "name": "VÍDEO GAME",
+    "category": "Diversão"
   },
   {
     "image": "/figuras/Escola/BANHEIRO.png",
-    "text": "banheiro",
-    "name": "banheiro",
-    "category": "escola"
+    "text": "BANHEIRO",
+    "name": "BANHEIRO",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/BIBLIOTECA.png",
-    "text": "biblioteca",
-    "name": "biblioteca",
-    "category": "escola"
+    "text": "BIBLIOTECA",
+    "name": "BIBLIOTECA",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/DIPLOMA.png",
-    "text": "diploma",
-    "name": "diploma",
-    "category": "escola"
+    "text": "DIPLOMA",
+    "name": "DIPLOMA",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/ESCOLA.png",
-    "text": "escola",
-    "name": "escola",
-    "category": "escola"
+    "text": "ESCOLA",
+    "name": "ESCOLA",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/GLOBO TERRESTRE.png",
-    "text": "globo terrestre",
-    "name": "globo terrestre",
-    "category": "escola"
+    "text": "GLOBO TERRESTRE",
+    "name": "GLOBO TERRESTRE",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/INFORMÁTICA.png",
-    "text": "informática",
-    "name": "informática",
-    "category": "escola"
+    "text": "INFORMÁTICA",
+    "name": "INFORMÁTICA",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/LIVROS.png",
-    "text": "livros",
-    "name": "livros",
-    "category": "escola"
+    "text": "LIVROS",
+    "name": "LIVROS",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/MOCHILA.png",
-    "text": "mochila",
-    "name": "mochila",
-    "category": "escola"
+    "text": "MOCHILA",
+    "name": "MOCHILA",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/PARQUE.png",
-    "text": "parque",
-    "name": "parque",
-    "category": "escola"
+    "text": "PARQUE",
+    "name": "PARQUE",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/PROFESSOR.png",
-    "text": "professor",
-    "name": "professor",
-    "category": "escola"
+    "text": "PROFESSOR",
+    "name": "PROFESSOR",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/PÁTIO.png",
-    "text": "pátio",
-    "name": "pátio",
-    "category": "escola"
+    "text": "PÁTIO",
+    "name": "PÁTIO",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/QUADRA.png",
-    "text": "quadra",
-    "name": "quadra",
-    "category": "escola"
+    "text": "QUADRA",
+    "name": "QUADRA",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/REFEITÓRIO.png",
-    "text": "refeitório",
-    "name": "refeitório",
-    "category": "escola"
+    "text": "REFEITÓRIO",
+    "name": "REFEITÓRIO",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Escola/SALA DE AULA.png",
-    "text": "sala de aula",
-    "name": "sala de aula",
-    "category": "escola"
+    "text": "SALA DE AULA",
+    "name": "SALA DE AULA",
+    "category": "Escola"
   },
   {
     "image": "/figuras/Família/AVÓ.png",
-    "text": "avó",
-    "name": "avó",
-    "category": "família"
+    "text": "AVÓ",
+    "name": "AVÓ",
+    "category": "Família"
   },
   {
     "image": "/figuras/Família/AVÔ.png",
-    "text": "avô",
-    "name": "avô",
-    "category": "família"
+    "text": "AVÔ",
+    "name": "AVÔ",
+    "category": "Família"
   },
   {
     "image": "/figuras/Família/IRMÃ.png",
-    "text": "irmã",
-    "name": "irmã",
-    "category": "família"
+    "text": "IRMÃ",
+    "name": "IRMÃ",
+    "category": "Família"
   },
   {
     "image": "/figuras/Família/IRMÃO.png",
-    "text": "irmão",
-    "name": "irmão",
-    "category": "família"
+    "text": "IRMÃO",
+    "name": "IRMÃO",
+    "category": "Família"
   },
   {
     "image": "/figuras/Família/MÃE.png",
-    "text": "mãe",
-    "name": "mãe",
-    "category": "família"
+    "text": "MÃE",
+    "name": "MÃE",
+    "category": "Família"
   },
   {
     "image": "/figuras/Família/PAI.png",
-    "text": "pai",
-    "name": "pai",
-    "category": "família"
+    "text": "PAI",
+    "name": "PAI",
+    "category": "Família"
   },
   {
     "image": "/figuras/Família/PRIMA.png",
-    "text": "prima",
-    "name": "prima",
-    "category": "família"
+    "text": "PRIMA",
+    "name": "PRIMA",
+    "category": "Família"
   },
   {
     "image": "/figuras/Família/PRIMO.png",
-    "text": "primo",
-    "name": "primo",
-    "category": "família"
+    "text": "PRIMO",
+    "name": "PRIMO",
+    "category": "Família"
   },
   {
     "image": "/figuras/Família/TIA.png",
-    "text": "tia",
-    "name": "tia",
-    "category": "família"
+    "text": "TIA",
+    "name": "TIA",
+    "category": "Família"
   },
   {
     "image": "/figuras/Família/TIO.png",
-    "text": "tio",
-    "name": "tio",
-    "category": "família"
+    "text": "TIO",
+    "name": "TIO",
+    "category": "Família"
   },
   {
     "image": "/figuras/Formas/CÍRCULO.png",
-    "text": "círculo",
-    "name": "círculo",
-    "category": "formas"
+    "text": "CÍRCULO",
+    "name": "CÍRCULO",
+    "category": "Formas"
   },
   {
     "image": "/figuras/Formas/QUADRADO.png",
-    "text": "quadrado",
-    "name": "quadrado",
-    "category": "formas"
+    "text": "QUADRADO",
+    "name": "QUADRADO",
+    "category": "Formas"
   },
   {
     "image": "/figuras/Formas/RETÂNGULO.png",
-    "text": "retângulo",
-    "name": "retângulo",
-    "category": "formas"
+    "text": "RETÂNGULO",
+    "name": "RETÂNGULO",
+    "category": "Formas"
   },
   {
     "image": "/figuras/Formas/TRIÂNGULO.png",
-    "text": "triângulo",
-    "name": "triângulo",
-    "category": "formas"
+    "text": "TRIÂNGULO",
+    "name": "TRIÂNGULO",
+    "category": "Formas"
   },
   {
     "image": "/figuras/Interagindo/BOA NOITE.png",
-    "text": "boa noite",
-    "name": "boa noite",
-    "category": "interagindo"
+    "text": "BOA NOITE",
+    "name": "BOA NOITE",
+    "category": "Interagindo"
   },
   {
     "image": "/figuras/Interagindo/BOA TARDE.png",
-    "text": "boa tarde",
-    "name": "boa tarde",
-    "category": "interagindo"
+    "text": "BOA TARDE",
+    "name": "BOA TARDE",
+    "category": "Interagindo"
   },
   {
     "image": "/figuras/Interagindo/BOM DIA.png",
-    "text": "bom dia",
-    "name": "bom dia",
-    "category": "interagindo"
+    "text": "BOM DIA",
+    "name": "BOM DIA",
+    "category": "Interagindo"
   },
   {
     "image": "/figuras/Interagindo/COM LICENÇA.png",
-    "text": "com licença",
-    "name": "com licença",
-    "category": "interagindo"
+    "text": "COM LICENÇA",
+    "name": "COM LICENÇA",
+    "category": "Interagindo"
   },
   {
     "image": "/figuras/Interagindo/DESCULPA.png",
-    "text": "desculpa",
-    "name": "desculpa",
-    "category": "interagindo"
+    "text": "DESCULPA",
+    "name": "DESCULPA",
+    "category": "Interagindo"
   },
   {
     "image": "/figuras/Interagindo/OBRIGADO.png",
-    "text": "obrigado",
-    "name": "obrigado",
-    "category": "interagindo"
+    "text": "OBRIGADO",
+    "name": "OBRIGADO",
+    "category": "Interagindo"
   },
   {
     "image": "/figuras/Interagindo/OI.png",
-    "text": "oi",
-    "name": "oi",
-    "category": "interagindo"
+    "text": "OI",
+    "name": "OI",
+    "category": "Interagindo"
   },
   {
     "image": "/figuras/Interagindo/POR FAVOR.png",
-    "text": "por favor",
-    "name": "por favor",
-    "category": "interagindo"
+    "text": "POR FAVOR",
+    "name": "POR FAVOR",
+    "category": "Interagindo"
   },
   {
     "image": "/figuras/Interagindo/POR NADA.png",
-    "text": "por nada",
-    "name": "por nada",
-    "category": "interagindo"
+    "text": "POR NADA",
+    "name": "POR NADA",
+    "category": "Interagindo"
   },
   {
     "image": "/figuras/Interagindo/TCHAU.png",
-    "text": "tchau",
-    "name": "tchau",
-    "category": "interagindo"
+    "text": "TCHAU",
+    "name": "TCHAU",
+    "category": "Interagindo"
   },
   {
     "image": "/figuras/Natureza/AQUÁRIO.png",
-    "text": "aquário",
-    "name": "aquário",
-    "category": "natureza"
+    "text": "AQUÁRIO",
+    "name": "AQUÁRIO",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/CAHOEIRA.png",
-    "text": "cahoeira",
-    "name": "cahoeira",
-    "category": "natureza"
+    "text": "CAHOEIRA",
+    "name": "CAHOEIRA",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/CHUVA.png",
-    "text": "chuva",
-    "name": "chuva",
-    "category": "natureza"
+    "text": "CHUVA",
+    "name": "CHUVA",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/FLORESTA.png",
-    "text": "floresta",
-    "name": "floresta",
-    "category": "natureza"
+    "text": "FLORESTA",
+    "name": "FLORESTA",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/ILHA.png",
-    "text": "ilha",
-    "name": "ilha",
-    "category": "natureza"
+    "text": "ILHA",
+    "name": "ILHA",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/INVERNO.png",
-    "text": "inverno",
-    "name": "inverno",
-    "category": "natureza"
+    "text": "INVERNO",
+    "name": "INVERNO",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/MAR.png",
-    "text": "mar",
-    "name": "mar",
-    "category": "natureza"
+    "text": "MAR",
+    "name": "MAR",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/MONTANHA.png",
-    "text": "montanha",
-    "name": "montanha",
-    "category": "natureza"
+    "text": "MONTANHA",
+    "name": "MONTANHA",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/NEVE.png",
-    "text": "neve",
-    "name": "neve",
-    "category": "natureza"
+    "text": "NEVE",
+    "name": "NEVE",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/OUTONO.png",
-    "text": "outono",
-    "name": "outono",
-    "category": "natureza"
+    "text": "OUTONO",
+    "name": "OUTONO",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/PARQUE.png",
-    "text": "parque",
-    "name": "parque",
-    "category": "natureza"
+    "text": "PARQUE",
+    "name": "PARQUE",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/PRAIA.png",
-    "text": "praia",
-    "name": "praia",
-    "category": "natureza"
+    "text": "PRAIA",
+    "name": "PRAIA",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/PRIMAVERA.png",
-    "text": "primavera",
-    "name": "primavera",
-    "category": "natureza"
+    "text": "PRIMAVERA",
+    "name": "PRIMAVERA",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/RIO.png",
-    "text": "rio",
-    "name": "rio",
-    "category": "natureza"
+    "text": "RIO",
+    "name": "RIO",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/VENTO.png",
-    "text": "vento",
-    "name": "vento",
-    "category": "natureza"
+    "text": "VENTO",
+    "name": "VENTO",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/VERÃO.png",
-    "text": "verão",
-    "name": "verão",
-    "category": "natureza"
+    "text": "VERÃO",
+    "name": "VERÃO",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/ZOOLÓGICO.png",
-    "text": "zoológico",
-    "name": "zoológico",
-    "category": "natureza"
+    "text": "ZOOLÓGICO",
+    "name": "ZOOLÓGICO",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Natureza/ÁRVORE.png",
-    "text": "árvore",
-    "name": "árvore",
-    "category": "natureza"
+    "text": "ÁRVORE",
+    "name": "ÁRVORE",
+    "category": "Natureza"
   },
   {
     "image": "/figuras/Necessidades/BANHO.png",
-    "text": "banho",
-    "name": "banho",
-    "category": "necessidades"
+    "text": "BANHO",
+    "name": "BANHO",
+    "category": "Necessidades"
   },
   {
     "image": "/figuras/Necessidades/COCÔ.png",
-    "text": "cocô",
-    "name": "cocô",
-    "category": "necessidades"
+    "text": "COCÔ",
+    "name": "COCÔ",
+    "category": "Necessidades"
   },
   {
     "image": "/figuras/Necessidades/COMER.png",
-    "text": "comer",
-    "name": "comer",
-    "category": "necessidades"
+    "text": "COMER",
+    "name": "COMER",
+    "category": "Necessidades"
   },
   {
     "image": "/figuras/Necessidades/DORMIR.png",
-    "text": "dormir",
-    "name": "dormir",
-    "category": "necessidades"
+    "text": "DORMIR",
+    "name": "DORMIR",
+    "category": "Necessidades"
   },
   {
     "image": "/figuras/Necessidades/ESCOVAR.png",
-    "text": "escovar",
-    "name": "escovar",
-    "category": "necessidades"
+    "text": "ESCOVAR",
+    "name": "ESCOVAR",
+    "category": "Necessidades"
   },
   {
     "image": "/figuras/Necessidades/LAVAR.png",
-    "text": "lavar",
-    "name": "lavar",
-    "category": "necessidades"
+    "text": "LAVAR",
+    "name": "LAVAR",
+    "category": "Necessidades"
   },
   {
     "image": "/figuras/Necessidades/PENTEAR.png",
-    "text": "pentear",
-    "name": "pentear",
-    "category": "necessidades"
+    "text": "PENTEAR",
+    "name": "PENTEAR",
+    "category": "Necessidades"
   },
   {
     "image": "/figuras/Necessidades/XIXI.png",
-    "text": "xixi",
-    "name": "xixi",
-    "category": "necessidades"
+    "text": "XIXI",
+    "name": "XIXI",
+    "category": "Necessidades"
   },
   {
     "image": "/figuras/Números/CINCO.png",
-    "text": "cinco",
-    "name": "cinco",
-    "category": "números"
+    "text": "CINCO",
+    "name": "CINCO",
+    "category": "Números"
   },
   {
     "image": "/figuras/Números/DOIS.png",
-    "text": "dois",
-    "name": "dois",
-    "category": "números"
+    "text": "DOIS",
+    "name": "DOIS",
+    "category": "Números"
   },
   {
     "image": "/figuras/Números/NOVE.png",
-    "text": "nove",
-    "name": "nove",
-    "category": "números"
+    "text": "NOVE",
+    "name": "NOVE",
+    "category": "Números"
   },
   {
     "image": "/figuras/Números/OITO.png",
-    "text": "oito",
-    "name": "oito",
-    "category": "números"
+    "text": "OITO",
+    "name": "OITO",
+    "category": "Números"
   },
   {
     "image": "/figuras/Números/QUATRO.png",
-    "text": "quatro",
-    "name": "quatro",
-    "category": "números"
+    "text": "QUATRO",
+    "name": "QUATRO",
+    "category": "Números"
   },
   {
     "image": "/figuras/Números/SEIS.png",
-    "text": "seis",
-    "name": "seis",
-    "category": "números"
+    "text": "SEIS",
+    "name": "SEIS",
+    "category": "Números"
   },
   {
     "image": "/figuras/Números/SETE.png",
-    "text": "sete",
-    "name": "sete",
-    "category": "números"
+    "text": "SETE",
+    "name": "SETE",
+    "category": "Números"
   },
   {
     "image": "/figuras/Números/TRÊS.png",
-    "text": "três",
-    "name": "três",
-    "category": "números"
+    "text": "TRÊS",
+    "name": "TRÊS",
+    "category": "Números"
   },
   {
     "image": "/figuras/Números/UM.png",
-    "text": "um",
-    "name": "um",
-    "category": "números"
+    "text": "UM",
+    "name": "UM",
+    "category": "Números"
   },
   {
     "image": "/figuras/Números/ZERO.png",
-    "text": "zero",
-    "name": "zero",
-    "category": "números"
+    "text": "ZERO",
+    "name": "ZERO",
+    "category": "Números"
   },
   {
     "image": "/figuras/Perguntas/COMO.png",
-    "text": "como",
-    "name": "como",
-    "category": "perguntas"
+    "text": "COMO",
+    "name": "COMO",
+    "category": "Perguntas"
   },
   {
     "image": "/figuras/Perguntas/ONDE.png",
-    "text": "onde",
-    "name": "onde",
-    "category": "perguntas"
+    "text": "ONDE",
+    "name": "ONDE",
+    "category": "Perguntas"
   },
   {
     "image": "/figuras/Perguntas/PORQUE.png",
-    "text": "porque",
-    "name": "porque",
-    "category": "perguntas"
+    "text": "PORQUE",
+    "name": "PORQUE",
+    "category": "Perguntas"
   },
   {
     "image": "/figuras/Perguntas/QUAL.png",
-    "text": "qual",
-    "name": "qual",
-    "category": "perguntas"
+    "text": "QUAL",
+    "name": "QUAL",
+    "category": "Perguntas"
   },
   {
     "image": "/figuras/Perguntas/QUANDO.png",
-    "text": "quando",
-    "name": "quando",
-    "category": "perguntas"
+    "text": "QUANDO",
+    "name": "QUANDO",
+    "category": "Perguntas"
   },
   {
     "image": "/figuras/Perguntas/QUEM.png",
-    "text": "quem",
-    "name": "quem",
-    "category": "perguntas"
+    "text": "QUEM",
+    "name": "QUEM",
+    "category": "Perguntas"
   },
   {
     "image": "/figuras/Qualidades/BOM.png",
-    "text": "bom",
-    "name": "bom",
-    "category": "qualidades"
+    "text": "BOM",
+    "name": "BOM",
+    "category": "Qualidades"
   },
   {
     "image": "/figuras/Qualidades/DIFÍCIL.png",
-    "text": "difícil",
-    "name": "difícil",
-    "category": "qualidades"
+    "text": "DIFÍCIL",
+    "name": "DIFÍCIL",
+    "category": "Qualidades"
   },
   {
     "image": "/figuras/Qualidades/FRIO.png",
-    "text": "frio",
-    "name": "frio",
-    "category": "qualidades"
+    "text": "FRIO",
+    "name": "FRIO",
+    "category": "Qualidades"
   },
   {
     "image": "/figuras/Qualidades/FÁCIL.png",
-    "text": "fácil",
-    "name": "fácil",
-    "category": "qualidades"
+    "text": "FÁCIL",
+    "name": "FÁCIL",
+    "category": "Qualidades"
   },
   {
     "image": "/figuras/Qualidades/GRANDE.png",
-    "text": "grande",
-    "name": "grande",
-    "category": "qualidades"
+    "text": "GRANDE",
+    "name": "GRANDE",
+    "category": "Qualidades"
   },
   {
     "image": "/figuras/Qualidades/LONGE.png",
-    "text": "longe",
-    "name": "longe",
-    "category": "qualidades"
+    "text": "LONGE",
+    "name": "LONGE",
+    "category": "Qualidades"
   },
   {
     "image": "/figuras/Qualidades/MUITO.png",
-    "text": "muito",
-    "name": "muito",
-    "category": "qualidades"
+    "text": "MUITO",
+    "name": "MUITO",
+    "category": "Qualidades"
   },
   {
     "image": "/figuras/Qualidades/PEQUENO.png",
-    "text": "pequeno",
-    "name": "pequeno",
-    "category": "qualidades"
+    "text": "PEQUENO",
+    "name": "PEQUENO",
+    "category": "Qualidades"
   },
   {
     "image": "/figuras/Qualidades/PERTO.png",
-    "text": "perto",
-    "name": "perto",
-    "category": "qualidades"
+    "text": "PERTO",
+    "name": "PERTO",
+    "category": "Qualidades"
   },
   {
     "image": "/figuras/Qualidades/POUCO.png",
-    "text": "pouco",
-    "name": "pouco",
-    "category": "qualidades"
+    "text": "POUCO",
+    "name": "POUCO",
+    "category": "Qualidades"
   },
   {
     "image": "/figuras/Qualidades/QUENTE.png",
-    "text": "quente",
-    "name": "quente",
-    "category": "qualidades"
+    "text": "QUENTE",
+    "name": "QUENTE",
+    "category": "Qualidades"
   },
   {
     "image": "/figuras/Qualidades/RUIM.png",
-    "text": "ruim",
-    "name": "ruim",
-    "category": "qualidades"
+    "text": "RUIM",
+    "name": "RUIM",
+    "category": "Qualidades"
   },
   {
     "image": "/figuras/Rotinas/BANHEIRO.png",
-    "text": "banheiro",
-    "name": "banheiro",
-    "category": "rotinas"
+    "text": "BANHEIRO",
+    "name": "BANHEIRO",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/BANHO.png",
-    "text": "banho",
-    "name": "banho",
-    "category": "rotinas"
+    "text": "BANHO",
+    "name": "BANHO",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/BASQUETE.png",
-    "text": "basquete",
-    "name": "basquete",
-    "category": "rotinas"
+    "text": "BASQUETE",
+    "name": "BASQUETE",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/BIBLIOTECA.png",
-    "text": "biblioteca",
-    "name": "biblioteca",
-    "category": "rotinas"
+    "text": "BIBLIOTECA",
+    "name": "BIBLIOTECA",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/BICICLETA.png",
-    "text": "bicicleta",
-    "name": "bicicleta",
-    "category": "rotinas"
+    "text": "BICICLETA",
+    "name": "BICICLETA",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/BONECA.png",
-    "text": "boneca",
-    "name": "boneca",
-    "category": "rotinas"
+    "text": "BONECA",
+    "name": "BONECA",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/CARRINHO.png",
-    "text": "carrinho",
-    "name": "carrinho",
-    "category": "rotinas"
+    "text": "CARRINHO",
+    "name": "CARRINHO",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/COCÔ.png",
-    "text": "cocô",
-    "name": "cocô",
-    "category": "rotinas"
+    "text": "COCÔ",
+    "name": "COCÔ",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/COMER.png",
-    "text": "comer",
-    "name": "comer",
-    "category": "rotinas"
+    "text": "COMER",
+    "name": "COMER",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/CONVERSAR.png",
-    "text": "conversar",
-    "name": "conversar",
-    "category": "rotinas"
+    "text": "CONVERSAR",
+    "name": "CONVERSAR",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/DADOS.png",
-    "text": "dados",
-    "name": "dados",
-    "category": "rotinas"
+    "text": "DADOS",
+    "name": "DADOS",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/DESENHO.png",
-    "text": "desenho",
-    "name": "desenho",
-    "category": "rotinas"
+    "text": "DESENHO",
+    "name": "DESENHO",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/DINOSSAURO.png",
-    "text": "dinossauro",
-    "name": "dinossauro",
-    "category": "rotinas"
+    "text": "DINOSSAURO",
+    "name": "DINOSSAURO",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/DORMIR.png",
-    "text": "dormir",
-    "name": "dormir",
-    "category": "rotinas"
+    "text": "DORMIR",
+    "name": "DORMIR",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/ESCOLA.png",
-    "text": "escola",
-    "name": "escola",
-    "category": "rotinas"
+    "text": "ESCOLA",
+    "name": "ESCOLA",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/ESCOVAR.png",
-    "text": "escovar",
-    "name": "escovar",
-    "category": "rotinas"
+    "text": "ESCOVAR",
+    "name": "ESCOVAR",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/FUTEBOL.png",
-    "text": "futebol",
-    "name": "futebol",
-    "category": "rotinas"
+    "text": "FUTEBOL",
+    "name": "FUTEBOL",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/INFORMÁTICA.png",
-    "text": "informática",
-    "name": "informática",
-    "category": "rotinas"
+    "text": "INFORMÁTICA",
+    "name": "INFORMÁTICA",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/LABIRINTO.png",
-    "text": "labirinto",
-    "name": "labirinto",
-    "category": "rotinas"
+    "text": "LABIRINTO",
+    "name": "LABIRINTO",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/LAVAR.png",
-    "text": "lavar",
-    "name": "lavar",
-    "category": "rotinas"
+    "text": "LAVAR",
+    "name": "LAVAR",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/LIVRO.png",
-    "text": "livro",
-    "name": "livro",
-    "category": "rotinas"
+    "text": "LIVRO",
+    "name": "LIVRO",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/MÚSICA.png",
-    "text": "música",
-    "name": "música",
-    "category": "rotinas"
+    "text": "MÚSICA",
+    "name": "MÚSICA",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/PARQUE.png",
-    "text": "parque",
-    "name": "parque",
-    "category": "rotinas"
+    "text": "PARQUE",
+    "name": "PARQUE",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/PENTEAR.png",
-    "text": "pentear",
-    "name": "pentear",
-    "category": "rotinas"
+    "text": "PENTEAR",
+    "name": "PENTEAR",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/PING PONG.png",
-    "text": "ping pong",
-    "name": "ping pong",
-    "category": "rotinas"
+    "text": "PING PONG",
+    "name": "PING PONG",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/PIPA.png",
-    "text": "pipa",
-    "name": "pipa",
-    "category": "rotinas"
+    "text": "PIPA",
+    "name": "PIPA",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/PISCINA.png",
-    "text": "piscina",
-    "name": "piscina",
-    "category": "rotinas"
+    "text": "PISCINA",
+    "name": "PISCINA",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/PÁTIO.png",
-    "text": "pátio",
-    "name": "pátio",
-    "category": "rotinas"
+    "text": "PÁTIO",
+    "name": "PÁTIO",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/QUADRA.png",
-    "text": "quadra",
-    "name": "quadra",
-    "category": "rotinas"
+    "text": "QUADRA",
+    "name": "QUADRA",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/QUEBRA-CABEÇA.png",
-    "text": "quebra-cabeça",
-    "name": "quebra-cabeça",
-    "category": "rotinas"
+    "text": "QUEBRA-CABEÇA",
+    "name": "QUEBRA-CABEÇA",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/REFEITÓRIO.png",
-    "text": "refeitório",
-    "name": "refeitório",
-    "category": "rotinas"
+    "text": "REFEITÓRIO",
+    "name": "REFEITÓRIO",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/ROBÔ.png",
-    "text": "robô",
-    "name": "robô",
-    "category": "rotinas"
+    "text": "ROBÔ",
+    "name": "ROBÔ",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/SALA DE AULA.png",
-    "text": "sala de aula",
-    "name": "sala de aula",
-    "category": "rotinas"
+    "text": "SALA DE AULA",
+    "name": "SALA DE AULA",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/TABLET.png",
-    "text": "tablet",
-    "name": "tablet",
-    "category": "rotinas"
+    "text": "TABLET",
+    "name": "TABLET",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/TELEVISÃO.png",
-    "text": "televisão",
-    "name": "televisão",
-    "category": "rotinas"
+    "text": "TELEVISÃO",
+    "name": "TELEVISÃO",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/VOLEI.png",
-    "text": "volei",
-    "name": "volei",
-    "category": "rotinas"
+    "text": "VOLEI",
+    "name": "VOLEI",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/VÍDEO GAME.png",
-    "text": "vídeo game",
-    "name": "vídeo game",
-    "category": "rotinas"
+    "text": "VÍDEO GAME",
+    "name": "VÍDEO GAME",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Rotinas/XIXI.png",
-    "text": "xixi",
-    "name": "xixi",
-    "category": "rotinas"
+    "text": "XIXI",
+    "name": "XIXI",
+    "category": "Rotinas"
   },
   {
     "image": "/figuras/Roupas/BERMUDA.png",
-    "text": "bermuda",
-    "name": "bermuda",
-    "category": "roupas"
+    "text": "BERMUDA",
+    "name": "BERMUDA",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/BLUSA DE FRIO.png",
-    "text": "blusa de frio",
-    "name": "blusa de frio",
-    "category": "roupas"
+    "text": "BLUSA DE FRIO",
+    "name": "BLUSA DE FRIO",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/BLUSA.png",
-    "text": "blusa",
-    "name": "blusa",
-    "category": "roupas"
+    "text": "BLUSA",
+    "name": "BLUSA",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/BONÉ.png",
-    "text": "boné",
-    "name": "boné",
-    "category": "roupas"
+    "text": "BONÉ",
+    "name": "BONÉ",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/CALCINHA.png",
-    "text": "calcinha",
-    "name": "calcinha",
-    "category": "roupas"
+    "text": "CALCINHA",
+    "name": "CALCINHA",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/CALÇA.png",
-    "text": "calça",
-    "name": "calça",
-    "category": "roupas"
+    "text": "CALÇA",
+    "name": "CALÇA",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/CAMISETA.png",
-    "text": "camiseta",
-    "name": "camiseta",
-    "category": "roupas"
+    "text": "CAMISETA",
+    "name": "CAMISETA",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/CASACO.png",
-    "text": "casaco",
-    "name": "casaco",
-    "category": "roupas"
+    "text": "CASACO",
+    "name": "CASACO",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/CHINELO.png",
-    "text": "chinelo",
-    "name": "chinelo",
-    "category": "roupas"
+    "text": "CHINELO",
+    "name": "CHINELO",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/CUECA.png",
-    "text": "cueca",
-    "name": "cueca",
-    "category": "roupas"
+    "text": "CUECA",
+    "name": "CUECA",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/GRAVATA.png",
-    "text": "gravata",
-    "name": "gravata",
-    "category": "roupas"
+    "text": "GRAVATA",
+    "name": "GRAVATA",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/LUVAS.png",
-    "text": "luvas",
-    "name": "luvas",
-    "category": "roupas"
+    "text": "LUVAS",
+    "name": "LUVAS",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/MEIA.png",
-    "text": "meia",
-    "name": "meia",
-    "category": "roupas"
+    "text": "MEIA",
+    "name": "MEIA",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/PANTUFAS.png",
-    "text": "pantufas",
-    "name": "pantufas",
-    "category": "roupas"
+    "text": "PANTUFAS",
+    "name": "PANTUFAS",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/RELÓGIO.png",
-    "text": "relógio",
-    "name": "relógio",
-    "category": "roupas"
+    "text": "RELÓGIO",
+    "name": "RELÓGIO",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/SAIA.png",
-    "text": "saia",
-    "name": "saia",
-    "category": "roupas"
+    "text": "SAIA",
+    "name": "SAIA",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/SALTO.png",
-    "text": "salto",
-    "name": "salto",
-    "category": "roupas"
+    "text": "SALTO",
+    "name": "SALTO",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/SAPATILHA.png",
-    "text": "sapatilha",
-    "name": "sapatilha",
-    "category": "roupas"
+    "text": "SAPATILHA",
+    "name": "SAPATILHA",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/TENIS.png",
-    "text": "tenis",
-    "name": "tenis",
-    "category": "roupas"
+    "text": "TENIS",
+    "name": "TENIS",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/TOUCA.png",
-    "text": "touca",
-    "name": "touca",
-    "category": "roupas"
+    "text": "TOUCA",
+    "name": "TOUCA",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/VESTIDO.png",
-    "text": "vestido",
-    "name": "vestido",
-    "category": "roupas"
+    "text": "VESTIDO",
+    "name": "VESTIDO",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Roupas/ÓCULOS.png",
-    "text": "óculos",
-    "name": "óculos",
-    "category": "roupas"
+    "text": "ÓCULOS",
+    "name": "ÓCULOS",
+    "category": "Roupas"
   },
   {
     "image": "/figuras/Sentimentos/BRAVO.png",
-    "text": "bravo",
-    "name": "bravo",
-    "category": "sentimentos"
+    "text": "BRAVO",
+    "name": "BRAVO",
+    "category": "Sentimentos"
   },
   {
     "image": "/figuras/Sentimentos/CANSADO.png",
-    "text": "cansado",
-    "name": "cansado",
-    "category": "sentimentos"
+    "text": "CANSADO",
+    "name": "CANSADO",
+    "category": "Sentimentos"
   },
   {
     "image": "/figuras/Sentimentos/FELIZ.png",
-    "text": "feliz",
-    "name": "feliz",
-    "category": "sentimentos"
+    "text": "FELIZ",
+    "name": "FELIZ",
+    "category": "Sentimentos"
   },
   {
     "image": "/figuras/Sentimentos/MEDO.png",
-    "text": "medo",
-    "name": "medo",
-    "category": "sentimentos"
+    "text": "MEDO",
+    "name": "MEDO",
+    "category": "Sentimentos"
   },
   {
     "image": "/figuras/Sentimentos/SONO.png",
-    "text": "sono",
-    "name": "sono",
-    "category": "sentimentos"
+    "text": "SONO",
+    "name": "SONO",
+    "category": "Sentimentos"
   },
   {
     "image": "/figuras/Sentimentos/TRISTE.png",
-    "text": "triste",
-    "name": "triste",
-    "category": "sentimentos"
+    "text": "TRISTE",
+    "name": "TRISTE",
+    "category": "Sentimentos"
   },
   {
     "image": "/figuras/Tempo/AMANHÃ.png",
-    "text": "amanhã",
-    "name": "amanhã",
-    "category": "tempo"
+    "text": "AMANHÃ",
+    "name": "AMANHÃ",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/ANIVERSÁRIO.png",
-    "text": "aniversário",
-    "name": "aniversário",
-    "category": "tempo"
+    "text": "ANIVERSÁRIO",
+    "name": "ANIVERSÁRIO",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/ANO NOVO.png",
-    "text": "ano novo",
-    "name": "ano novo",
-    "category": "tempo"
+    "text": "ANO NOVO",
+    "name": "ANO NOVO",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/CARNAVAL.png",
-    "text": "carnaval",
-    "name": "carnaval",
-    "category": "tempo"
+    "text": "CARNAVAL",
+    "name": "CARNAVAL",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/CASAMENTO.png",
-    "text": "casamento",
-    "name": "casamento",
-    "category": "tempo"
+    "text": "CASAMENTO",
+    "name": "CASAMENTO",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/DIA.png",
-    "text": "dia",
-    "name": "dia",
-    "category": "tempo"
+    "text": "DIA",
+    "name": "DIA",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/FESTA JUNINA.png",
-    "text": "festa junina",
-    "name": "festa junina",
-    "category": "tempo"
+    "text": "FESTA JUNINA",
+    "name": "FESTA JUNINA",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/HOJE.png",
-    "text": "hoje",
-    "name": "hoje",
-    "category": "tempo"
+    "text": "HOJE",
+    "name": "HOJE",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/MÊS.png",
-    "text": "mês",
-    "name": "mês",
-    "category": "tempo"
+    "text": "MÊS",
+    "name": "MÊS",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/NATAL.png",
-    "text": "natal",
-    "name": "natal",
-    "category": "tempo"
+    "text": "NATAL",
+    "name": "NATAL",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/NOITE.png",
-    "text": "noite",
-    "name": "noite",
-    "category": "tempo"
+    "text": "NOITE",
+    "name": "NOITE",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/ONTEM.png",
-    "text": "ontem",
-    "name": "ontem",
-    "category": "tempo"
+    "text": "ONTEM",
+    "name": "ONTEM",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/PÁSCOA.png",
-    "text": "páscoa",
-    "name": "páscoa",
-    "category": "tempo"
+    "text": "PÁSCOA",
+    "name": "PÁSCOA",
+    "category": "Tempo"
   },
   {
     "image": "/figuras/Tempo/SEMANA.png",
-    "text": "semana",
-    "name": "semana",
-    "category": "tempo"
+    "text": "SEMANA",
+    "name": "SEMANA",
+    "category": "Tempo"
   }
 ]

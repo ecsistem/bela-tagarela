@@ -9,9 +9,9 @@ fs.readdirSync(inputDirectory).forEach(category => {
     const fileName = path.parse(file).name
     results.push({
       image: `/figuras/${category}/${file}`,
-      text: fileName.toLowerCase(),
-      name: fileName.toLowerCase(),
-      category: category.toLowerCase()
+      text: fileName,
+      name: fileName,
+      category: category
     });
   });
 });
