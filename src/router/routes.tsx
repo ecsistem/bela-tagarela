@@ -7,7 +7,8 @@ import  {Prancha}  from '../pages/Prancha'
 export function MainRoutes(){
     return(
         <Routes>
-            <Route path="/" element={<Home/>}/>
+            {/* <Route path="/" element={<Home/>}/> */}
+            <Route path="/" element={<Prancha/>}/>
             <Route path="/vocalizador" element={<Vocalizador/>}/>
             <Route path="/prancha" element={<Prancha/>}/>
         </Routes>
