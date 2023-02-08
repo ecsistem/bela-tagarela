@@ -2,7 +2,7 @@ import { Header } from '../../components/Header'
 import { Footer } from '../../components/Footer'
 import { Additional } from '../../components/Additional'
 import { Hero } from '../../components/Hero'
-import './index.css'
+// import './index.css'
 
 export function Home() {
   return (
