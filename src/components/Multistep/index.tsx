@@ -7,9 +7,6 @@ export function MultiStep() {
   const [currentStep, setCurrentStep] = useState(1);
   const [WidthLayout, setWidthLayout] = useState(3);
   const [HeightLayout, setHeightLayout] = useState(3);
-  
-
-
   const [selectedText, setSelectedText] = useState<string>("");
   const [selectedTexArray, setSelectedTexArray] = useState<string[]>([]);
   const [selectedImages, setSelectedImages] = useState<string[]>([]);
@@ -117,9 +114,9 @@ export function MultiStep() {
         <button className="text-green-tertiary w-16 h-16 rounded-full border-4  border-green-tertiary" onClick={() => setCurrentStep(4)}>4</button>  
         </div>
         </div>}
-        
-       
       </div>
+
+      
       <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 1 ? '' : 'hidden'}`}>
       <p className="text-gray-600 my-6">Selecione um layout de acordo com o tamanho da prancha que deseja</p>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 [&>:not(:hover)]:scale-90 [&>:not(:hover)]:bg-card-primary">

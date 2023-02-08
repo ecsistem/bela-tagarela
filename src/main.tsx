@@ -1,16 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { App } from './pages/Home'
-import  {SpeechSynthesis}  from './pages/Vocalizador'
-import  {Prancha}  from './pages/Prancha'
-import  {FormPDF}  from './pages/CreatePDF/index'
-import './assets/css/global.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router } from "react-router-dom";
+import { MainRoutes } from "./router/routes";
+import "./assets/css/global.css";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    {/* <App /> */}
-    {/* <SpeechSynthesis /> */}
-    <FormPDF />
-    {/* <Prancha/> */}
+    <Router>
+      <MainRoutes />
+    </Router>
   </React.StrictMode>
-)
+);

@@ -4,7 +4,7 @@ import { Additional } from '../../components/Additional'
 import { Hero } from '../../components/Hero'
 import './index.css'
 
-export function App() {
+export function Home() {
   return (
     <div className="App">
       <Header/>

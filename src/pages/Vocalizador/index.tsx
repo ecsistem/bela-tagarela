@@ -2,7 +2,7 @@ import React, { useCallback, useState } from "react";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import imageCards from "../../data/imageCards.json";
-export function SpeechSynthesis(){
+export function Vocalizador(){
     const [selectedText, setSelectedText] = useState<string>("");
     const [selectedTexArray, setSelectedTexArray] = useState<string[]>([]);
     const [selectedImages, setSelectedImages] = useState<string[]>([]);
