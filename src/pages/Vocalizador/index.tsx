@@ -77,7 +77,7 @@ export function Vocalizador(){
                     onClick={() => handleCategorySelect("all")}
                     className="flex items-center p-2 text-base font-normal text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-orange-primary"
                   >
-                    <span className="mx-auto">todos</span>
+                    <span className="mx-auto">Todos</span>
                   </a>
                 </li>
                 {imageCards
