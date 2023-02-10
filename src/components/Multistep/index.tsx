@@ -178,17 +178,15 @@ export function MultiStep() {
         </div>
         <div className="grid grid-cols-4 md:grid-cols-8 gap-4 ">
             {
-            selectedImages.map((image, index) => {
-              return (
-                <div
-                key={index}
-                  className="max-w-[5rem] rounded-lg bg-white shadow-lg m-4"
-                  >
-                  <img className="w-full" src={image} alt="" />
-                  <p className="text-center">{selectedTexArray[index]}</p>
-                </div>
-              );
-            })}
+            selectedImages.map((image, index) => (
+              <div
+              key={index * selectedImages.length}
+              className="max-w-[6rem] rounded-lg bg-white text-black shadow-lg overflow-hidden"
+              >
+                <img className="w-full" src={image} alt="" />
+                <p className="text-center w-full text-sm">{selectedTexArray[index]}</p>
+              </div>
+            ))}
           </div>
           <div className="flex">
           <aside className="w-1/4">
@@ -216,7 +214,7 @@ export function MultiStep() {
                         onClick={() => handleCategorySelect(category.category)}
                         className="flex items-center p-2 text-base font-normal text-white rounded-lg  hover:bg-orange-primary"
                       >
-                        <span className="mx-auto">{category.category}</span>
+                        <span className="px-auto text-center w-full">{category.category}</span>
                       </a>
                     </li>
                   ))}
@@ -242,7 +240,7 @@ export function MultiStep() {
                     onClick={() => handleImageDrop(image.image, image.text)}
                   >
                     <img className="w-full" src={image.image} alt={image.text} />
-                    <p className="py-4 font-bold text-xl mb-2 text-center">
+                    <p className="py-4 font-bold w-full text-sm mb-2 text-center">
                       {image.name}
                     </p>
                   </div>
@@ -334,10 +332,10 @@ export function MultiStep() {
         selectedImages.map((image, index) => (
           <div
           key={index * selectedImages.length}
-          className="max-w-[5rem] rounded-lg bg-white text-black shadow-lg"
+          className="max-w-[6rem] rounded-lg bg-white text-black shadow-lg overflow-hidden"
           >
             <img className="w-full" src={image} alt="" />
-            <p className="text-center">{selectedTexArray[index]}</p>
+            <p className="text-center w-full text-sm">{selectedTexArray[index]}</p>
           </div>
         ))
       }
