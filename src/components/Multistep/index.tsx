@@ -11,8 +11,8 @@ export function MultiStep() {
   const [selectedTexArray, setSelectedTexArray] = useState<string[]>([]);
   const [selectedImages, setSelectedImages] = useState<string[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
-
-
+  
+  
   const handleCategorySelect = useCallback((category: string) => {
     setSelectedCategory(category);
   }, []);
@@ -26,7 +26,7 @@ export function MultiStep() {
       alert(`Limeite máximo de ${calculate} atigido`);
     }
   };
-
+  
   const Limpar = () => {
     setSelectedImages([]);
     setSelectedText("");
@@ -42,16 +42,22 @@ export function MultiStep() {
 
   const handleNext = () => {
     if (currentStep < 4) {
-    setCurrentStep(currentStep + 1);
+      if (selectedText == "" && currentStep == 2) {
+          alert("Selecione uma imagem para continuar")
+        }else{
+          setCurrentStep(currentStep + 1);
+        }
+  }
+    else{
+      setCurrentStep(currentStep + 1);
     }
   };
-
+  
   const handleBack = () => {
     if (currentStep > 1) {
     setCurrentStep(currentStep - 1);
     }
   };
-  const calculate = WidthLayout*HeightLayout;
 
   const [formData, setFormData] = useState({
     name: '',
@@ -65,10 +71,11 @@ export function MultiStep() {
       [event.target.name]: event.target.value,
     });
   };
-
-
+  
+  const calculate = WidthLayout*HeightLayout;
+  
   // console.log(currentStep);
-
+  
   return (
     <div>
       <div className='flex justify-center gap-1 md:gap-8 items-center my-8 flex-nowrap'>
@@ -319,7 +326,7 @@ export function MultiStep() {
   </div>
         <div className='flex flex-row gap-4'>
       <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
-      <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Salvar</button>
+      <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' >Salvar</button>
         </div>
       </div>
     </div>
