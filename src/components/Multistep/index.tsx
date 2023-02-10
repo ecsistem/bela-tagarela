@@ -53,6 +53,19 @@ export function MultiStep() {
   };
   const calculate = WidthLayout*HeightLayout;
 
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setFormData({
+      ...formData,
+      [event.target.name]: event.target.value,
+    });
+  };
+
 
   // console.log(currentStep);
 
@@ -225,12 +238,70 @@ export function MultiStep() {
         {/* Próximo passo */}
       </div>
       <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 3 ? '' : 'hidden'}`}>
-      <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
       <div className='flex flex-row gap-4'>
       <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
       <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
         </div>
-      <div className="rounded bg-green-primary content-center items-center justify-center">
+        <form className="bg-white p-6 rounded-lg shadow-md w-3/4 md:w-1/2 my-28 max-w-5xl">
+  <div className="mb-4">
+    <label className="block font-bold mb-2 text-gray-700" htmlFor="boardName">
+      Nome da Prancha
+    </label>
+    <input
+      className="border border-gray-400 p-2 w-full"
+      id="boardName"
+    />
+  </div>
+  <div className="mb-4">
+    <label className="block font-bold mb-2 text-gray-700" htmlFor="userName">
+      Usuário
+    </label>
+    <input
+      className="border border-gray-400 p-2 w-full"
+      id="userName"
+      type="text"
+    />
+  </div>
+  <div className="mb-4">
+    <label className="block font-bold mb-2 text-gray-700" htmlFor="theme">
+      Tema
+    </label>
+    <input
+      className="border border-gray-400 p-2 w-full"
+      id="theme"
+      type="text"
+    />
+  </div>
+  <div className="mb-4">
+    <label className="block font-bold mb-2 text-gray-700" htmlFor="backgroundColor">
+      Cor do Fundo
+    </label>
+    <input
+      className="border border-gray-400 h-12 w-full"
+      id="backgroundColor"
+      type="color"
+      value="#FFFFFF"
+    />
+  </div>
+  <div className="mb-4 flex items-center">
+  <label className="inline-flex items-center space-x-4 cursor-pointer text-gray-100">
+	<span className='text-gray-700'>Colorido</span>
+	<span className="relative">
+		<input id="Toggle2" type="checkbox" className="hidden peer" />
+		<div className="w-10 h-4 rounded-full shadow bg-gray-600 peer-checked:bg-green-hover"></div>
+		<div className="absolute left-0 w-6 h-6 rounded-full shadow -inset-y-1 peer-checked:right-0 peer-checked:left-auto bg-orange-primary"></div>
+	</span>
+	<span className='text-gray-700'>Preto e Branco</span>
+</label>
+  </div>
+</form>      
+  
+        {/* Passo posterior ao próximo */}
+      </div>
+      <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 4 ? '' : 'hidden'}`}>
+      <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
+        {/* Passo posterior ao próximo */}
+        <div className="rounded bg-green-primary content-center items-center justify-center">
       <div className={`grid grid-cols-${WidthLayout.toString()} gap-4 border-b-4 border-cyan-50`}>
       {
         selectedImages.map((image, index) => (
@@ -246,13 +317,6 @@ export function MultiStep() {
       
     </div>
   </div>
- 
-      
-        {/* Passo posterior ao próximo */}
-      </div>
-      <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 4 ? '' : 'hidden'}`}>
-      <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
-        {/* Passo posterior ao próximo */}
         <div className='flex flex-row gap-4'>
       <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
       <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Salvar</button>
