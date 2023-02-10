@@ -3,6 +3,7 @@ import { ImArrowRight2 } from "react-icons/im";
 import LayoutCard from "../../data/layoutCard.json";
 import imageCards from "../../data/imageCards.json";
 
+
 export function MultiStep() {
   const [currentStep, setCurrentStep] = useState(1);
   const [WidthLayout, setWidthLayout] = useState(3);
@@ -11,6 +12,28 @@ export function MultiStep() {
   const [selectedTexArray, setSelectedTexArray] = useState<string[]>([]);
   const [selectedImages, setSelectedImages] = useState<string[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const [formData, setFormData] = useState({
+    boardName: '',
+    userName: '',
+    theme: '',
+    backgroundColor: '#FFFFFF',
+    isColorful: false
+  });
+  const colorClass = `bg-[${formData.backgroundColor}]`;
+
+  const handleInputChange = (event: { target: { id: any; value: any; }; }) => {
+    setFormData({
+      ...formData,
+      [event.target.id]: event.target.value
+    });
+  };
+
+  const handleCheckboxChange = (event: { target: { id: any; checked: any; }; }) => {
+    setFormData({
+      ...formData,
+      [event.target.id]: event.target.checked
+    });
+  };
   
   
   const handleCategorySelect = useCallback((category: string) => {
@@ -59,19 +82,7 @@ export function MultiStep() {
     }
   };
 
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-  
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData({
-      ...formData,
-      [event.target.name]: event.target.value,
-    });
-  };
-  
+  console.log(formData.isColorful)
   const calculate = WidthLayout*HeightLayout;
   
   // console.log(currentStep);
@@ -250,51 +261,60 @@ export function MultiStep() {
       <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
         </div>
         <form className="bg-white p-6 rounded-lg shadow-md w-3/4 md:w-1/2 my-28 max-w-5xl">
-  <div className="mb-4">
-    <label className="block font-bold mb-2 text-gray-700" htmlFor="boardName">
-      Nome da Prancha
-    </label>
-    <input
-      className="border border-gray-400 p-2 w-full"
-      id="boardName"
-    />
-  </div>
-  <div className="mb-4">
-    <label className="block font-bold mb-2 text-gray-700" htmlFor="userName">
-      Usuário
-    </label>
-    <input
-      className="border border-gray-400 p-2 w-full"
-      id="userName"
-      type="text"
-    />
-  </div>
-  <div className="mb-4">
-    <label className="block font-bold mb-2 text-gray-700" htmlFor="theme">
-      Tema
-    </label>
-    <input
-      className="border border-gray-400 p-2 w-full"
-      id="theme"
-      type="text"
-    />
-  </div>
-  <div className="mb-4">
-    <label className="block font-bold mb-2 text-gray-700" htmlFor="backgroundColor">
-      Cor do Fundo
-    </label>
-    <input
-      className="border border-gray-400 h-12 w-full"
-      id="backgroundColor"
-      type="color"
-      value="#FFFFFF"
-    />
-  </div>
+      <div className="mb-4">
+        <label className="block font-bold mb-2 text-gray-700" htmlFor="boardName">
+          Nome da Prancha
+        </label>
+        <input
+          className="border border-gray-400 p-2 w-full"
+          id="boardName"
+          value={formData.boardName}
+          onChange={handleInputChange}
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block font-bold mb-2 text-gray-700" htmlFor="userName">
+          Usuário
+        </label>
+        <input
+          className="border border-gray-400 p-2 w-full"
+          id="userName"
+          type="text"
+          value={formData.userName}
+          onChange={handleInputChange}
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block font-bold mb-2 text-gray-700" htmlFor="theme">
+          Tema
+        </label>
+        <input
+          className="border border-gray-400 p-2 w-full"
+          id="theme"
+          type="text"
+          value={formData.theme}
+          onChange={handleInputChange}
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block font-bold mb-2 text-gray-700" htmlFor="backgroundColor">
+          Cor do Fundo
+        </label>
+        <input
+          className="border border-gray-400 h-12 w-full"
+          id="backgroundColor"
+          type="color"
+          value={formData.backgroundColor}
+          onChange={handleInputChange}
+        />
+      </div>
   <div className="mb-4 flex items-center">
   <label className="inline-flex items-center space-x-4 cursor-pointer text-gray-100">
 	<span className='text-gray-700'>Colorido</span>
 	<span className="relative">
-		<input id="Toggle2" type="checkbox" className="hidden peer" />
+		<input  type="checkbox" className="hidden peer"  id="isColorful"
+            checked={formData.isColorful}
+            onChange={handleCheckboxChange}/>
 		<div className="w-10 h-4 rounded-full shadow bg-gray-600 peer-checked:bg-green-hover"></div>
 		<div className="absolute left-0 w-6 h-6 rounded-full shadow -inset-y-1 peer-checked:right-0 peer-checked:left-auto bg-orange-primary"></div>
 	</span>
@@ -308,13 +328,13 @@ export function MultiStep() {
       <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 4 ? '' : 'hidden'}`}>
       <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
         {/* Passo posterior ao próximo */}
-        <div className="rounded bg-green-primary content-center items-center justify-center">
-      <div className={`grid grid-cols-${WidthLayout.toString()} gap-4 border-b-4 border-cyan-50`}>
+        <div className={`rounded text-white text-center items-center justify-center`} style={{ backgroundColor: formData.backgroundColor}}>
+      <div className={`grid gap-4  m-4`} style={{ gridTemplateColumns: `repeat(${WidthLayout}, 1fr)` }}>
       {
         selectedImages.map((image, index) => (
           <div
           key={index * selectedImages.length}
-          className="max-w-[5rem] rounded-lg bg-white shadow-lg m-4"
+          className="max-w-[5rem] rounded-lg bg-white text-black shadow-lg"
           >
             <img className="w-full" src={image} alt="" />
             <p className="text-center">{selectedTexArray[index]}</p>
