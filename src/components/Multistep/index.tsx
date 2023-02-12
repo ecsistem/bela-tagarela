@@ -194,7 +194,7 @@ export function MultiStep() {
               className="max-w-[6rem] rounded-lg bg-white text-black shadow-lg overflow-hidden"
               >
                 <img className="w-full" src={image} alt="" />
-                <p className="text-center w-full text-sm">{selectedTexArray[index]}</p>
+                <p className="text-center w-full text-sm mb-2">{selectedTexArray[index]}</p>
               </div>
             ))}
           </div>
@@ -345,7 +345,7 @@ export function MultiStep() {
           className="max-w-[6rem] rounded-lg bg-white text-black shadow-lg overflow-hidden"
           >
             <img className="w-full" src={image} alt="" />
-            <p className="text-center w-full text-sm">{selectedTexArray[index]}</p>
+            <p className="text-center w-full text-sm mb-2">{selectedTexArray[index]}</p>
           </div>
         ))
       }

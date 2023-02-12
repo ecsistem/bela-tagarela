@@ -26,8 +26,9 @@ export async function CreatePDF(formData: { boardName?: string; userName?: strin
       // Título do relatório
       pdf.setFontSize(22);
       pdf.setFont("helvetica", "bold");
-      pdf.setTextColor(100, 100, 100);
+      pdf.setTextColor(250, 166, 18);
       pdf.text("Bela Tagarela", 80, 10);
+      pdf.setTextColor(100, 100, 100);
       pdf.setFontSize(12);
       pdf.text(`Nome da prancha: ${formData.boardName}`, 80, 15);
       pdf.text(`Tema: ${formData.theme}`, 80, 25);
@@ -45,6 +46,7 @@ const imageX = center - centerOfImage;
 
 pdf.addImage(imgData, 'PNG', imageX, currentHeight, imgWidth, sliceHeight);
     //   pdf.addImage(imgData, 'PNG', 5, currentHeight, imgWidth, sliceHeight);
+    pdf.text("Bela Tagrela", pdf.internal.pageSize.width / 2, pdf.internal.pageSize.height - 10);
       pdf.save('prancha.pdf');
     }
 }
