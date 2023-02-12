@@ -1,7 +1,9 @@
 import React, { useCallback, useState } from 'react';
 import { ImArrowRight2 } from "react-icons/im";
+import { CreatePDF } from '../../function/CreatePDF';
 import LayoutCard from "../../data/layoutCard.json";
 import imageCards from "../../data/imageCards.json";
+
 
 
 export function MultiStep() {
@@ -81,6 +83,14 @@ export function MultiStep() {
     setCurrentStep(currentStep - 1);
     }
   };
+  function handleSubmit() {
+    CreatePDF({
+      UserName: formData.userName,
+      boardName: formData.boardName,
+      theme: formData.theme
+      });
+    console.log('You clicked submit.');
+  }
 
   console.log(formData.isColorful)
   const calculate = WidthLayout*HeightLayout;
@@ -326,7 +336,7 @@ export function MultiStep() {
       <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 4 ? '' : 'hidden'}`}>
       <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
         {/* Passo posterior ao próximo */}
-        <div className={`rounded text-white text-center items-center justify-center`} style={{ backgroundColor: formData.backgroundColor}}>
+        <div id='App' className={`rounded text-white text-center items-center justify-center`} style={{ backgroundColor: formData.backgroundColor}}>
       <div className={`grid gap-4  m-4`} style={{ gridTemplateColumns: `repeat(${WidthLayout}, 1fr)` }}>
       {
         selectedImages.map((image, index) => (
@@ -344,7 +354,7 @@ export function MultiStep() {
   </div>
         <div className='flex flex-row gap-4'>
       <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
-      <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' >Salvar</button>
+      <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleSubmit} >Salvar</button>
         </div>
       </div>
     </div>
