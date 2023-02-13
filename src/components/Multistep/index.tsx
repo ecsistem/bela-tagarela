@@ -182,6 +182,7 @@ export function MultiStep() {
         <div className='flex flex-row gap-4'>
       <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
       <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
+      <button className='bg-red-500 text-white py-2 px-4 rounded-lg my-8' onClick={Limpar}>Limpar</button>
         </div>
         <div className="grid grid-cols-4 md:grid-cols-8 gap-4 ">
             {
