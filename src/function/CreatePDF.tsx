@@ -19,9 +19,8 @@ export async function CreatePDF(formData: { userName?: string; theme?: string; b
     const pdf = new jsPDF('p', 'mm', 'a4');
     pdf.setProperties({
       title: 'Bela Tagarela',
-      subject: 'Exemplo de relatório PDF gerado com o jsPDF',
+      subject: 'Prancha ger ada pela bela tagarela',
       author: 'Bela Tagarela',
-      keywords: 'pdf, relatório, exemplo, jsPDF',
     });
     
     // Título do relatório
