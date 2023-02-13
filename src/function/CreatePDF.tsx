@@ -3,7 +3,7 @@ import html2canvas from 'html2canvas';
 
 export async function CreatePDF(formData: { userName?: string; theme?: string; backgroundColor?: string; isColorful?: boolean; UserName?: any; }){
   console.log(formData)
-  document.getElementById("viewportMeta")?.setAttribute("content", "width=800");
+  // document.getElementById("viewportMeta")?.setAttribute("content", "width=800");
   const input: HTMLElement | null = document.getElementById("App");
   if (input) {
     const canvas = await html2canvas(input, {
