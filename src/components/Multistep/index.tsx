@@ -184,18 +184,20 @@ export function MultiStep() {
       <button className='bg-red-500 text-white py-2 px-4 rounded-lg my-8' onClick={Limpar}>Limpar</button>
       <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
         </div>
-        <div className="grid grid-cols-4 md:grid-cols-8 gap-4 ">
-            {
-            selectedImages.map((image, index) => (
-              <div
-              key={index * selectedImages.length}
-              className="max-w-[6rem] rounded-lg bg-white text-black shadow-lg overflow-hidden"
-              >
-                <img className="w-full" src={image} alt="" />
-                <p className="text-center w-full text-sm mb-2">{selectedTexArray[index]}</p>
-              </div>
-            ))}
+        <div className={`grid gap-4  m-4`} style={{ gridTemplateColumns: `repeat(${WidthLayout}, 1fr)` }}>
+      {
+        selectedImages.map((image, index) => (
+          <div
+          key={index * selectedImages.length}
+          className="max-w-[6rem] rounded-lg bg-white text-black shadow-lg overflow-hidden"
+          >
+            <img className="w-full" src={image} alt="" />
+            <p className="text-center w-full text-sm mb-2">{selectedTexArray[index]}</p>
           </div>
+        ))
+      }
+      
+    </div>
           <div className="flex">
           <aside className="w-1/4">
             <div className="overflow-y-auto rounded bg-green-primary h-full">
