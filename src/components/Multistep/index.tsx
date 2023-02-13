@@ -1,5 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import { ImArrowRight2 } from "react-icons/im";
+import { BackToTopButton } from './../BackToTopButton'
 import { CreatePDF } from '../../function/CreatePDF';
 import LayoutCard from "../../data/layoutCard.json";
 import imageCards from "../../data/imageCards.json";
@@ -15,13 +16,11 @@ export function MultiStep() {
   const [selectedImages, setSelectedImages] = useState<string[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [formData, setFormData] = useState({
-    boardName: '',
     userName: '',
     theme: '',
     backgroundColor: '#FFFFFF',
-    isColorful: false
   });
-  const colorClass = `bg-[${formData.backgroundColor}]`;
+
 
   const handleInputChange = (event: { target: { id: any; value: any; }; }) => {
     setFormData({
@@ -86,13 +85,11 @@ export function MultiStep() {
   function handleSubmit() {
     CreatePDF({
       UserName: formData.userName,
-      boardName: formData.boardName,
       theme: formData.theme
       });
     console.log('You clicked submit.');
   }
 
-  console.log(formData.isColorful)
   const calculate = WidthLayout*HeightLayout;
   
   // console.log(currentStep);
@@ -200,13 +197,13 @@ export function MultiStep() {
           </div>
           <div className="flex">
           <aside className="w-1/4">
-            <div className="px-3 py-4 overflow-y-auto rounded bg-green-primary h-[80vh]">
+            <div className="overflow-y-auto rounded bg-green-primary h-full">
               <h2 className="text-orange-secundary text-center">Selecione uma categorias👇🏽</h2>
               <ul className="space-y-2">
                 <li>
                   <a
                     onClick={() => handleCategorySelect("all")}
-                    className="flex items-center p-2 text-base font-normal text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-orange-primary"
+                    className="flex items-center p-2 text-base font-normal text-white dark:text-white hover:bg-gray-100 dark:hover:bg-orange-primary"
                   >
                     <span className="mx-auto">Todos</span>
                   </a>
@@ -222,7 +219,7 @@ export function MultiStep() {
                     <li key={category.category}>
                       <a
                         onClick={() => handleCategorySelect(category.category)}
-                        className="flex items-center p-2 text-base font-normal text-white rounded-lg  hover:bg-orange-primary"
+                        className="flex items-center p-2 text-base font-normal text-white  hover:bg-orange-primary"
                       >
                         <span className="px-auto text-center w-full">{category.category}</span>
                       </a>
@@ -256,6 +253,7 @@ export function MultiStep() {
                   </div>
                 ))}
             </div>
+          <BackToTopButton/>
           </div>
           </div>
 
@@ -269,17 +267,6 @@ export function MultiStep() {
       <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
         </div>
         <form className="bg-white p-6 rounded-lg shadow-md w-3/4 md:w-1/2 my-28 max-w-5xl">
-      <div className="mb-4">
-        <label className="block font-bold mb-2 text-gray-700" htmlFor="boardName">
-          Nome da Prancha
-        </label>
-        <input
-          className="border border-gray-400 p-2 w-full"
-          id="boardName"
-          value={formData.boardName}
-          onChange={handleInputChange}
-        />
-      </div>
       <div className="mb-4">
         <label className="block font-bold mb-2 text-gray-700" htmlFor="userName">
           Usuário
@@ -316,19 +303,6 @@ export function MultiStep() {
           onChange={handleInputChange}
         />
       </div>
-  <div className="mb-4 flex items-center">
-  <label className="inline-flex items-center space-x-4 cursor-pointer text-gray-100">
-	<span className='text-gray-700'>Colorido</span>
-	<span className="relative">
-		<input  type="checkbox" className="hidden peer"  id="isColorful"
-            checked={formData.isColorful}
-            onChange={handleCheckboxChange}/>
-		<div className="w-10 h-4 rounded-full shadow bg-gray-600 peer-checked:bg-green-hover"></div>
-		<div className="absolute left-0 w-6 h-6 rounded-full shadow -inset-y-1 peer-checked:right-0 peer-checked:left-auto bg-orange-primary"></div>
-	</span>
-	<span className='text-gray-700'>Preto e Branco</span>
-</label>
-  </div>
 </form>      
   
         {/* Passo posterior ao próximo */}

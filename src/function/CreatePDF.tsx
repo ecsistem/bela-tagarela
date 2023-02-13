@@ -1,7 +1,7 @@
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 
-export async function CreatePDF(formData: { boardName?: string; userName?: string; theme?: string; backgroundColor?: string; isColorful?: boolean; UserName?: any; }){
+export async function CreatePDF(formData: { userName?: string; theme?: string; backgroundColor?: string; isColorful?: boolean; UserName?: any; }){
     console.log(formData)
     document.getElementById("viewportMeta")?.setAttribute("content", "width=800");
     const input: HTMLElement | null = document.getElementById("App");
@@ -30,23 +30,22 @@ export async function CreatePDF(formData: { boardName?: string; userName?: strin
       pdf.text("Bela Tagarela", 80, 10);
       pdf.setTextColor(100, 100, 100);
       pdf.setFontSize(12);
-      pdf.text(`Nome da prancha: ${formData.boardName}`, 80, 15);
-      pdf.text(`Tema: ${formData.theme}`, 80, 25);
-      pdf.text(`Usuário: ${formData.UserName}`, 80, 35);
+      pdf.text(`Tema: ${formData.theme}`, 20, 30);
+      pdf.text(`Usuário: ${formData.UserName}`, 20, 35);
       let pageHeight = pdf.internal.pageSize.height;
       let currentHeight = 40;
       let sectionHeight = pageHeight - 40
       let sliceHeight = imgHeight > sectionHeight ? sectionHeight : imgHeight;
+      //   pdf.addImage(imgData, 'PNG', 5, currentHeight, imgWidth, sliceHeight);
+      const margin = 20;
       const pageWidth = pdf.internal.pageSize.width;
-const margin = 20;
-const availableWidth = pageWidth - margin * 2;
-const center = pageWidth / 2;
-const centerOfImage = availableWidth / 2;
-const imageX = center - centerOfImage;
+      const availableWidth = pageWidth - margin * 2;
+      const center = pageWidth / 2;
+      const centerOfImage = availableWidth / 2;
+      const imageX = center - centerOfImage;
 
 pdf.addImage(imgData, 'PNG', imageX, currentHeight, imgWidth, sliceHeight);
-    //   pdf.addImage(imgData, 'PNG', 5, currentHeight, imgWidth, sliceHeight);
-    pdf.text("Bela Tagrela", pdf.internal.pageSize.width / 2, pdf.internal.pageSize.height - 10);
-      pdf.save('prancha.pdf');
+    pdf.text("Bela Tagrela", pdf.internal.pageSize.width / 2 - 15, pdf.internal.pageSize.height - 10);
+      pdf.save(`${formData.theme} - Belatagarela.pdf`);
     }
 }
