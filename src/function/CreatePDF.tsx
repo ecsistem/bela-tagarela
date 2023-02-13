@@ -30,9 +30,9 @@ export async function CreatePDF(formData: { userName?: string; theme?: string; b
     pdf.setTextColor(250, 166, 18);
     var img = new Image()
     img.src = '/logo/logo.png'
-    pdf.addImage(img, 'png', 50, 0, 30, 30)
-    pdf.text("Bela Tagarela", pdf.internal.pageSize.width / 2, 15, { align: "center" });
-    pdf.setTextColor(100, 100, 100);
+    pdf.addImage(img, 'png', 70, 10, 16, 16)
+    pdf.text("Bela Tagarela", (pdf.internal.pageSize.width / 2) + 9, 18, { align: "center" });
+    pdf.setTextColor(134, 171, 58);
     pdf.setFontSize(12);
     pdf.text(`Tema: ${formData.theme}`, 20, 30);
     pdf.text(`Usuário: ${formData.UserName}`, 20, 35);
