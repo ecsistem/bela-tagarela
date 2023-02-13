@@ -320,7 +320,7 @@ export function MultiStep() {
         selectedImages.map((image, index) => (
           <div
           key={index * selectedImages.length}
-          className="max-w-[6rem] rounded-lg bg-white text-black shadow-lg overflow-hidden"
+          className="max-w-[6rem] w-[6rem] rounded-lg bg-white text-black shadow-lg overflow-hidden"
           >
             <img className="w-full" src={image} alt="" />
             <p className="text-center w-full text-sm mb-2">{selectedTexArray[index]}</p>
