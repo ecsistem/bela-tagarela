@@ -177,7 +177,7 @@ export function MultiStep() {
 
 
         <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 2 ? '' : 'hidden'}`}>
-        <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
+        <p className="text-gray-600 my-6">Selecione suas figuras</p>
         {/* Passo atual */}
         <div className='flex flex-row gap-4'>
       <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
@@ -262,10 +262,7 @@ export function MultiStep() {
         {/* Próximo passo */}
       </div>
       <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 3 ? '' : 'hidden'}`}>
-      <div className='flex flex-row gap-4'>
-      <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
-      <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
-        </div>
+      
         <form className="bg-white p-6 rounded-lg shadow-md w-3/4 md:w-1/2 my-28 max-w-5xl">
       <div className="mb-4">
         <label className="block font-bold mb-2 text-gray-700" htmlFor="userName">
@@ -303,7 +300,11 @@ export function MultiStep() {
           onChange={handleInputChange}
         />
       </div>
-</form>      
+</form> 
+<div className='flex flex-row gap-4'>
+      <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
+      <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
+        </div>     
   
         {/* Passo posterior ao próximo */}
       </div>
