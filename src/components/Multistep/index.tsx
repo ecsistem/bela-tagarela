@@ -87,15 +87,15 @@ export function MultiStep() {
       UserName: formData.userName,
       theme: formData.theme
       });
-    console.log('You clicked submit.');
+    alert('Pdf está sendo gerado');
   }
 
   const calculate = WidthLayout*HeightLayout;
   
-  // console.log(currentStep);
   
   return (
     <div>
+      <h1 className="text-xl font-bold my-8 text-green-tertiary text-center">Bem vindo(a) a Prancha</h1>
       <div className='flex justify-center gap-1 md:gap-8 items-center my-8 flex-nowrap'>
       {currentStep >= 1 ?  
       <div className='flex flex-col'>
@@ -156,7 +156,7 @@ export function MultiStep() {
 
       
       <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 1 ? '' : 'hidden'}`}>
-      <p className="text-gray-600 my-6">Selecione um layout de acordo com o tamanho da prancha que deseja</p>
+      <p className="text-green-tertiary my-6">Selecione um layout de acordo com o tamanho da prancha que deseja</p>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 [&>:not(:hover)]:scale-90 [&>:not(:hover)]:bg-card-primary">
               {LayoutCard
                 .map((layout, index) => (
@@ -177,8 +177,7 @@ export function MultiStep() {
 
 
         <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 2 ? '' : 'hidden'}`}>
-        <p className="text-gray-600 my-6">Selecione suas figuras</p>
-        {/* Passo atual */}
+        <p className="text-green-tertiary my-6">Selecione suas figuras para sua prancha</p>
         <div className='flex flex-row gap-4'>
       <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
       <button className='bg-red-500 text-white py-2 px-4 rounded-lg my-8' onClick={Limpar}>Limpar</button>
@@ -195,13 +194,12 @@ export function MultiStep() {
             <p className="text-center w-full text-sm mb-2">{selectedTexArray[index]}</p>
           </div>
         ))
-      }
-      
+      } 
     </div>
           <div className="flex">
           <aside className="w-1/4">
             <div className="overflow-y-auto rounded bg-green-primary h-full">
-              <h2 className="text-orange-secundary text-center">Selecione uma categorias👇🏽</h2>
+            <h2 className="text-orange-secundary text-center">Selecione uma categorias👇🏽</h2>
               <ul className="space-y-2">
                 <li>
                   <a
@@ -259,28 +257,16 @@ export function MultiStep() {
           <BackToTopButton/>
           </div>
           </div>
-
-
-        
-        {/* Próximo passo */}
       </div>
+
+
+
       <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 3 ? '' : 'hidden'}`}>
+      <h2 className="text-green-tertiary text-center my-6">Digite os dados de sua prancha</h2>
       
-        <form className="bg-white p-6 rounded-lg shadow-md w-3/4 md:w-1/2 my-28 max-w-5xl">
+        <form className="bg-white p-6 rounded-lg shadow-md w-3/4 md:w-1/2 max-w-5xl">
       <div className="mb-4">
-        <label className="block font-bold mb-2 text-gray-700" htmlFor="userName">
-          Usuário
-        </label>
-        <input
-          className="border border-gray-400 p-2 w-full"
-          id="userName"
-          type="text"
-          value={formData.userName}
-          onChange={handleInputChange}
-        />
-      </div>
-      <div className="mb-4">
-        <label className="block font-bold mb-2 text-gray-700" htmlFor="theme">
+        <label className="block font-bold mb-2 text-green-tertiary" htmlFor="theme">
           Tema
         </label>
         <input
@@ -292,7 +278,19 @@ export function MultiStep() {
         />
       </div>
       <div className="mb-4">
-        <label className="block font-bold mb-2 text-gray-700" htmlFor="backgroundColor">
+        <label className="block font-bold mb-2 text-green-tertiary" htmlFor="userName">
+          Usuário
+        </label>
+        <input
+          className="border border-gray-400 p-2 w-full"
+          id="userName"
+          type="text"
+          value={formData.userName}
+          onChange={handleInputChange}
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block font-bold mb-2 text-green-tertiary" htmlFor="backgroundColor">
           Cor do Fundo
         </label>
         <input
@@ -308,26 +306,26 @@ export function MultiStep() {
       <button className='bg-orange-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleBack}>Voltar</button>
       <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleNext}>Avançar</button>
         </div>     
-  
-        {/* Passo posterior ao próximo */}
       </div>
+
+
+
       <div className={`flex flex-col content-center items-center step-${currentStep} ${currentStep === 4 ? '' : 'hidden'}`}>
-      <h2 className="text-lg font-medium mb-4">Etapa {currentStep}</h2>
-        {/* Passo posterior ao próximo */}
-        <div id='App' className={`rounded text-white text-center items-center justify-center`} style={{ backgroundColor: formData.backgroundColor}}>
-      <div className={`grid gap-4  m-4`} style={{ gridTemplateColumns: `repeat(${WidthLayout}, 1fr)` }}>
+      <h1 className="text-green-tertiary text-center mt-6">Prancha de {formData.theme}</h1>
+      <h2 className="text-green-tertiary text-center mb-6">feita por {formData.userName}</h2>
+        <div id='prancha' className={`rounded text-white text-center items-center justify-center w-full p-4`} style={{ backgroundColor: formData.backgroundColor}}>
+      <div className={`place-items-center  grid gap-4  m-4 `} style={{ gridTemplateColumns: `repeat(${WidthLayout}, 1fr)` }}>
       {
         selectedImages.map((image, index) => (
           <div
           key={index * selectedImages.length}
-          className="max-w-[6rem] w-[6rem] rounded-lg bg-white text-black shadow-lg overflow-hidden"
+          className=" rounded-lg bg-white text-black shadow-lg overflow-hidden"
           >
             <img className="w-full" src={image} alt="" />
             <p className="text-center w-full text-sm mb-2">{selectedTexArray[index]}</p>
           </div>
         ))
       }
-      
     </div>
   </div>
         <div className='flex flex-row gap-4'>
@@ -335,6 +333,10 @@ export function MultiStep() {
       <button className='bg-green-primary text-white py-2 px-4 rounded-lg my-8' onClick={handleSubmit} >Salvar</button>
         </div>
       </div>
+
+
+
+
     </div>
   );
 };
