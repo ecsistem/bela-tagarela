@@ -95,7 +95,7 @@ export function MultiStep() {
   
   return (
     <div>
-      <h1 className="text-xl font-bold my-8 text-green-tertiary text-center">Bem vindo(a) a Prancha</h1>
+      {currentStep === 1 ? <h1 className="text-xl font-bold my-8 text-green-tertiary text-center">Bem vindo(a) a Prancha</h1>:""}
       <div className='flex justify-center gap-1 md:gap-8 items-center my-8 flex-nowrap'>
       {currentStep >= 1 ?  
       <div className='flex flex-col'>
