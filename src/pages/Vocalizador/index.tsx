@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import { useCallback, useState } from "react";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import { BackToTopButton } from './../../components/BackToTopButton'
@@ -56,7 +56,7 @@ export function Vocalizador(){
             <label className="text-green-tertiary">Selecione suas imagens para formar frase</label>
           )}
           <div className='flex flex-row gap-4'>
-      <button className='bg-orange-primary hover:bg-orange-400 text-white py-2 px-4 rounded-lg my-8' onClick={Limpar}>Limpar</button>
+      <button className='bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-lg my-8' onClick={Limpar}>Limpar</button>
       <button className='bg-green-primary hover:bg-green-hover text-white py-2 px-4 rounded-lg my-8' onClick={startSpeech}>Falar</button>
         </div>
 
