@@ -206,7 +206,7 @@ export function MultiStep() {
         <div
           className={`flex flex-col content-center items-center step-${currentStep}`}
         >
-          <p className="text-green-tertiary my-6">
+          <p className="text-green-tertiary text-center my-6">
             Selecione um layout de acordo com o tamanho da prancha que deseja
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 [&>:not(:hover)]:scale-90 [&>:not(:hover)]:bg-card-primary">
