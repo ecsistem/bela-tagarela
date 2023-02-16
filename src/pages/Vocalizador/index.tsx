@@ -31,7 +31,7 @@ export function Vocalizador(){
     useEffect(() => {
       if (selectedTexArray.length > 0) {
 
-        alert("Objeto adicionado ao array!");
+        alert(`${selectedTexArray.length} de 8 adicionado`);
       }
     }, [selectedTexArray]);
     return (
