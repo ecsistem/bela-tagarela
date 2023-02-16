@@ -14,15 +14,15 @@ const AccordionLayout: React.FC<AccordionLayoutProps> = ({ title, children, inde
 
   return (
     <>
-        <div onClick={() => handleSetIndex(index)} className='flex justify-center w-[100%] sm:w-[80%] p-2 mt-1 bg-white'>
+        <div onClick={() => handleSetIndex(index)} className='flex justify-between w-[100%] sm:w-[80%] p-2 mt-1 bg-white'>
             <div className='flex px-4'>
-                <div className='text-white font-bold'>{title}</div>
+                <div className='text-green-tertiary font-bold px-8'>{title}</div>
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center margin">
                 {
                 (activeIndex === index) 
-                ? <BsDashCircle className='w-8 h-8' />
-                : <BsFillPlusCircleFill className='w-8 h-8' />
+                ? <BsDashCircle className='w-8 h-8 text-green-primary' />
+                : <BsFillPlusCircleFill className='w-8 h-8 text-green-primary' />
                 }
             </div>
         </div>

@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import { BackToTopButton } from './../../components/BackToTopButton'
@@ -28,7 +28,12 @@ export function Vocalizador(){
         alert("Limeite máximo de 8 atigido");
       }
     };
-    console.log(1);
+    useEffect(() => {
+      if (selectedTexArray.length > 0) {
+
+        alert("Objeto adicionado ao array!");
+      }
+    }, [selectedTexArray]);
     return (
       <div className="">
         <Header />
