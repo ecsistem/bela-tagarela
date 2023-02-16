@@ -149,7 +149,7 @@ export function Header() {
             <div className="flex items-center justify-center">
               <Link to="/vocalizador"><a
                 href="/vocalizador"
-                className="items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white px-2 py-2 text-base font-medium text-neutral-900 shadow-sm hover:bg-orange-primary hover:text-white"
+                className="items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white px-2 py-2 text-base font-medium text-neutral-900  hover:bg-orange-primary hover:text-white"
               >
                 Vocalizador
               </a></Link>
