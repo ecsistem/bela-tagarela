@@ -11,7 +11,7 @@ export function Hero(){
                     <h1 className="text-6xl font-semibold text-orange-primary lg:text-7xl">Bela tagarela </h1>
                     
                     <p className="mt-3 text-gray-900">Comunicar é um direito humano básico.<br/>
-É por meio da comunicação que os outros direitos humanos se realizam.
+É por meio da comunicação que os outros direitos humanos se realizam.<br/>
 Esta página é o protótipo da Tese em Engenharia Biomédica, denominada: Desenvolvimento e análise de usabilidade de um sistema multiplataforma de Comunicação Aumentativa e Alternativa.
 .</p>
                     
