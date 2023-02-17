@@ -12,7 +12,7 @@ export async function CreatePDF(formData: { userName?: string; theme?: string; b
       height: input.scrollHeight,
     });
     const imgWidth = 250;
-    let imgHeight = canvas.height * imgWidth / canvas.width;
+    const imgHeight = canvas.height * imgWidth / canvas.width;
     const imgData = canvas.toDataURL('img/png');
     const pdf = new jsPDF('p', 'mm', 'a4');
     pdf.setProperties({
@@ -25,7 +25,7 @@ export async function CreatePDF(formData: { userName?: string; theme?: string; b
     pdf.setFontSize(22);
     pdf.setFont("helvetica", "bold");
     pdf.setTextColor(250, 166, 18);
-    var img = new Image()
+    const img = new Image()
     img.src = '/logo/logo.png'
     pdf.addImage(img, 'png', 70, 10, 16, 16)
     pdf.text("Bela Tagarela", (pdf.internal.pageSize.width / 2) + 9, 18, { align: "center" });
