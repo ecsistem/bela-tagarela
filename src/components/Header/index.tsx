@@ -15,6 +15,7 @@ export function Header() {
                 <img className="h-12 w-12" src={logo} alt="Workflow" />
               </Link>
             </div>
+            
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <a
@@ -65,6 +66,20 @@ export function Header() {
             </a>
           </div>
           <div className="-mr-2 flex md:hidden">
+          <div className="flex items-center justify-center">
+              <Link to="/vocalizador"><a
+                href="/vocalizador"
+                className="items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white px-2 py-2 text-base font-medium text-neutral-900  hover:bg-orange-primary hover:text-white"
+              >
+                Vocalizador
+              </a></Link>
+              <Link to="/prancha"><a
+                href="/prancha"
+                className="mx-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white px-2 py-2 text-base font-medium text-neutral-900 hover:bg-orange-primary hover:text-white"
+              >
+                Prancha
+              </a></Link>
+            </div>
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
@@ -146,20 +161,7 @@ export function Header() {
             >
               Colaboradores
             </a>
-            <div className="flex items-center justify-center">
-              <Link to="/vocalizador"><a
-                href="/vocalizador"
-                className="items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white px-2 py-2 text-base font-medium text-neutral-900  hover:bg-orange-primary hover:text-white"
-              >
-                Vocalizador
-              </a></Link>
-              <Link to="/prancha"><a
-                href="/prancha"
-                className="mx-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white px-2 py-2 text-base font-medium text-neutral-900 hover:bg-orange-primary hover:text-white"
-              >
-                Prancha
-              </a></Link>
-            </div>
+           
           </div>
         </div>
       </Transition>
