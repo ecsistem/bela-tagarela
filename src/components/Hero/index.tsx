@@ -13,7 +13,7 @@ export function Hero(){
                     <p className="mt-3 text-gray-900">Comunicar é um direito humano básico.<br/>
 É por meio da comunicação que os outros direitos humanos se realizam.<br/>
 Esta página é o protótipo da Tese em Engenharia Biomédica, denominada: Desenvolvimento e análise de usabilidade de um sistema multiplataforma de Comunicação Aumentativa e Alternativa.
-.</p>
+</p>
                     
                     <button className="w-full px-5 py-2 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-green-primary rounded-lg lg:w-auto hover:bg-orange-400 focus:outline-none focus:bg-orange-500">Download</button>
                 </div>
