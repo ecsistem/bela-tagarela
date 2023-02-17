@@ -15,7 +15,7 @@ module.exports = {
         },
         orange: {
           primary: '#faa612',
-          secundary: '#fee8c3',
+          secundary: '#fef6e7',
           tertiary: '#f6e58d',
         },
         card: {

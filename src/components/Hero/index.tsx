@@ -3,31 +3,34 @@ import celular from './../../assets/imgs/ultil/telacelular.png'
 import logo from './../../assets/imgs/logo/logo.svg'
 export function Hero(){
     return(
-    <main className="relative z-20 flex flex-col items-center overflow-hidden bg-gradient-to-b from-orange-tertiary to-orange-secundary">
-        <div className="container relative flex px-6 py-16 mx-auto">
-            <div className="relative z-20 flex flex-col sm:w-2/3 lg:w-2/5">
-                <h1 className="flex flex-col text-6xl font-black leading-none text-orange-primary uppercase font-primary sm:text-6xl">
-                    Bela Tagarela
-                </h1>
-                <p className="font-primary text-sm text-slate-900 sm:text-base pt-4">
-                Comunicar é um direito é um humano básico. É por meio da comunicaçáo que os outros direitos humanos se realizam.
-                </p>
-                <p className="font-primary text-sm text-slate-900 sm:text-base pt-4">
-                Esta página é o protótipo da Tese em Engenharia Biomédica
-denominada: Proposta de Sistema para a
-comunicativa de pessoas com deficiencia em contexto
-Educacional.
-                </p>     
+    <main className="flex flex-col items-center">
+       <div className="container px-6 py-16 mx-auto">
+        <div className="items-center lg:flex">
+            <div className="w-full lg:w-1/2">
+                <div className="lg:max-w-lg">
+                    <h1 className="text-6xl font-semibold text-orange-primary lg:text-7xl">Bela tagarela </h1>
+                    
+                    <p className="mt-3 text-gray-900">Comunicar é um direito humano básico.<br/>
+É por meio da comunicação que os outros direitos humanos se realizam.
+Esta página é o protótipo da Tese em Engenharia Biomédica, denominada: Desenvolvimento e análise de usabilidade de um sistema multiplataforma de Comunicação Aumentativa e Alternativa.
+.</p>
+                    
+                    <button className="w-full px-5 py-2 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-green-primary rounded-lg lg:w-auto hover:bg-orange-400 focus:outline-none focus:bg-orange-500">Download</button>
+                </div>
             </div>
-            <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
-                <img src={celular} className="max-w-xs m-auto md:max-w-sm"/>
+
+            <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+                <img src={celular} height={300} width={500} className="w-full h-full lg:max-w-3xl" />
             </div>
         </div>
-         <div className="container relative flex justify-center px-6 py-6 mx-auto">
-            <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
-                <img src={logo} className="max-w-xs md:max-w-sm"/>
+    </div>
+
+         <div className="container flex items-center py-6  flex-wrap justify-around text-center">
+            <div className=" my-6">
+                <img src={logo} className="max-w-xs "/>
             </div>
-            <div className='w-[90%]'>
+            <div className='w-[50%]'>
+                <h1>teste</h1>
            <Accordion activeIndex={0} setActiveIndex={function (index: number): void {
                         throw new Error('Function not implemented.');
                     } }  />

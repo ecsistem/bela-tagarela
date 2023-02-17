@@ -130,4 +130,4 @@ export function Vocalizador(){
         <Footer />
       </div>
     );
-  };
+  }

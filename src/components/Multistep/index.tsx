@@ -13,7 +13,7 @@ export function MultiStep() {
   const [selectedTexArray, setSelectedTexArray] = useState<string[]>([]);
   const [selectedImages, setSelectedImages] = useState<string[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({  
     userName: "",
     theme: "",
     backgroundColor: "#FFFFFF",
