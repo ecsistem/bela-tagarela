@@ -135,7 +135,7 @@ export function Header() {
             </a>
 
             <a
-              href="#Sobre"
+              href="/#sobre"
               className="text-white hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Sobre
