@@ -28,7 +28,7 @@ export function Header() {
                   href="/diferenciais"
                   className="text-base font-medium text-white hover:text-green-600"
                 >
-                  Diferenciais
+                  Sobre
                 </a>
                 <a
                   href="/projetos"
@@ -138,7 +138,7 @@ export function Header() {
               href="/diferenciais"
               className="text-white hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
-              Diferenciais
+              Sobre
             </a>
 
             <a
