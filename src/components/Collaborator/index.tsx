@@ -11,7 +11,7 @@ type Collaborator = {
       role: "Idealizadora e desenvolvedora",
       description:
         "Doutoranda e Mestre em Engenharia Biomédica (UFU), Estudante da Pós-Graduação em Educação Profissional e Tecnológica Inclusiva (IFTM), Pós-graduada em Atendimento Educacional Especializado e Psicomotricidade (FAVENI), em Gestão do Trabalho Pedagógico: supervisão, orientação, inspeção e administração (FAVENI) e em Docência nos ensinos médio, técnico e superior (UCAM), Graduada em Pedagogia (FACIBRA) e em Sistemas para Internet (IFTM). Docente na Rede Municipal de Ensino de Uberlândia/MG.",
-      imageUrl: "./../../../public/figuras/Alfabeto/A.png",
+      imageUrl: "/figuras/Alfabeto/A.png",
     }]
   
     export function Collaborator() {
