@@ -27,7 +27,6 @@ export function MainRoutes(){
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/home" element={<Home />} />
       <Route path="/vocalizador" element={<Vocalizador />} />
       <Route path="/prancha" element={<Prancha />} />
       <Route path="*" element={<PageNotFound />} />

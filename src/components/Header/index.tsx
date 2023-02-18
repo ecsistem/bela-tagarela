@@ -25,7 +25,7 @@ export function Header() {
                   Início
                 </a>
                 <a
-                  href="/#Sobre"
+                  href="/#sobre"
                   className="text-base font-medium text-white hover:text-green-600"
                 >
                   Sobre

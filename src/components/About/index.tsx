@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <div className="relative" id="Sobre">
+    <div className="relative" id="sobre">
       <section className="bg-green-hover absolute bottom-0 left-0 right-0 h-full transform -skew-y-2 -z-50" />
       <section className="container px-6 mx-auto flex flex-col justify-center w-full rounded-lg z-1 my-16">
         <div className="justify-center px-6 py-16">
