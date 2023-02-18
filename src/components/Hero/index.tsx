@@ -43,7 +43,7 @@ Esta página é o protótipo da Tese em Engenharia Biomédica, denominada: Desen
             <div className=" my-6">
                 <img src={logo} className="max-w-xs "/>
             </div>
-            <div className='w-[50%]'>
+            <div className='w-[100%] lg:w-[50%]'>
                 <h1>teste</h1>
            <Accordion activeIndex={0} setActiveIndex={function (index: number): void {
                         throw new Error('Function not implemented.');
