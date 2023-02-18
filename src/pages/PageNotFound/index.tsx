@@ -3,8 +3,8 @@ export function PageNotFound(){
     return(
         <div className="flex flex-col justify-center items-center h-screen">
       <img src={Logo} alt="Logo" className="w-32 mb-8" />
-      <h1 className="text-4xl font-bold mb-4">Ops, página não encontrada!</h1>
-      <p className="text-lg text-gray-600 mb-8">
+      <h1 className="text-4xl font-bold mb-4 text-center text-green-primary">Ops, página não encontrada!</h1>
+      <p className="text-lg text-green-tertiary mb-8 text-center">
         Desculpe, mas a página que você está tentando acessar não existe.
       </p>
       <a
