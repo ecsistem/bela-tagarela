@@ -22,14 +22,14 @@ const projects: Project[] = [
 export function Projects(){
   return (
     <div className="container mx-auto my-10 p-6">
-  <h2 className="text-3xl font-bold text-center mb-8">Projetos</h2>
+  <h2 className="text-bold text-center text-6xl text-green-tertiary mb-6">Projetos</h2>
   <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 justify-center">
     {projects.map((project, index) => (
       <div key={index} className="relative bg-white rounded-lg shadow-lg overflow-hidden text-center transition-all duration-500 transform hover:-translate-y-1 hover:shadow-xl">
-        <img src={`${project.image}`} alt={project.title} className="object-cover h-60 w-full rounded-t-lg" />
-        <div className="absolute inset-0 rounded-lg bg-gray-800 opacity-0 hover:opacity-80 transition-opacity duration-500 flex flex-col justify-center items-center">
+        <img src={`${project.image}`} alt={project.title} className="object-center object-contain h-60 sm:h-80 w-full rounded-t-lg" />
+        <div className="absolute inset-0 rounded-lg bg-green-tertiary opacity-0 hover:opacity-80 transition-opacity duration-500 flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold mb-2 text-white">{project.title}</h3>
-          <a href={project.link} target="_blank" rel="noreferrer" className="text-blue-500 hover:text-blue-700">
+          <a href={project.link} target="_blank" rel="noreferrer" className="text-orange-primary hover:text-orange-500">
             Ver mais
           </a>
         </div>
