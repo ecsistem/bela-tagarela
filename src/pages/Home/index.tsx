@@ -4,6 +4,7 @@ import { Additional } from '../../components/Additional'
 import { Hero } from '../../components/Hero'
 import { About } from '../../components/About'
 import { Projects } from '../../components/Projects'
+import { Collaborator } from '../../components/Collaborator'
 
 export function Home() {
   return (
@@ -12,6 +13,7 @@ export function Home() {
           <Hero />
           <About />
           <Projects />
+          <Collaborator />
           <Additional />
           <Footer />
     </div>
