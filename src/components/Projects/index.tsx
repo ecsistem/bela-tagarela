@@ -21,7 +21,7 @@ const projects: Project[] = [
 
 export function Projects(){
   return (
-    <div className="container mx-auto my-10">
+    <div className="container mx-auto my-10 p-6">
       <h2 className="text-3xl font-bold text-center mb-8">Projetos</h2>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2  justify-center">
         {projects.map((project, index) => (
