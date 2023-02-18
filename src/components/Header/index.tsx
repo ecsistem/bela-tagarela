@@ -37,12 +37,6 @@ export function Header() {
                   Projetos
                 </a>
                 <a
-                  href="/telas"
-                  className="whitespace-nowrap text-base font-medium text-white hover:text-green-600"
-                >
-                  Telas
-                </a>
-                <a
                   href="/colaboradores"
                   className="whitespace-nowrap text-base font-medium text-white hover:text-green-600"
                 >
@@ -148,12 +142,7 @@ export function Header() {
               Projetos
             </a>
 
-            <a
-              href="telas"
-              className="text-white hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Telas
-            </a>
+          
 
             <a
               href="colaboradores"

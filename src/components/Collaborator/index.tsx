@@ -16,7 +16,7 @@ type Collaborator = {
   
     export function Collaborator() {
         return (
-            <div className="container flex flex-col justify-center">
+            <div className="container flex flex-col justify-center px-6">
                 <h2 className="text-bold text-center text-4xl text-green-tertiary mb-6">Colaboradores</h2>
             <div className="flex justify-center items-centers p-4">
             {collaborators.map((collaborator, index) => (
