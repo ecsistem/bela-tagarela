@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { Home } from "../pages/Home"
 import  {Vocalizador}  from '../pages/Vocalizador'
 import  {Prancha}  from '../pages/Prancha'
+import { PageNotFound } from "../pages/PageNotFound";
 import { Preloader } from "../components/Preloader"
 import { useState, useEffect } from "react";
 
@@ -28,10 +29,7 @@ export function MainRoutes(){
       <Route path="/" element={<Home />} />
       <Route path="/vocalizador" element={<Vocalizador />} />
       <Route path="/prancha" element={<Prancha />} />
-      <Route path="*" element={<NotFound />} />
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
 }
-function NotFound() {
-    return <h1>Page not found</h1>;
-  }
