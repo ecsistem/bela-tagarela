@@ -3,16 +3,15 @@ import { Footer } from '../../components/Footer'
 import { Additional } from '../../components/Additional'
 import { Hero } from '../../components/Hero'
 import { About } from '../../components/About'
-// import './index.css'
 
 export function Home() {
   return (
     <div className="App">
-      <Header/>
-      <Hero />
-      <About/>
-      <Additional/>
-      <Footer/>
+          <Header />
+          <Hero />
+          <About />
+          <Additional />
+          <Footer />
     </div>
-  )
+  );
 }
