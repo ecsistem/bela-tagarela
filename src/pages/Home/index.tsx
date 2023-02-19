@@ -5,6 +5,7 @@ import { Hero } from '../../components/Hero'
 import { About } from '../../components/About'
 import { Projects } from '../../components/Projects'
 import { Collaborator } from '../../components/Collaborator'
+import { ContributionList } from '../../components/Contribution'
 
 export function Home() {
   return (
@@ -14,6 +15,7 @@ export function Home() {
           <About />
           <Projects />
           <Collaborator />
+          <ContributionList />
           <Additional />
           <Footer />
     </div>
