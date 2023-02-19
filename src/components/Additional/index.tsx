@@ -1,20 +1,31 @@
+import PPGEB from '../../../public/logo/ppgeb.png'
+import NIATS from '../../../public/logo/niats.jpg'
+import UFU from '../../../public/logo/ufu.jpg'
 export function Additional(){
     return(
-        <section className="bg-orange-secundary flex flex-col  justify-between px-6 py-4 mx-auto sm:flex-row">
-        <div>
-            <p className="font-primary">Tecnologias:</p>
-            <p>React.js</p>
-            <p>Tailwind</p>
-        </div>
-        <div>
-            <p className="font-primary">Plataformas:</p>
-            <p>Web</p>
-            <p>Android</p>
-        </div>
-        <div className="flex">
-            <p className="font-primary">Desenvolvimento com apoio de:</p>
-            <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gPpAVXCfZrCT_8HUqGPSQX_RQgFwo4hw2PPaIoN88HV30Fi1mw2m-R6IVPi5pBIB4K_HlyWazZUag1nhLuAVEDBQNuv=w2862-h1822" width={20} height={20} alt="" />
-        </div>
-        </section>
+        <div className="container mx-auto px-6 py-12">
+  <h2 className="text-bold  text-center text-4xl text-green-tertiary mb-6">Apoio</h2>
+  <h2 className="text-base text-center  text-green-tertiary mb-6">Desenvolvido com  apoio de:</h2>
+  <div className="flex justify-center">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+    <div className="flex items-center  justify-center w-60 h-60 bg-white p-6 rounded-full shadow hover:shadow-lg">
+  <a href="http://www.ppgeb.feelt.ufu.br/sites/all/modules/ufu_access/images/logo_ufu.svg" target="_blank" rel="noreferrer">
+    <img src={PPGEB} alt="Logo PPGEB" className="h-20" />
+  </a>
+</div>
+      <div className="flex items-center  justify-center w-60 h-60 bg-white p-6 rounded-full shadow hover:shadow-lg">
+        <a href="http://www.ppgeb.feelt.ufu.br/" target="_blank" rel="noreferrer">
+          <img src={NIATS} alt="Logo PPGEB" className="h-20" />
+        </a>
+      </div>
+      <div className="flex items-center  justify-center w-60 h-60 bg-white p-6 rounded-full shadow hover:shadow-lg">
+        <a href="http://www.niats.feelt.ufu.br/inicio" target="_blank" rel="noreferrer">
+          <img src={UFU} alt="Logo NIATS" className="h-20" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
     );
 }

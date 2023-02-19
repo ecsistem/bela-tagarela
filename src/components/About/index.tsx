@@ -4,9 +4,9 @@ export function About() {
       <section className="bg-green-hover absolute bottom-0 left-0 right-0 h-full transform -skew-y-2 -z-50" />
       <section className="container px-6 mx-auto flex flex-col justify-center w-full rounded-lg z-1 my-16">
         <div className="justify-center px-6 py-16">
-          <h1 className="text-bold text-center text-6xl text-green-tertiary">
+          <h2 className="text-4xl font-bold mb-4 text-center text-green-tertiary">
             Sobre
-          </h1>
+          </h2>
           <p className="text-white my-4">
             Ao descrever o que é a Engenharia Biomédica, observamos que se trata
             de uma área que integra princípios das ciências exatas e das

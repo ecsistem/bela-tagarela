@@ -22,7 +22,7 @@ const projects: Project[] = [
 export function Projects(){
   return (
     <div className="container mx-auto my-10 p-6">
-  <h2 className="text-bold text-center text-6xl text-green-tertiary mb-6">Projetos</h2>
+  <h2 className="text-4xl font-bold mb-4 text-center text-green-tertiary">Projetos</h2>
   <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 justify-center">
     {projects.map((project, index) => (
       <div key={index} className="relative bg-white rounded-lg shadow-lg overflow-hidden text-center transition-all duration-500 transform hover:-translate-y-1 hover:shadow-xl">
