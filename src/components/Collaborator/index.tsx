@@ -40,7 +40,7 @@ type Collaborator = {
         return (
           <div className="container mx-auto flex  flex-col justify-center px-6">
               <h2 className="text-bold text-center text-4xl text-green-tertiary mb-6">Colaboradores</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-2 lg:grid-cols-4 gap-8">
                 {collaborators.map((collaborator, index) => (
                 <div key={index} className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group bg-green-hover hover:bg-white rounded-xl">
                 <img className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src={collaborator.imageUrl} alt={`${collaborator.name} profile`}/>
