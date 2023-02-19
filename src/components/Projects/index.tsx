@@ -1,4 +1,5 @@
-import img from './../../../public/figuras/Alfabeto/A.png'
+import Belatagarela from './../../../public/projetos/projeto1.jpg'
+import Bivox from './../../../public/projetos/projeto2.jpg'
 
 interface Project {
   title: string;
@@ -9,19 +10,19 @@ interface Project {
 const projects: Project[] = [
   {
     title: "Belatagarela TA CAA",
-    image: img,
+    image: Belatagarela,
     link: "https://play.google.com/store/apps/details?id=belatagarela.ta.caa",
   },
   {
     title: "Bivox TA CAA",
-    image: img,
+    image: Bivox,
     link: "https://play.google.com/store/apps/details?id=bivox.ta.caa",
   },
 ];
 
 export function Projects(){
   return (
-    <div className="container mx-auto my-10 p-6">
+    <div className="container mx-auto my-10 p-6" id='projetos'>
   <h2 className="text-4xl font-bold mb-4 text-center text-green-tertiary">Projetos</h2>
   <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 justify-center">
     {projects.map((project, index) => (

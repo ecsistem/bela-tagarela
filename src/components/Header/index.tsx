@@ -31,16 +31,22 @@ export function Header() {
                   Sobre
                 </a>
                 <a
-                  href="/projetos"
+                  href="/#projetos"
                   className="text-base font-medium text-white hover:text-green-600"
                 >
                   Projetos
                 </a>
                 <a
-                  href="/colaboradores"
+                  href="/#colaboradores"
                   className="whitespace-nowrap text-base font-medium text-white hover:text-green-600"
                 >
                   Colaboradores
+                </a>
+                <a
+                  href="/#contribuicoes"
+                  className="whitespace-nowrap text-base font-medium text-white hover:text-green-600"
+                >
+                  Contribuições
                 </a>
               </div>
             </div>
@@ -136,7 +142,7 @@ export function Header() {
             </a>
 
             <a
-              href="projetos"
+              href="/#projetos"
               className="text-white hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Projetos
@@ -145,10 +151,17 @@ export function Header() {
           
 
             <a
-              href="colaboradores"
+              href="/#colaboradores"
               className="text-white hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Colaboradores
+            </a>
+
+            <a
+              href="/#contribuicoes"
+              className="text-white hover:bg-orange-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            >
+              Contribuições
             </a>
            
           </div>
