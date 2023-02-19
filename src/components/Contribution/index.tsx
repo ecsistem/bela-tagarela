@@ -63,7 +63,7 @@ icon: faMicrophoneAlt,
 export function ContributionList() {
     return (
         <div className="">
-          <div className="container mx-auto py-12 px-4">
+          <div className="container mx-auto py-12 px-6">
             <h1 className="text-4xl font-bold mb-4 text-center text-green-tertiary">Contribuições</h1>
             <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
               <div className="md:col-span-1">
