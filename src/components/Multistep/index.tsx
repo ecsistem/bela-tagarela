@@ -283,7 +283,7 @@ export function MultiStep() {
                   <li>
                     <a
                       onClick={() => handleCategorySelect("all")}
-                      className="flex items-center p-2 text-base font-normal text-white dark:text-white hover:bg-gray-100 dark:hover:bg-orange-primary"
+                      className="flex items-center p-2 text-base font-normal text-white hover:bg-orange-primary"
                     >
                       <span className="mx-auto">Todos</span>
                     </a>
