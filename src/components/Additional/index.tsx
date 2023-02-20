@@ -9,18 +9,18 @@ export function Additional(){
   <div className="flex justify-center">
     <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
     <div className="flex items-center  justify-center w-60 h-60 bg-white p-6 rounded-full shadow hover:shadow-lg">
-  <a href="http://www.ppgeb.feelt.ufu.br/sites/all/modules/ufu_access/images/logo_ufu.svg" target="_blank" rel="noreferrer">
+  <a href="http://www.ppgeb.feelt.ufu.br/" target="_blank" rel="noreferrer">
     <img src={PPGEB} alt="Logo PPGEB" className="h-20" />
   </a>
 </div>
       <div className="flex items-center  justify-center w-60 h-60 bg-white p-6 rounded-full shadow hover:shadow-lg">
-        <a href="http://www.ppgeb.feelt.ufu.br/" target="_blank" rel="noreferrer">
-          <img src={NIATS} alt="Logo PPGEB" className="h-20" />
+        <a href="http://www.niats.feelt.ufu.br/inicio" target="_blank" rel="noreferrer">
+          <img src={NIATS} alt="Logo NIATS" className="h-20" />
         </a>
       </div>
       <div className="flex items-center  justify-center w-60 h-60 bg-white p-6 rounded-full shadow hover:shadow-lg">
-        <a href="http://www.niats.feelt.ufu.br/inicio" target="_blank" rel="noreferrer">
-          <img src={UFU} alt="Logo NIATS" className="h-20" />
+        <a href="https://ufu.br/" target="_blank" rel="noreferrer">
+          <img src={UFU} alt="logo UFU" className="h-20" />
         </a>
       </div>
     </div>

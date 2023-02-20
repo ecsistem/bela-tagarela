@@ -17,7 +17,7 @@ export async function CreatePDF(formData: { userName?: string; theme?: string; b
     const pdf = new jsPDF('p', 'mm', 'a4');
     pdf.setProperties({
       title: 'Bela Tagarela',
-      subject: 'Prancha ger ada pela bela tagarela',
+      subject: 'Prancha gerada pela bela tagarela',
       author: 'Bela Tagarela',
     });
     
@@ -26,9 +26,9 @@ export async function CreatePDF(formData: { userName?: string; theme?: string; b
     pdf.setFont("helvetica", "bold");
     pdf.setTextColor(250, 166, 18);
     const img = new Image()
-    img.src = '/logo/logo.png'
-    pdf.addImage(img, 'png', 70, 10, 16, 16)
-    pdf.text("Bela Tagarela", (pdf.internal.pageSize.width / 2) + 9, 18, { align: "center" });
+    img.src = '/logo/LOGOPDF.png'
+    pdf.addImage(img, 'png', 80, 5, 40, 20)
+    // pdf.text("Bela Tagarela", (pdf.internal.pageSize.width / 2) + 9, 18, { align: "center" });
     pdf.setTextColor(134, 171, 58);
     pdf.setFontSize(12);
     pdf.text(`Tema: ${formData.theme}`, 20, 30);

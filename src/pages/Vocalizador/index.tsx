@@ -28,12 +28,7 @@ export function Vocalizador(){
         alert("Limeite máximo de 8 atigido");
       }
     };
-    useEffect(() => {
-      if (selectedTexArray.length > 0) {
 
-        alert(`${selectedTexArray.length} de 8 adicionado`);
-      }
-    }, [selectedTexArray]);
     return (
       <div className="">
         <Header />

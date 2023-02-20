@@ -8,10 +8,10 @@ export function Hero(){
         <div className="items-center lg:flex">
             <div className="w-full lg:w-1/2">
                 <div className="lg:max-w-lg">
-                    <h1 className="text-6xl font-semibold text-orange-primary lg:text-7xl">Bela tagarela </h1>
+                    <h1 className="text-6xl font-semibold text-orange-primary lg:text-7xl">Bela Tagarela </h1>
                     
-                    <p className="mt-3 text-green-tertiary">Comunicar é um direito humano básico.<br/>
-É por meio da comunicação que os outros direitos humanos se realizam.<br/>
+                    <p className="mt-3 text-green-tertiary">Comunicar é um direito humano básico.
+                    <p className="mt-1 text-green-tertiary">É por meio da comunicação que os outros direitos humanos se realizam.</p>
 Esta página é o protótipo da Tese em Engenharia Biomédica, denominada: Desenvolvimento e análise de usabilidade de um sistema multiplataforma de Comunicação Aumentativa e Alternativa.
 </p>
 <h1 className="text-lg font-normal text-orange-primary text-center my-4">Faça donwload do nosso APP</h1>
