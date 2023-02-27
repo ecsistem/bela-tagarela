@@ -11,9 +11,14 @@ export function Hero(){
                     <h1 className="text-6xl font-semibold text-orange-primary lg:text-7xl">Bela Tagarela </h1>
                     
                     <p className="mt-3 text-green-tertiary">Comunicar é um direito humano básico.
-                    <p className="mt-1 text-green-tertiary">É por meio da comunicação que os outros direitos humanos se realizam.</p>
-Esta página é o protótipo da Tese em Engenharia Biomédica, denominada: Desenvolvimento e análise de usabilidade de um sistema multiplataforma de Comunicação Aumentativa e Alternativa.
+                    <p className="mt-2 text-green-tertiary">É por meio da comunicação que os outros direitos humanos se realizam.</p>
+                    Este sistema é resultado da Tese de Doutorado, intitulada: Desenvolvimento e análise de usabilidade de um sistema multiplataforma de Comunicação Aumentativa e Alternativa. 
 </p>
+                    <p className="mt-2 text-green-tertiary">Colabore com o desenvolvimento desse sistema que visa facilitar a inclusão para pessoas com dificuldades comunicativas, responde o questionário, que leva cerca de 15 minutos de seu tempo.</p>
+                    <a href='https://forms.gle/harg9YvWq8Sq8zte8' className="bg-green-primary flex items-center text-white justify-center gap-x-3 text-sm sm:text-base   rounded-lg hover:bg-green-hover duration-300 transition-colors border px-8 py-2.5 my-4">
+
+        <span>Participe voluntariamente da pesquisa</span>
+    </a>
 <h1 className="text-lg font-normal text-orange-primary text-center my-4">Faça donwload do nosso APP</h1>
                     <div className="flex w-full my-3 justify-center gap-4">
     <a href='https://play.google.com/store/apps/details?id=belatagarela.ta.caa&hl=pt&gl=US' className="bg-green-primary flex items-center text-white justify-center gap-x-3 text-sm sm:text-base   rounded-lg hover:bg-green-hover duration-300 transition-colors border px-8 py-2.5">

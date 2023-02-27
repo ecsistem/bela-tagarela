@@ -1636,5 +1636,124 @@
     "text": "SEMANA",
     "name": "SEMANA",
     "category": "Tempo"
+  },{
+    "image": "/figuras/Verbos/AMAR.png",
+    "text": "AMAR",
+    "name": "AMAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/CANTAR.png",
+    "text": "CANTAR",
+    "name": "CANTAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/CHEGAR.png",
+    "text": "CHEGAR",
+    "name": "CHEGAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/COMER.png",
+    "text": "COMER",
+    "name": "COMER",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/COMPARTILHAR.png",
+    "text": "COMPARTILHAR",
+    "name": "COMPARTILHAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/DORMIR.png",
+    "text": "DORMIR",
+    "name": "DORMIR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/ESCOVAR.png",
+    "text": "ESCOVAR",
+    "name": "ESCOVAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/ESTUDAR.png",
+    "text": "ESTUDAR",
+    "name": "ESTUDAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/LANCHAR.png",
+    "text": "LANCHAR",
+    "name": "LANCHAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/LAVAR.png",
+    "text": "LAVAR",
+    "name": "LAVAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/LER.png",
+    "text": "LER",
+    "name": "LER",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/NAVEGAR.png",
+    "text": "NAVEGAR",
+    "name": "NAVEGAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/PASSEAR.png",
+    "text": "PASSEAR",
+    "name": "PASSEAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/PEDALAR.png",
+    "text": "PEDALAR",
+    "name": "PEDALAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/PEGAR.png",
+    "text": "PEGAR",
+    "name": "PEGAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/PENTEAR.png",
+    "text": "PENTEAR",
+    "name": "PENTEAR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/SAIR.png",
+    "text": "SAIR",
+    "name": "SAIR",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/TOMAR BANHO.png",
+    "text": "TOMAR BANHO",
+    "name": "TOMAR BANHO",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/VER.png",
+    "text": "VER",
+    "name": "VER",
+    "category": "Verbos"
+  },
+  {
+    "image": "/figuras/Verbos/VIAJAR.png",
+    "text": "VIAJAR",
+    "name": "VIAJAR",
+    "category": "Verbos"
   }
 ]
