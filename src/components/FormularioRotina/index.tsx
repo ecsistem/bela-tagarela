@@ -1,13 +1,22 @@
 import React, { useState } from 'react';
+interface Habit {
+    name: string;
+    description: string;
+    image: string;
+  }
 
-function FormularioRotina({ onAddHabit }) {
+interface HabitFormProps {
+  onAddHabit: (newHabit: Habit) => void;
+}
+
+function HabitForm({ onAddHabit }: HabitFormProps) {
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
   const [image, setImage] = useState('');
 
-  const handleSubmit = (event: { preventDefault: () => void; }) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const newHabit = { name, description, image };
+    const newHabit: Habit = { name, description, image };
     onAddHabit(newHabit);
     setName('');
     setDescription('');
@@ -47,4 +56,4 @@ function FormularioRotina({ onAddHabit }) {
   );
 }
 
-export default FormularioRotina;
+export default HabitForm;
