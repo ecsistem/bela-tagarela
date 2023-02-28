@@ -64,22 +64,14 @@ export function Header() {
             >
               Prancha
             </a>
+            <a
+              href="/rotina"
+              className="ml-4 font-primary inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-neutral-900 hover:bg-orange-primary hover:text-white"
+            >
+              Rotina
+            </a>
           </div>
           <div className="-mr-2 flex md:hidden">
-          <div className="flex items-center justify-center">
-              <Link to="/vocalizador"><a
-                href="/vocalizador"
-                className="items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white px-2 py-2 text-base font-medium text-neutral-900  hover:bg-orange-primary hover:text-white"
-              >
-                Vocalizador
-              </a></Link>
-              <Link to="/prancha"><a
-                href="/prancha"
-                className="mx-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white px-2 py-2 text-base font-medium text-neutral-900 hover:bg-orange-primary hover:text-white"
-              >
-                Prancha
-              </a></Link>
-            </div>
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
@@ -127,6 +119,26 @@ export function Header() {
       >
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="flex items-center justify-center gap-4">
+              <Link to="/vocalizador"><a
+                href="/vocalizador"
+                className="items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white px-2 py-2 text-base font-medium text-neutral-900  hover:bg-orange-primary hover:text-white"
+              >
+                Vocalizador
+              </a></Link>
+              <Link to="/prancha"><a
+                href="/prancha"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white px-2 py-2 text-base font-medium text-neutral-900 hover:bg-orange-primary hover:text-white"
+              >
+                Prancha
+              </a></Link>
+              <Link to="/rotina"><a
+                href="/rotina"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-white px-2 py-2 text-base font-medium text-neutral-900 hover:bg-orange-primary hover:text-white"
+              >
+                Rotina
+              </a></Link>
+            </div>
             <a
               href="/"
               className="text-white hover:bg-orange-primary block px-3 py-2 rounded-md text-base font-medium"
@@ -163,7 +175,7 @@ export function Header() {
             >
               Contribuições
             </a>
-           
+ 
           </div>
         </div>
       </Transition>
