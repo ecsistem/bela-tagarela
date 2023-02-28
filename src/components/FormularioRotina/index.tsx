@@ -1,59 +1,57 @@
-import React, { useState } from 'react';
-interface Habit {
-    name: string;
-    description: string;
-    image: string;
-  }
-
-interface HabitFormProps {
-  onAddHabit: (newHabit: Habit) => void;
-}
-
-function HabitForm({ onAddHabit }: HabitFormProps) {
-  const [name, setName] = useState('');
-  const [description, setDescription] = useState('');
-  const [image, setImage] = useState('');
-
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    const newHabit: Habit = { name, description, image };
-    onAddHabit(newHabit);
-    setName('');
-    setDescription('');
-    setImage('');
-  };
+export function HabitForm() {
+  
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Name:
-        <input 
-          type="text" 
-          value={name} 
-          onChange={(event) => setName(event.target.value)} 
-        />
-      </label>
-      <br />
-      <label>
-        Description:
-        <textarea 
-          value={description} 
-          onChange={(event) => setDescription(event.target.value)} 
-        />
-      </label>
-      <br />
-      <label>
-        Image:
-        <input 
-          type="text" 
-          value={image} 
-          onChange={(event) => setImage(event.target.value)} 
-        />
-      </label>
-      <br />
-      <button type="submit">Add Habit</button>
-    </form>
+    <form className="bg-white p-6 rounded-lg shadow-md w-3/4 md:w-1/2 max-w-5xl">
+            <div className="mb-4">
+              <label
+                className="block font-bold mb-2 text-green-tertiary"
+                htmlFor="theme"
+              >
+                Nome
+              </label>
+              <select className="border border-gray-400 p-2 w-full"
+                id="theme"
+                // value={formData.theme}
+                // onChange={handleInputChange}>
+                >
+                     <option value="volvo">Selecione um nome</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+                
+                </select>
+            </div>
+            <div className="mb-4">
+              <label
+                className="block font-bold mb-2 text-green-tertiary"
+                htmlFor="userName"
+              >
+                Dias
+              </label>
+              <input
+                className="border border-gray-400 p-2 w-full"
+                id="userName"
+                type="text"
+                // value={formData.userName}
+                // onChange={handleInputChange}
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                className="block font-bold mb-2 text-green-tertiary"
+                htmlFor="backgroundColor"
+              >
+                Hora
+              </label>
+              <input
+                className="border border-gray-400 h-12 w-full"
+                id="backgroundColor"
+                type="time"
+                // value={formData.backgroundColor}
+                // onChange={handleInputChange}
+              />
+            </div>
+          </form>
   );
 }
-
-export default HabitForm;
