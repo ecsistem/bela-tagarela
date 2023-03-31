@@ -1,0 +1,230 @@
+[
+  {
+    "image": "/figuras/Rotinas/BANHEIRO.png",
+    "text": "BANHEIRO",
+    "name": "BANHEIRO",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/BANHO.png",
+    "text": "BANHO",
+    "name": "BANHO",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/BASQUETE.png",
+    "text": "BASQUETE",
+    "name": "BASQUETE",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/BIBLIOTECA.png",
+    "text": "BIBLIOTECA",
+    "name": "BIBLIOTECA",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/BICICLETA.png",
+    "text": "BICICLETA",
+    "name": "BICICLETA",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/BONECA.png",
+    "text": "BONECA",
+    "name": "BONECA",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/CARRINHO.png",
+    "text": "CARRINHO",
+    "name": "CARRINHO",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/COCO.png",
+    "text": "COCO",
+    "name": "COCO",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/COMER.png",
+    "text": "COMER",
+    "name": "COMER",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/CONVERSAR.png",
+    "text": "CONVERSAR",
+    "name": "CONVERSAR",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/DADOS.png",
+    "text": "DADOS",
+    "name": "DADOS",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/DESENHO.png",
+    "text": "DESENHO",
+    "name": "DESENHO",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/DINOSSAURO.png",
+    "text": "DINOSSAURO",
+    "name": "DINOSSAURO",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/DORMIR.png",
+    "text": "DORMIR",
+    "name": "DORMIR",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/ESCOLA.png",
+    "text": "ESCOLA",
+    "name": "ESCOLA",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/ESCOVAR.png",
+    "text": "ESCOVAR",
+    "name": "ESCOVAR",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/FUTEBOL.png",
+    "text": "FUTEBOL",
+    "name": "FUTEBOL",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/INFORMATICA.png",
+    "text": "INFORMATICA",
+    "name": "INFORMATICA",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/LABIRINTO.png",
+    "text": "LABIRINTO",
+    "name": "LABIRINTO",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/LAVAR.png",
+    "text": "LAVAR",
+    "name": "LAVAR",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/LIVRO.png",
+    "text": "LIVRO",
+    "name": "LIVRO",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/MUSICA.png",
+    "text": "MUSICA",
+    "name": "MUSICA",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/PARQUE.png",
+    "text": "PARQUE",
+    "name": "PARQUE",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/PATIO.png",
+    "text": "PATIO",
+    "name": "PATIO",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/PENTEAR.png",
+    "text": "PENTEAR",
+    "name": "PENTEAR",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/PINGPONG.png",
+    "text": "PINGPONG",
+    "name": "PINGPONG",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/PIPA.png",
+    "text": "PIPA",
+    "name": "PIPA",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/PISCINA.png",
+    "text": "PISCINA",
+    "name": "PISCINA",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/QUADRA.png",
+    "text": "QUADRA",
+    "name": "QUADRA",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/QUEBRA-CABEÇA.png",
+    "text": "QUEBRA-CABEÇA",
+    "name": "QUEBRA-CABEÇA",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/REFEITORIO.png",
+    "text": "REFEITORIO",
+    "name": "REFEITORIO",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/ROBO.png",
+    "text": "ROBO",
+    "name": "ROBO",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/SALA DE AULA.png",
+    "text": "SALA DE AULA",
+    "name": "SALA DE AULA",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/TABLET.png",
+    "text": "TABLET",
+    "name": "TABLET",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/TELEVISAO.png",
+    "text": "TELEVISAO",
+    "name": "TELEVISAO",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/VIDEO GAME.png",
+    "text": "VIDEO GAME",
+    "name": "VIDEO GAME",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/VOLEI.png",
+    "text": "VOLEI",
+    "name": "VOLEI",
+    "category": "Rotinas"
+  },
+  {
+    "image": "/figuras/Rotinas/XIXI.png",
+    "text": "XIXI",
+    "name": "XIXI",
+    "category": "Rotinas"
+  }
+]
