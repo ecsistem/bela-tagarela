@@ -1,17 +1,6 @@
 # Bela Tagarela
 
-O Bela Tagarela é um sistema multiplataforma de Comunicação Aumentativa e Alternativa desenvolvido para tornar a comunicação mais acessível para pessoas com dificuldades comunicativas.
-
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
-
-![GitHub repo size](https://img.shields.io/github/repo-size/ecsistem/bela-tagarela/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/ecsistem/bela-tagarela/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/ecsistem/bela-tagarela/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/ecsistem/bela-tagarela/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/ecsistem/bela-tagarela/README-template?style=for-the-badge)
-
-
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> O Bela Tagarela é um sistema multiplataforma de Comunicação Aumentativa e Alternativa desenvolvido para tornar a comunicação mais acessível para pessoas com dificuldades comunicativas.
 
 ### Ajustes e melhorias
 
