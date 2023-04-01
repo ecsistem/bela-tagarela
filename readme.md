@@ -1,6 +1,5 @@
 # Bela Tagarela
 
-<<<<<<< HEAD
 O Bela Tagarela é um sistema multiplataforma de Comunicação Aumentativa e Alternativa desenvolvido para tornar a comunicação mais acessível para pessoas com dificuldades comunicativas.
 
 ## Requisitos
@@ -10,9 +9,6 @@ Para rodar o projeto, você precisa ter instalado na sua máquina:
 - Node.js v14 ou superior
 - Yarn ou NPM
 - Conhecimentos básicos em TypeScript e React
-=======
-> O Bela Tagarela é um sistema multiplataforma de Comunicação Aumentativa e Alternativa desenvolvido para tornar a comunicação mais acessível para pessoas com dificuldades comunicativas.
->>>>>>> b9d6ee97102247594b9188cc102eb672d4ebd369
 
 ## Instalação
 
@@ -28,16 +24,7 @@ Para rodar o projeto, você precisa ter instalado na sua máquina:
    npm install
    ```
 
-<<<<<<< HEAD
 2. Para iniciar o projeto em modo de desenvolvimento, execute o seguinte comando:
-=======
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Node.js instalado na versão 14 ou superior
-* Yarn ou NPM instalados
-* Conhecimento em TypeScript e React
->>>>>>> b9d6ee97102247594b9188cc102eb672d4ebd369
 
    ```bash
    yarn dev
