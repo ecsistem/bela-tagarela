@@ -2,7 +2,7 @@
 
 O Bela Tagarela é um sistema multiplataforma de Comunicação Aumentativa e Alternativa desenvolvido para tornar a comunicação mais acessível para pessoas com dificuldades comunicativas.
 
-## Requisitos
+## 💻Requisitos
 
 Para rodar o projeto, você precisa ter instalado na sua máquina:
 
@@ -10,7 +10,7 @@ Para rodar o projeto, você precisa ter instalado na sua máquina:
 - Yarn ou NPM
 - Conhecimentos básicos em TypeScript e React
 
-## Instalação
+## 🚀Instalação
 
 1. Para instalar as dependências do projeto, execute o seguinte comando no terminal:
 
@@ -24,7 +24,7 @@ Para rodar o projeto, você precisa ter instalado na sua máquina:
    npm install
    ```
 
-2. Para iniciar o projeto em modo de desenvolvimento, execute o seguinte comando:
+2. ☕Para iniciar o projeto em modo de desenvolvimento, execute o seguinte comando:
 
    ```bash
    yarn dev
@@ -36,7 +36,7 @@ Para rodar o projeto, você precisa ter instalado na sua máquina:
    npm run dev
    ```
 
-## Contribuição
+##  📫Contribuição
 
 Se você quiser contribuir com o projeto, siga os seguintes passos:
 
@@ -46,7 +46,7 @@ Se você quiser contribuir com o projeto, siga os seguintes passos:
 4. Envie para a branch que você criou: `git push origin minha-feature`.
 5. Abra um Pull Request explicando suas alterações.
 
-## Colaboradores
+## 🤝Colaboradores
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
@@ -63,7 +63,11 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-## Licença
+## 😄Seja um dos contribuidores
+
+Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+
+## 📝Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
