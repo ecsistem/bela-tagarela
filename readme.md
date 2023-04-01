@@ -16,6 +16,9 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
+* Node.js instalado na versão 14 ou superior
+* Yarn ou NPM instalados
+* Conhecimento em TypeScript e React
 
 ## 🚀 Instalando <nome_do_projeto>
 
