@@ -1,5 +1,7 @@
 import { RenderListItem } from "../../components/RenderList";
 import { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import  daysWeek  from "../../data/daysWeek.json"
 
 export interface ScheduleItem {
@@ -17,6 +19,7 @@ export function Rotina() {
     newItems.splice(index, 1);
     setItems(newItems);
     localStorage.setItem('schedule', JSON.stringify(newItems));
+    toast.success('Tarefa removida com sucesso!');
   };
 
   const filterByDay = (day: string) => {
@@ -29,6 +32,7 @@ export function Rotina() {
 
   return (
     <div className="flex justify-between gap-5 overflow-x-auto px-4 mx-fu">
+      <ToastContainer />
       {daysWeek.map((day) => (
         <ul className="text-center">{day.semana}
         {filterByDay(day.semana).map((item, index) => (
