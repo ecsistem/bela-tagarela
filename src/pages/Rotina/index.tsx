@@ -1,6 +1,4 @@
-import { Header } from "../../components/Header";
 import { RenderListItem } from "../../components/RenderList";
-import { Footer } from "../../components/Footer";
 import { useState } from "react";
 export interface ScheduleItem {
     day: string;
@@ -21,13 +19,11 @@ export function Rotina(){
 
     return(
         <>
-        <Header />
         <ul>
         {items.map((item, index) => (
           <RenderListItem key={index} item={item} index={index} handleDelete={handleDelete} />
         ))}
       </ul>
-        <Footer />
         </>
     )
 }
