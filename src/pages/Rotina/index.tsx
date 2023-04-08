@@ -20,11 +20,15 @@ export function Rotina() {
   };
 
   const filterByDay = (day: string) => {
-    return items.filter((item) => item.day === day);
-  };
+    return items
+      .filter((item) => item.day === day)
+      .sort((a, b) => {
+        return Number.parseInt(a.time.replace(':', '')) - Number.parseInt(b.time.replace(':', ''))
+      });
+};
 
   return (
-    <div className="container justify-between  flex gap-5 overflow-x-auto">
+    <div className="flex justify-between gap-5 overflow-x-auto px-4 mx-fu">
       {daysWeek.map((day) => (
         <ul className="text-center">{day.semana}
         {filterByDay(day.semana).map((item, index) => (
