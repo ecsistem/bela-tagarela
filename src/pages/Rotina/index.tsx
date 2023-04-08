@@ -18,12 +18,11 @@ export function Rotina(){
       };
 
     return(
-        <>
-        <ul>
+      <div className="container justify-center items-center">        <ul>
         {items.map((item, index) => (
           <RenderListItem key={index} item={item} index={index} handleDelete={handleDelete} />
         ))}
       </ul>
-        </>
+        </div>
     )
 }
