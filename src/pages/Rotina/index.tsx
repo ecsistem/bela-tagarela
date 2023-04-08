@@ -24,9 +24,9 @@ export function Rotina() {
   };
 
   return (
-    <div className="container justify-center items-center" style={{ display: "flex", gap: "20px" }}>
+    <div className="container justify-between  flex gap-5 overflow-x-auto">
       {daysWeek.map((day) => (
-        <ul>
+        <ul className="text-center">{day.semana}
         {filterByDay(day.semana).map((item, index) => (
           <RenderListItem key={index} item={item} index={index} handleDelete={handleDelete} />
         ))}
