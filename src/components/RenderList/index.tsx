@@ -22,7 +22,7 @@ interface ScheduleItem {
         <div>
         <p className="text-lg font-medium text-green-primary">{item.activity}</p>
 
-        <p className="text-lg font-medium text-gray-800">{item.day} às {item.time}</p>
+        <p className="text-lg font-medium text-green-tertiary">{item.day} às {item.time}</p>
         </div>
         </div>
       <button onClick={() => handleDelete(index)} className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4 w-full">Apagar</button>

@@ -31,15 +31,15 @@ export function Rotina() {
 };
 
   return (
-    <div className="flex justify-between gap-5 overflow-x-auto px-4 mx-fu">
-      <ToastContainer />
-      {daysWeek.map((day) => (
-        <ul className="text-center">{day.semana}
-        {filterByDay(day.semana).map((item, index) => (
-          <RenderListItem key={index} item={item} index={index} handleDelete={handleDelete} />
-        ))}
-      </ul>
+    <div className="flex justify-between place-content-center gap-4 overflow-x-scroll px-4 mx-auto my-10">
+  <ToastContainer />
+  {daysWeek.map((day) => (
+    <ul className="text-center text-green-tertiary">{day.semana}
+      {filterByDay(day.semana).map((item, index) => (
+        <RenderListItem key={index} item={item} index={index} handleDelete={handleDelete} />
       ))}
-    </div>
+    </ul>
+  ))}
+</div>
   );
 }
