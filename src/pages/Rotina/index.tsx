@@ -31,10 +31,10 @@ export function Rotina() {
 };
 
   return (
-    <div className="flex justify-between place-content-center gap-4 overflow-x-scroll px-4 mx-auto my-10">
+    <div className="flex justify-between place-content-center gap-4 overflow-x-scroll px-4 container mx-auto my-10">
   <ToastContainer />
   {daysWeek.map((day) => (
-    <ul className="text-center text-green-tertiary">{day.semana}
+    <ul className="text-center text-green-tertiary ">{day.semana}
       {filterByDay(day.semana).map((item, index) => (
         <RenderListItem key={index} item={item} index={index} handleDelete={handleDelete} />
       ))}
