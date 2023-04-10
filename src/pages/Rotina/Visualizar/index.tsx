@@ -25,13 +25,7 @@ export function VisualizarRotina(){
         <p className="text-green-tertiary text-center my-6">
             Organize como será seu dia
           </p>
-          {/* <a
-              className="bg-green-primary text-white py-2 px-4 rounded-lg my-8 items-center content-center mr-4"
-              href="/rotina/cadastrar"
-              >
-              Cadastrar Rotina
-            </a> */}
-            <button className="bg-green-primary text-white py-2 px-4 rounded-lg my-8 items-center content-center mr-4" onClick={handleOpenModal}>Abrir Modal</button>
+            <button className="bg-green-primary text-white py-2 px-4 rounded-lg my-8 items-center content-center mr-4" onClick={handleOpenModal}>Cadastrar Rotina</button>
                 </div>
                 <Modal isOpen={modalOpen} onClose={handleCloseModal}>
         <h2>Conteúdo do Modal</h2>

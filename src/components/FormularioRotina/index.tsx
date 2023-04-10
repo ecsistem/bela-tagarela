@@ -63,14 +63,14 @@ export const HabitForm = React.memo(() => {
       setItems(JSON.parse(savedSchedule));
     }
   }, []);
-  console.log("edson")
+
   const daysWeekLength = daysWeek.length;
 
   return (
-    <div>
+    <div className="flex justify-center items-center h-screen">
       <ToastContainer />
       <form
-        className="bg-white p-6 rounded-lg shadow-md w-3/4 md:w-1/2 max-w-5xl"
+        className="bg-white p-6 rounded-lg shadow-md w-3/4 md:w-1/2 max-w-5xl mx-auto"
         onSubmit={handleSubmit}
       >
         <div className="mb-4">
@@ -136,8 +136,15 @@ export const HabitForm = React.memo(() => {
             onChange={(e) => setTime(e.target.value)}
           />
         </div>
-        {imgTarefa && <img src={imgTarefa} alt={activity} />}
-        <button type="submit">Add Atividade</button>
+        {imgTarefa && (
+          <img src={imgTarefa} alt={activity} className="max-w-full mb-4" />
+        )}
+        <button
+          type="submit"
+          className="bg-green-primary hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full"
+        >
+          Adicionar Atividade
+        </button>
       </form>
     </div>
   );
