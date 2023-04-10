@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 interface ScheduleItem {
+    id: string;
     day: string;
     time:string;
     activity: string;
@@ -10,7 +11,7 @@ interface ScheduleItem {
   interface RenderListItemProps {
     item: ScheduleItem;
     index: number; // change key to index
-    handleDelete: (index: number) => void; // add handleDelete prop
+    handleDelete: (id: string) => void; // add handleDelete prop
   }
   export function RenderListItem({ item, index, handleDelete }: RenderListItemProps){ // destructure props
     return (
@@ -25,7 +26,7 @@ interface ScheduleItem {
         <p className="text-lg font-medium text-green-tertiary">{item.day} às {item.time}</p>
         </div>
         </div>
-      <button onClick={() => handleDelete(index)} className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4 w-full">Apagar</button>
+      <button onClick={() => handleDelete(item.id)} className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4 w-full">Apagar</button>
       </div>
 
     )
