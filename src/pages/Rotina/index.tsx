@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import  daysWeek  from "../../data/daysWeek.json"
 
 export interface ScheduleItem {
+  id: string;
   day: string;
   time:string;
   activity: string;
@@ -14,9 +15,8 @@ export interface ScheduleItem {
 export function Rotina() {
   const [items, setItems] = useState<ScheduleItem[]>(JSON.parse(localStorage.getItem('schedule') || '[]'));
 
-  const handleDelete = (index: number) => {
-    const newItems = [...items];
-    newItems.splice(index, 1);
+  const handleDelete = (id: string) => {
+    const newItems = items.filter((item) => item.id !== id);
     setItems(newItems);
     localStorage.setItem('schedule', JSON.stringify(newItems));
     toast.success('Tarefa removida com sucesso!');
