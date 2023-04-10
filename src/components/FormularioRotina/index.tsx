@@ -23,6 +23,7 @@ export const HabitForm = React.memo(() => {
     setItems((prevItems) => [...prevItems, { day, time, activity, imgTarefa }]);
     localStorage.setItem('schedule', JSON.stringify([...items, { day, time, activity, imgTarefa }]));
     toast.success('Tarefa adicionada com sucesso!');
+    window.location.reload();
   };
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
