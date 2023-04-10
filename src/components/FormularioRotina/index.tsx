@@ -20,8 +20,10 @@ export const HabitForm = React.memo(() => {
   const [imgTarefa, setImgTarefa] = useState('');
 
   const addItem = ({ day, time, activity, imgTarefa }: ScheduleItem) => {
-    setItems((prevItems) => [...prevItems, { day, time, activity, imgTarefa }]);
-    localStorage.setItem('schedule', JSON.stringify([...items, { day, time, activity, imgTarefa }]));
+    const newId = Math.floor(Math.random() * 100000); // generate a random id
+    const newItem = { id: newId.toString(), day, time, activity, imgTarefa };
+    setItems((prevItems) => [...prevItems, newItem]);
+    localStorage.setItem('schedule', JSON.stringify([...items, newItem]));
     toast.success('Tarefa adicionada com sucesso!');
     window.location.reload();
   };
