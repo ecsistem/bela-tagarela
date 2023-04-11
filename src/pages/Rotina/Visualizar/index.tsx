@@ -28,8 +28,8 @@ export function VisualizarRotina(){
             <button className="bg-green-primary text-white py-2 px-4 rounded-lg my-8 items-center content-center mr-4" onClick={handleOpenModal}>Cadastrar Rotina</button>
                 </div>
                 <Modal isOpen={modalOpen} onClose={handleCloseModal}>
-        <h2>Conteúdo do Modal</h2>
-        <p className="mb-6">Aqui você pode adicionar qualquer conteúdo que desejar.</p>
+        <h2>Adicionar uma atividade</h2>
+        <p className="mb-6">Organize como será seu dia.</p>
         <HabitForm />
       </Modal>
         <Rotina />
