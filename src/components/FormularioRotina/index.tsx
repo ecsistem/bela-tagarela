@@ -65,7 +65,7 @@ export const HabitForm = React.memo(() => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen my-6">
       <ToastContainer />
       <form
         className="bg-white p-6 rounded-lg shadow-md w-3/4 md:w-1/2 max-w-5xl mx-auto"

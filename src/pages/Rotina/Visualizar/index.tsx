@@ -29,7 +29,7 @@ export function VisualizarRotina(){
                 </div>
                 <Modal isOpen={modalOpen} onClose={handleCloseModal}>
         <h2>Conteúdo do Modal</h2>
-        <p>Aqui você pode adicionar qualquer conteúdo que desejar.</p>
+        <p className="mb-6">Aqui você pode adicionar qualquer conteúdo que desejar.</p>
         <HabitForm />
       </Modal>
         <Rotina />
