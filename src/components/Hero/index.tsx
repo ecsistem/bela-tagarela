@@ -26,6 +26,10 @@ export function Hero(){
 
         <span>PlayStore</span>
     </a>
+    <a href='https://belatagarela.com.br/instalador_belatagarela.exe' className="bg-green-primary flex items-center text-white justify-center gap-x-3 text-sm sm:text-base   rounded-lg hover:bg-green-hover duration-300 transition-colors border px-8 py-2.5">
+
+        <span>Windows</span>
+    </a>
 </div>
                 </div>
             </div>
