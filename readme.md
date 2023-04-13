@@ -56,7 +56,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="https://edsoncosta.tech/">
         <img src="https://github.com/ecsistem.png" width="100px;" alt="Foto do Edson Costa no GitHub"/><br>
         <sub>
-          <b>Edson Costa</b>
+          <b>Edson M Costa</b>
         </sub>
       </a>
     </td>
