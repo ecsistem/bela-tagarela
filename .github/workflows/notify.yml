@@ -1,0 +1,30 @@
+name: Notify Alexa
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Notify Alexa
+        env:
+          NOTIFY_ME_API_KEY: ${{ secrets.NOTIFY_ME_API_KEY }}
+        run: |
+          # Substitua este comando pelo código necessário para enviar a notificação à Alexa
+          echo "Notificando a Alexa..."
+          curl -X POST -H "Content-Type: application/json" -d '{"message": "Hello Alexa!"}' "https://api.notify-me.com/notifications?api_key=$NOTIFY_ME_API_KEY"
